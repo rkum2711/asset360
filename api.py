@@ -44,41 +44,14 @@ def generated_nodes_edges(data,graph,query_number):
                         net.add_edge(source_node_id, target_node_id, title=f"Edge {edge_name}")
     for node in net.nodes:
         for key in legend_mapping.keys(): 
-            if query_number not in [2,4]:
+            if query_number in [1]:
                 if node['label'] == key:
                     node['label'] += ":" + node['id'] 
                     node['color'] = legend_mapping[key]
-            elif query_number == 2:
-                if node['label'] == "QMS":
-                    if node['title']['Status'] == "Failed":
-                        node['color'] = "red"
-                    else:
-                        node['color'] = "green"
-                elif node['label'] == "MATERIAL":
-                    if node['title']['Status'] == "Failed":
-                        node['color'] = "red"
-                    else:
-                        node['color'] = "green"
-                elif node['label'] == "batch1":
-                    node['color'] = legend_mapping['batch1'.upper()]
-                else:
-                    node['color'] = "lightgray"
-            elif query_number ==4:
-                if node['label'] == "QMS":
-                    if node['title']['Status'] == "Failed":
-                        node['color'] = "red"
-                    else:
-                        node['color'] = "lightgray"
-                elif node['label'] == "PROCESSORDER":
-                    node['color'] = legend_mapping['PROCESSORDER']
-                elif node['label'] == "BATCH1":
-                    node['color'] = legend_mapping['BATCH1']
-                else:
-                    node['color'] = "lightgray"
         node['label'] += ":" + node['id'] 
-        title_html_text = "Attributes:<br>"
+        title_html_text = "<b>Attributes:</b><br>"
         for key, value in node['title'].items():
-            title_html_text += f"{key}: {value}<br>"
+            title_html_text += f"<b>{key}:</b> {value}<br>"
             node['title'] = title_html_text
     return net
 
