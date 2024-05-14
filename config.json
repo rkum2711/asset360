@@ -1,0 +1,33 @@
+{
+  "html_file_path": "pages/knowledge_graph.html",
+  "gdm_image": "images/UnileverManufacturing1.png",
+  "chatgpt_icon": "images/chat.png",
+  "wip": "images/wip.png",
+  "question_dict" : {
+    "View E2E Genealogy of the Asset": "Asset_lineage"
+  },
+  "options_list" : [
+    "Deep Dive into Selective Assets", 
+    "Deep Dive into All Assets"
+  ],
+  "legend_mapping" : {
+    "BATCH1": "indigo",
+    "ASSET": "brown",
+    "LINE": "skyblue",
+    "FACILITY": "slateblue",
+    "SITE": "sienna",
+    "REGION": "cadetblue",
+    "PRODUCT": "limegreen",
+    "FAMILY": "springgreen",
+    "RECIPE": "palegreen",
+    "MATERIAL": "aquamarine",
+    "PLANTMATERIAL": "salmon",
+    "SUPPLIER": "slategrey",
+    "PROCESSORDER": "orange",
+    "QMS": "olive",
+    "LIMS": "teal",
+    "WORKORDER": "purple",
+    "FAILED": "red",
+    "PASSED": "green"
+}
+}
