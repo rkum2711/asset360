@@ -49,9 +49,9 @@ def generated_nodes_edges(data,graph,query_number):
                     node['label'] += ":" + node['id'] 
                     node['color'] = legend_mapping[key]
         node['label'] += ":" + node['id'] 
-        title_html_text = "<b>Attributes:</b><br>"
+        title_html_text = " Attributes:<br>"
         for key, value in node['title'].items():
-            title_html_text += f"<b>{key}:</b> {value}<br>"
+            title_html_text += f"{key}:</b>{value}<br>"
             node['title'] = title_html_text
     return net
 
