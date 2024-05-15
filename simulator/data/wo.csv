@@ -1,666 +1,345 @@
 id,Name,WOType,Task,ProductID,AssetType,AssetID,Status,FacilityID,SiteID,UnitProcedureID,BatchQty
-WO-BPO1-1-1-Production-stage1,BPO1-1-1-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Completed,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-1-Production-stage1,BPO1-1-1-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,50
-WO-BPO1-1-1-Production-stage1,BPO1-1-1-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO1-1-1-Production-stage2,BPO1-1-1-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Planned,F-1-S3,S3,PR-1-PUP,50
-WO-BPO1-1-1-Production-stage2,BPO1-1-1-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Planned,F-1-S3,S3,PR-5-STS,50
-WO-BPO1-1-2-Production-stage1,BPO1-1-2-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Cancelled,F-1-S3,S3,PR-5-TAC,50
-WO-BPO1-1-2-Production-stage1,BPO1-1-2-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,50
-WO-BPO1-1-2-Production-stage1,BPO1-1-2-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-2-Production-stage2,BPO1-1-2-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,In Progress,F-1-S3,S3,PR-5-STS,50
-WO-BPO1-1-2-Production-stage2,BPO1-1-2-Production-stage2-P1005-F-1-S3,Production-stage2,Capsule filling,P1005,Capsule fillers,,Cancelled,F-1-S3,S3,PR-3-CAF,50
-WO-BPO1-1-3-Production-stage1,BPO1-1-3-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-3-Production-stage1,BPO1-1-3-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,50
-WO-BPO1-1-3-Production-stage1,BPO1-1-3-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Planned,F-1-S3,S3,PR-5-TAC,50
-WO-BPO1-1-3-Production-stage2,BPO1-1-3-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Planned,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-3-Production-stage2,BPO1-1-3-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,On Hold,F-1-S3,S3,PR-1-PUP,50
-WO-BPO1-1-4-Production-stage1,BPO1-1-4-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,Completed,F-1-S3,S3,PR-3-MIM,50
-WO-BPO1-1-4-Production-stage1,BPO1-1-4-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-4-Production-stage1,BPO1-1-4-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,50
-WO-BPO1-1-4-Production-stage2,BPO1-1-4-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,In Progress,F-1-S3,S3,PR-6-ENE,50
-WO-BPO1-1-4-Production-stage2,BPO1-1-4-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Planned,F-1-S3,S3,PR-1-PUP,50
-WO-BPO1-1-5-Production-stage1,BPO1-1-5-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-5-Production-stage1,BPO1-1-5-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,In Progress,F-1-S3,S3,PR-5-TAC,50
-WO-BPO1-1-5-Production-stage1,BPO1-1-5-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-5-Production-stage2,BPO1-1-5-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Planned,F-1-S3,S3,PR-4-COC,50
-WO-BPO1-1-5-Production-stage2,BPO1-1-5-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Cancelled,F-1-S3,S3,PR-5-STS,50
-WO-BPO1-1-6-Production-stage1,BPO1-1-6-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-6-Production-stage1,BPO1-1-6-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-6-Production-stage1,BPO1-1-6-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,50
-WO-BPO1-1-6-Production-stage2,BPO1-1-6-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,In Progress,F-1-S3,S3,PR-2-TAT,50
-WO-BPO1-1-6-Production-stage2,BPO1-1-6-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO1-1-7-Production-stage1,BPO1-1-7-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-7-Production-stage1,BPO1-1-7-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-7-Production-stage1,BPO1-1-7-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO1-1-7-Production-stage2,BPO1-1-7-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,On Hold,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-7-Production-stage2,BPO1-1-7-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,In Progress,F-1-S3,S3,PR-2-TAT,50
-WO-BPO1-1-8-Production-stage1,BPO1-1-8-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-8-Production-stage1,BPO1-1-8-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-8-Production-stage1,BPO1-1-8-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-8-Production-stage2,BPO1-1-8-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Completed,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-8-Production-stage2,BPO1-1-8-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Planned,F-1-S3,S3,PR-5-STS,50
-WO-BPO1-1-9-Production-stage1,BPO1-1-9-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-9-Production-stage1,BPO1-1-9-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,50
-WO-BPO1-1-9-Production-stage1,BPO1-1-9-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,In Progress,F-1-S3,S3,PR-5-TAC,50
-WO-BPO1-1-9-Production-stage2,BPO1-1-9-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Cancelled,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-9-Production-stage2,BPO1-1-9-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Completed,F-1-S3,S3,PR-2-TAT,50
-WO-BPO1-1-10-Production-stage1,BPO1-1-10-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,On Hold,F-1-S3,S3,PR-8-EXE,50
-WO-BPO1-1-10-Production-stage1,BPO1-1-10-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,50
-WO-BPO1-1-10-Production-stage1,BPO1-1-10-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-10-Production-stage2,BPO1-1-10-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Cancelled,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-10-Production-stage2,BPO1-1-10-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,Completed,F-1-S3,S3,PR-6-ENE,50
-WO-BPO1-1-11-Production-stage1,BPO1-1-11-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,50
-WO-BPO1-1-11-Production-stage1,BPO1-1-11-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-11-Production-stage1,BPO1-1-11-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Cancelled,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-11-Production-stage2,BPO1-1-11-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,In Progress,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-11-Production-stage2,BPO1-1-11-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Planned,F-1-S3,S3,PR-2-TAT,50
-WO-BPO1-1-12-Production-stage1,BPO1-1-12-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-12-Production-stage1,BPO1-1-12-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-12-Production-stage1,BPO1-1-12-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Completed,F-1-S3,S3,PR-2-GRG,50
-WO-BPO1-1-12-Production-stage2,BPO1-1-12-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,On Hold,F-1-S3,S3,PR-4-COC,50
-WO-BPO1-1-12-Production-stage2,BPO1-1-12-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO1-1-13-Production-stage1,BPO1-1-13-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,In Progress,F-1-S3,S3,PR-5-TAC,50
-WO-BPO1-1-13-Production-stage1,BPO1-1-13-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,50
-WO-BPO1-1-13-Production-stage1,BPO1-1-13-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-13-Production-stage2,BPO1-1-13-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO1-1-13-Production-stage2,BPO1-1-13-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Planned,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-14-Production-stage1,BPO1-1-14-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-14-Production-stage1,BPO1-1-14-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO1-1-14-Production-stage1,BPO1-1-14-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,50
-WO-BPO1-1-14-Production-stage2,BPO1-1-14-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,50
-WO-BPO1-1-14-Production-stage2,BPO1-1-14-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,On Hold,F-1-S3,S3,PR-7-FIF,50
-WO-BPO1-1-15-Production-stage1,BPO1-1-15-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-15-Production-stage1,BPO1-1-15-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO1-1-15-Production-stage1,BPO1-1-15-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Cancelled,F-1-S3,S3,PR-1-MII,50
-WO-BPO1-1-15-Production-stage2,BPO1-1-15-Production-stage2-P1005-F-1-S3,Production-stage2,Capsule filling,P1005,Capsule fillers,,On Hold,F-1-S3,S3,PR-3-CAF,50
-WO-BPO1-1-15-Production-stage2,BPO1-1-15-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,50
-WO-BPO1-1-16-Production-stage1,BPO1-1-16-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO1-1-16-Production-stage1,BPO1-1-16-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,50
-WO-BPO1-1-16-Production-stage1,BPO1-1-16-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-16-Production-stage2,BPO1-1-16-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Planned,F-1-S3,S3,PR-2-TAT,50
-WO-BPO1-1-16-Production-stage2,BPO1-1-16-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Planned,F-1-S3,S3,PR-1-PUP,50
-WO-BPO1-1-17-Production-stage1,BPO1-1-17-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO1-1-17-Production-stage1,BPO1-1-17-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO1-1-17-Production-stage1,BPO1-1-17-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,50
-WO-BPO1-1-17-Production-stage2,BPO1-1-17-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,On Hold,F-1-S3,S3,PR-6-ENE,50
-WO-BPO1-1-17-Production-stage2,BPO1-1-17-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,On Hold,F-1-S3,S3,PR-4-COC,50
-WO-BPO1-1-18-Production-stage1,BPO1-1-18-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,On Hold,F-1-S3,S3,PR-8-EXE,40
-WO-BPO1-1-18-Production-stage1,BPO1-1-18-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Cancelled,F-1-S3,S3,PR-5-TAC,40
-WO-BPO1-1-18-Production-stage1,BPO1-1-18-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,40
-WO-BPO1-1-18-Production-stage2,BPO1-1-18-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,In Progress,F-1-S3,S3,PR-2-TAT,40
-WO-BPO1-1-18-Production-stage2,BPO1-1-18-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,On Hold,F-1-S3,S3,PR-5-STS,40
-WO-BPO2-2-1-Production-stage1,BPO2-2-1-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-1-Production-stage1,BPO2-2-1-Production-stage1-P1001-F-1-S3,Production-stage1,Granulation,P1001,Granulators,A28,Completed,F-1-S3,S3,PR-2-GRG,50
-WO-BPO2-2-1-Production-stage1,BPO2-2-1-Production-stage1-P1001-F-1-S3,Production-stage1,Milling,P1001,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,50
-WO-BPO2-2-1-Production-stage2,BPO2-2-1-Production-stage2-P1001-F-1-S3,Production-stage2,Tanks,P1001,Tanks,,Planned,F-1-S3,S3,PR-2-TAT,50
-WO-BPO2-2-1-Production-stage2,BPO2-2-1-Production-stage2-P1001-F-1-S3,Production-stage2,Sterilization,P1001,Sterilizers,,Cancelled,F-1-S3,S3,PR-5-STS,50
-WO-BPO2-2-2-Production-stage1,BPO2-2-2-Production-stage1-P1001-F-1-S3,Production-stage1,Tablet compression,P1001,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,50
-WO-BPO2-2-2-Production-stage1,BPO2-2-2-Production-stage1-P1001-F-1-S3,Production-stage1,Blending,P1001,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO2-2-2-Production-stage1,BPO2-2-2-Production-stage1-P1001-F-1-S3,Production-stage1,Distillation equipment,P1001,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,50
-WO-BPO2-2-2-Production-stage2,BPO2-2-2-Production-stage2-P1001-F-1-S3,Production-stage2,Coating,P1001,Coating machines,,On Hold,F-1-S3,S3,PR-4-COC,50
-WO-BPO2-2-2-Production-stage2,BPO2-2-2-Production-stage2-P1001-F-1-S3,Production-stage2,Capsule filling,P1001,Capsule fillers,,On Hold,F-1-S3,S3,PR-3-CAF,50
-WO-BPO2-2-3-Production-stage1,BPO2-2-3-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,50
-WO-BPO2-2-3-Production-stage1,BPO2-2-3-Production-stage1-P1001-F-1-S3,Production-stage1,Mixing ingredients,P1001,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,50
-WO-BPO2-2-3-Production-stage1,BPO2-2-3-Production-stage1-P1001-F-1-S3,Production-stage1,Distillation equipment,P1001,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,50
-WO-BPO2-2-3-Production-stage2,BPO2-2-3-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Cancelled,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-3-Production-stage2,BPO2-2-3-Production-stage2-P1001-F-1-S3,Production-stage2,Tanks,P1001,Tanks,,On Hold,F-1-S3,S3,PR-2-TAT,50
-WO-BPO2-2-4-Production-stage1,BPO2-2-4-Production-stage1-P1001-F-1-S3,Production-stage1,Blending,P1001,Blenders,A30,Completed,F-1-S3,S3,PR-4-BLB,50
-WO-BPO2-2-4-Production-stage1,BPO2-2-4-Production-stage1-P1001-F-1-S3,Production-stage1,Tablet compression,P1001,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,50
-WO-BPO2-2-4-Production-stage1,BPO2-2-4-Production-stage1-P1001-F-1-S3,Production-stage1,Mixing ingredients,P1001,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,50
-WO-BPO2-2-4-Production-stage2,BPO2-2-4-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,On Hold,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-4-Production-stage2,BPO2-2-4-Production-stage2-P1001-F-1-S3,Production-stage2,Capsule filling,P1001,Capsule fillers,,On Hold,F-1-S3,S3,PR-3-CAF,50
-WO-BPO2-2-5-Production-stage1,BPO2-2-5-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO2-2-5-Production-stage1,BPO2-2-5-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,Planned,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-5-Production-stage1,BPO2-2-5-Production-stage1-P1001-F-1-S3,Production-stage1,Blending,P1001,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO2-2-5-Production-stage2,BPO2-2-5-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,Completed,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-5-Production-stage2,BPO2-2-5-Production-stage2-P1001-F-1-S3,Production-stage2,Encapsulation,P1001,Encapsulation machines,,Completed,F-1-S3,S3,PR-6-ENE,50
-WO-BPO2-2-6-Production-stage1,BPO2-2-6-Production-stage1-P1001-F-1-S3,Production-stage1,Blending,P1001,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO2-2-6-Production-stage1,BPO2-2-6-Production-stage1-P1001-F-1-S3,Production-stage1,Granulation,P1001,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,50
-WO-BPO2-2-6-Production-stage1,BPO2-2-6-Production-stage1-P1001-F-1-S3,Production-stage1,Mixing ingredients,P1001,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,50
-WO-BPO2-2-6-Production-stage2,BPO2-2-6-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Planned,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-6-Production-stage2,BPO2-2-6-Production-stage2-P1001-F-1-S3,Production-stage2,Capsule filling,P1001,Capsule fillers,,On Hold,F-1-S3,S3,PR-3-CAF,50
-WO-BPO2-2-7-Production-stage1,BPO2-2-7-Production-stage1-P1001-F-1-S3,Production-stage1,Milling,P1001,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,50
-WO-BPO2-2-7-Production-stage1,BPO2-2-7-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,Planned,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-7-Production-stage1,BPO2-2-7-Production-stage1-P1001-F-1-S3,Production-stage1,Distillation equipment,P1001,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,50
-WO-BPO2-2-7-Production-stage2,BPO2-2-7-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Cancelled,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-7-Production-stage2,BPO2-2-7-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,Completed,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-8-Production-stage1,BPO2-2-8-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO2-2-8-Production-stage1,BPO2-2-8-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-8-Production-stage1,BPO2-2-8-Production-stage1-P1001-F-1-S3,Production-stage1,Tablet compression,P1001,Tablet presses,,Cancelled,F-1-S3,S3,PR-5-TAC,50
-WO-BPO2-2-8-Production-stage2,BPO2-2-8-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Cancelled,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-8-Production-stage2,BPO2-2-8-Production-stage2-P1001-F-1-S3,Production-stage2,Encapsulation,P1001,Encapsulation machines,,Planned,F-1-S3,S3,PR-6-ENE,50
-WO-BPO2-2-9-Production-stage1,BPO2-2-9-Production-stage1-P1001-F-1-S3,Production-stage1,Mixing ingredients,P1001,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,50
-WO-BPO2-2-9-Production-stage1,BPO2-2-9-Production-stage1-P1001-F-1-S3,Production-stage1,Granulation,P1001,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,50
-WO-BPO2-2-9-Production-stage1,BPO2-2-9-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,In Progress,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-9-Production-stage2,BPO2-2-9-Production-stage2-P1001-F-1-S3,Production-stage2,Tanks,P1001,Tanks,,Planned,F-1-S3,S3,PR-2-TAT,50
-WO-BPO2-2-9-Production-stage2,BPO2-2-9-Production-stage2-P1001-F-1-S3,Production-stage2,Encapsulation,P1001,Encapsulation machines,,Planned,F-1-S3,S3,PR-6-ENE,50
-WO-BPO2-2-10-Production-stage1,BPO2-2-10-Production-stage1-P1001-F-1-S3,Production-stage1,Granulation,P1001,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,50
-WO-BPO2-2-10-Production-stage1,BPO2-2-10-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO2-2-10-Production-stage1,BPO2-2-10-Production-stage1-P1001-F-1-S3,Production-stage1,Distillation equipment,P1001,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,50
-WO-BPO2-2-10-Production-stage2,BPO2-2-10-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,Planned,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-10-Production-stage2,BPO2-2-10-Production-stage2-P1001-F-1-S3,Production-stage2,Tanks,P1001,Tanks,,In Progress,F-1-S3,S3,PR-2-TAT,50
-WO-BPO2-2-11-Production-stage1,BPO2-2-11-Production-stage1-P1001-F-1-S3,Production-stage1,Blending,P1001,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO2-2-11-Production-stage1,BPO2-2-11-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,Cancelled,F-1-S3,S3,PR-6-RER,50
-WO-BPO2-2-11-Production-stage1,BPO2-2-11-Production-stage1-P1001-F-1-S3,Production-stage1,Granulation,P1001,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,50
-WO-BPO2-2-11-Production-stage2,BPO2-2-11-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,Planned,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-11-Production-stage2,BPO2-2-11-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-12-Production-stage1,BPO2-2-12-Production-stage1-P1001-F-1-S3,Production-stage1,Milling,P1001,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,50
-WO-BPO2-2-12-Production-stage1,BPO2-2-12-Production-stage1-P1001-F-1-S3,Production-stage1,Blending,P1001,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,50
-WO-BPO2-2-12-Production-stage1,BPO2-2-12-Production-stage1-P1001-F-1-S3,Production-stage1,Tablet compression,P1001,Tablet presses,,Completed,F-1-S3,S3,PR-5-TAC,50
-WO-BPO2-2-12-Production-stage2,BPO2-2-12-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,Planned,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-12-Production-stage2,BPO2-2-12-Production-stage2-P1001-F-1-S3,Production-stage2,Sterilization,P1001,Sterilizers,,On Hold,F-1-S3,S3,PR-5-STS,50
-WO-BPO2-2-13-Production-stage1,BPO2-2-13-Production-stage1-P1001-F-1-S3,Production-stage1,Mixing ingredients,P1001,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,50
-WO-BPO2-2-13-Production-stage1,BPO2-2-13-Production-stage1-P1001-F-1-S3,Production-stage1,Milling,P1001,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,50
-WO-BPO2-2-13-Production-stage1,BPO2-2-13-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-13-Production-stage2,BPO2-2-13-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-13-Production-stage2,BPO2-2-13-Production-stage2-P1001-F-1-S3,Production-stage2,Sterilization,P1001,Sterilizers,,Cancelled,F-1-S3,S3,PR-5-STS,50
-WO-BPO2-2-14-Production-stage1,BPO2-2-14-Production-stage1-P1001-F-1-S3,Production-stage1,Granulation,P1001,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,50
-WO-BPO2-2-14-Production-stage1,BPO2-2-14-Production-stage1-P1001-F-1-S3,Production-stage1,Blending,P1001,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,50
-WO-BPO2-2-14-Production-stage1,BPO2-2-14-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-14-Production-stage2,BPO2-2-14-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-14-Production-stage2,BPO2-2-14-Production-stage2-P1001-F-1-S3,Production-stage2,Tanks,P1001,Tanks,,Completed,F-1-S3,S3,PR-2-TAT,50
-WO-BPO2-2-15-Production-stage1,BPO2-2-15-Production-stage1-P1001-F-1-S3,Production-stage1,Mixing ingredients,P1001,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,50
-WO-BPO2-2-15-Production-stage1,BPO2-2-15-Production-stage1-P1001-F-1-S3,Production-stage1,Milling,P1001,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,50
-WO-BPO2-2-15-Production-stage1,BPO2-2-15-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO2-2-15-Production-stage2,BPO2-2-15-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-15-Production-stage2,BPO2-2-15-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,Cancelled,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-16-Production-stage1,BPO2-2-16-Production-stage1-P1001-F-1-S3,Production-stage1,Mixing ingredients,P1001,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,50
-WO-BPO2-2-16-Production-stage1,BPO2-2-16-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO2-2-16-Production-stage1,BPO2-2-16-Production-stage1-P1001-F-1-S3,Production-stage1,Extraction equipment,P1001,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO2-2-16-Production-stage2,BPO2-2-16-Production-stage2-P1001-F-1-S3,Production-stage2,Pumps,P1001,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO2-2-16-Production-stage2,BPO2-2-16-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,In Progress,F-1-S3,S3,PR-7-FIF,50
-WO-BPO2-2-17-Production-stage1,BPO2-2-17-Production-stage1-P1001-F-1-S3,Production-stage1,Milling,P1001,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,50
-WO-BPO2-2-17-Production-stage1,BPO2-2-17-Production-stage1-P1001-F-1-S3,Production-stage1,Tablet compression,P1001,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,50
-WO-BPO2-2-17-Production-stage1,BPO2-2-17-Production-stage1-P1001-F-1-S3,Production-stage1,Granulation,P1001,Granulators,A28,Completed,F-1-S3,S3,PR-2-GRG,50
-WO-BPO2-2-17-Production-stage2,BPO2-2-17-Production-stage2-P1001-F-1-S3,Production-stage2,Tanks,P1001,Tanks,,Completed,F-1-S3,S3,PR-2-TAT,50
-WO-BPO2-2-17-Production-stage2,BPO2-2-17-Production-stage2-P1001-F-1-S3,Production-stage2,Capsule filling,P1001,Capsule fillers,,Cancelled,F-1-S3,S3,PR-3-CAF,50
-WO-BPO2-2-18-Production-stage1,BPO2-2-18-Production-stage1-P1001-F-1-S3,Production-stage1,Milling,P1001,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,30
-WO-BPO2-2-18-Production-stage1,BPO2-2-18-Production-stage1-P1001-F-1-S3,Production-stage1,Tablet compression,P1001,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,30
-WO-BPO2-2-18-Production-stage1,BPO2-2-18-Production-stage1-P1001-F-1-S3,Production-stage1,Reactors,P1001,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,30
-WO-BPO2-2-18-Production-stage2,BPO2-2-18-Production-stage2-P1001-F-1-S3,Production-stage2,Filtration,P1001,Filtration machines,,In Progress,F-1-S3,S3,PR-7-FIF,30
-WO-BPO2-2-18-Production-stage2,BPO2-2-18-Production-stage2-P1001-F-1-S3,Production-stage2,Coating,P1001,Coating machines,,Planned,F-1-S3,S3,PR-4-COC,30
-WO-BPO3-3-1-Production-stage1,BPO3-3-1-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO3-3-1-Production-stage1,BPO3-3-1-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO3-3-1-Production-stage1,BPO3-3-1-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,On Hold,F-1-S3,S3,PR-8-EXE,50
-WO-BPO3-3-1-Production-stage2,BPO3-3-1-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-1-Production-stage2,BPO3-3-1-Production-stage2-P1005-F-1-S3,Production-stage2,Capsule filling,P1005,Capsule fillers,,In Progress,F-1-S3,S3,PR-3-CAF,50
-WO-BPO3-3-2-Production-stage1,BPO3-3-2-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-2-Production-stage1,BPO3-3-2-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO3-3-2-Production-stage1,BPO3-3-2-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO3-3-2-Production-stage2,BPO3-3-2-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,Planned,F-1-S3,S3,PR-6-ENE,50
-WO-BPO3-3-2-Production-stage2,BPO3-3-2-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-3-Production-stage1,BPO3-3-3-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-3-Production-stage1,BPO3-3-3-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Cancelled,F-1-S3,S3,PR-5-TAC,50
-WO-BPO3-3-3-Production-stage1,BPO3-3-3-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,On Hold,F-1-S3,S3,PR-8-EXE,50
-WO-BPO3-3-3-Production-stage2,BPO3-3-3-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,On Hold,F-1-S3,S3,PR-2-TAT,50
-WO-BPO3-3-3-Production-stage2,BPO3-3-3-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-4-Production-stage1,BPO3-3-4-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,50
-WO-BPO3-3-4-Production-stage1,BPO3-3-4-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,50
-WO-BPO3-3-4-Production-stage1,BPO3-3-4-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Planned,F-1-S3,S3,PR-8-EXE,50
-WO-BPO3-3-4-Production-stage2,BPO3-3-4-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,Completed,F-1-S3,S3,PR-6-ENE,50
-WO-BPO3-3-4-Production-stage2,BPO3-3-4-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Planned,F-1-S3,S3,PR-2-TAT,50
-WO-BPO3-3-5-Production-stage1,BPO3-3-5-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-5-Production-stage1,BPO3-3-5-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-5-Production-stage1,BPO3-3-5-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Cancelled,F-1-S3,S3,PR-5-TAC,50
-WO-BPO3-3-5-Production-stage2,BPO3-3-5-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Cancelled,F-1-S3,S3,PR-5-STS,50
-WO-BPO3-3-5-Production-stage2,BPO3-3-5-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Planned,F-1-S3,S3,PR-4-COC,50
-WO-BPO3-3-6-Production-stage1,BPO3-3-6-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,50
-WO-BPO3-3-6-Production-stage1,BPO3-3-6-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,50
-WO-BPO3-3-6-Production-stage1,BPO3-3-6-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Completed,F-1-S3,S3,PR-5-TAC,50
-WO-BPO3-3-6-Production-stage2,BPO3-3-6-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Cancelled,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-6-Production-stage2,BPO3-3-6-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Completed,F-1-S3,S3,PR-2-TAT,50
-WO-BPO3-3-7-Production-stage1,BPO3-3-7-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-7-Production-stage1,BPO3-3-7-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,50
-WO-BPO3-3-7-Production-stage1,BPO3-3-7-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,In Progress,F-1-S3,S3,PR-8-EXE,50
-WO-BPO3-3-7-Production-stage2,BPO3-3-7-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Cancelled,F-1-S3,S3,PR-2-TAT,50
-WO-BPO3-3-7-Production-stage2,BPO3-3-7-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,50
-WO-BPO3-3-8-Production-stage1,BPO3-3-8-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-8-Production-stage1,BPO3-3-8-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Completed,F-1-S3,S3,PR-5-TAC,50
-WO-BPO3-3-8-Production-stage1,BPO3-3-8-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-8-Production-stage2,BPO3-3-8-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,In Progress,F-1-S3,S3,PR-4-COC,50
-WO-BPO3-3-8-Production-stage2,BPO3-3-8-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,On Hold,F-1-S3,S3,PR-5-STS,50
-WO-BPO3-3-9-Production-stage1,BPO3-3-9-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Completed,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-9-Production-stage1,BPO3-3-9-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO3-3-9-Production-stage1,BPO3-3-9-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-9-Production-stage2,BPO3-3-9-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Planned,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-9-Production-stage2,BPO3-3-9-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Planned,F-1-S3,S3,PR-7-FIF,50
-WO-BPO3-3-10-Production-stage1,BPO3-3-10-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,50
-WO-BPO3-3-10-Production-stage1,BPO3-3-10-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-10-Production-stage1,BPO3-3-10-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO3-3-10-Production-stage2,BPO3-3-10-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Planned,F-1-S3,S3,PR-4-COC,50
-WO-BPO3-3-10-Production-stage2,BPO3-3-10-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,Cancelled,F-1-S3,S3,PR-6-ENE,50
-WO-BPO3-3-11-Production-stage1,BPO3-3-11-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-11-Production-stage1,BPO3-3-11-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,50
-WO-BPO3-3-11-Production-stage1,BPO3-3-11-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,50
-WO-BPO3-3-11-Production-stage2,BPO3-3-11-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,On Hold,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-11-Production-stage2,BPO3-3-11-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,50
-WO-BPO3-3-12-Production-stage1,BPO3-3-12-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,50
-WO-BPO3-3-12-Production-stage1,BPO3-3-12-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,50
-WO-BPO3-3-12-Production-stage1,BPO3-3-12-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO3-3-12-Production-stage2,BPO3-3-12-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-12-Production-stage2,BPO3-3-12-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Completed,F-1-S3,S3,PR-7-FIF,50
-WO-BPO3-3-13-Production-stage1,BPO3-3-13-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-13-Production-stage1,BPO3-3-13-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,In Progress,F-1-S3,S3,PR-8-EXE,50
-WO-BPO3-3-13-Production-stage1,BPO3-3-13-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-13-Production-stage2,BPO3-3-13-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Cancelled,F-1-S3,S3,PR-7-FIF,50
-WO-BPO3-3-13-Production-stage2,BPO3-3-13-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Cancelled,F-1-S3,S3,PR-2-TAT,50
-WO-BPO3-3-14-Production-stage1,BPO3-3-14-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,50
-WO-BPO3-3-14-Production-stage1,BPO3-3-14-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,50
-WO-BPO3-3-14-Production-stage1,BPO3-3-14-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-14-Production-stage2,BPO3-3-14-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO3-3-14-Production-stage2,BPO3-3-14-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,In Progress,F-1-S3,S3,PR-6-ENE,50
-WO-BPO3-3-15-Production-stage1,BPO3-3-15-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO3-3-15-Production-stage1,BPO3-3-15-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Cancelled,F-1-S3,S3,PR-1-MII,50
-WO-BPO3-3-15-Production-stage1,BPO3-3-15-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,50
-WO-BPO3-3-15-Production-stage2,BPO3-3-15-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,Completed,F-1-S3,S3,PR-6-ENE,50
-WO-BPO3-3-15-Production-stage2,BPO3-3-15-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,In Progress,F-1-S3,S3,PR-4-COC,50
-WO-BPO3-3-16-Production-stage1,BPO3-3-16-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Completed,F-1-S3,S3,PR-2-GRG,50
-WO-BPO3-3-16-Production-stage1,BPO3-3-16-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,50
-WO-BPO3-3-16-Production-stage1,BPO3-3-16-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO3-3-16-Production-stage2,BPO3-3-16-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,50
-WO-BPO3-3-16-Production-stage2,BPO3-3-16-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Cancelled,F-1-S3,S3,PR-5-STS,50
-WO-BPO3-3-17-Production-stage1,BPO3-3-17-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,10
-WO-BPO3-3-17-Production-stage1,BPO3-3-17-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,10
-WO-BPO3-3-17-Production-stage1,BPO3-3-17-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,In Progress,F-1-S3,S3,PR-5-TAC,10
-WO-BPO3-3-17-Production-stage2,BPO3-3-17-Production-stage2-P1005-F-1-S3,Production-stage2,Capsule filling,P1005,Capsule fillers,,Completed,F-1-S3,S3,PR-3-CAF,10
-WO-BPO3-3-17-Production-stage2,BPO3-3-17-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,On Hold,F-1-S3,S3,PR-2-TAT,10
-WO-BPO4-4-1-Production-stage1,BPO4-4-1-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,80
-WO-BPO4-4-1-Production-stage1,BPO4-4-1-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,80
-WO-BPO4-4-1-Production-stage1,BPO4-4-1-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,80
-WO-BPO4-4-1-Production-stage2,BPO4-4-1-Production-stage2-P1002-F-1-S3,Production-stage2,Pumps,P1002,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,80
-WO-BPO4-4-1-Production-stage2,BPO4-4-1-Production-stage2-P1002-F-1-S3,Production-stage2,Coating,P1002,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,80
-WO-BPO4-4-2-Production-stage1,BPO4-4-2-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,80
-WO-BPO4-4-2-Production-stage1,BPO4-4-2-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,80
-WO-BPO4-4-2-Production-stage1,BPO4-4-2-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,In Progress,F-1-S3,S3,PR-8-EXE,80
-WO-BPO4-4-2-Production-stage2,BPO4-4-2-Production-stage2-P1002-F-1-S3,Production-stage2,Coating,P1002,Coating machines,,Planned,F-1-S3,S3,PR-4-COC,80
-WO-BPO4-4-2-Production-stage2,BPO4-4-2-Production-stage2-P1002-F-1-S3,Production-stage2,Filtration,P1002,Filtration machines,,Cancelled,F-1-S3,S3,PR-7-FIF,80
-WO-BPO4-4-3-Production-stage1,BPO4-4-3-Production-stage1-P1002-F-1-S3,Production-stage1,Tablet compression,P1002,Tablet presses,,Cancelled,F-1-S3,S3,PR-5-TAC,80
-WO-BPO4-4-3-Production-stage1,BPO4-4-3-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,80
-WO-BPO4-4-3-Production-stage1,BPO4-4-3-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,80
-WO-BPO4-4-3-Production-stage2,BPO4-4-3-Production-stage2-P1002-F-1-S3,Production-stage2,Pumps,P1002,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,80
-WO-BPO4-4-3-Production-stage2,BPO4-4-3-Production-stage2-P1002-F-1-S3,Production-stage2,Sterilization,P1002,Sterilizers,,On Hold,F-1-S3,S3,PR-5-STS,80
-WO-BPO4-4-4-Production-stage1,BPO4-4-4-Production-stage1-P1002-F-1-S3,Production-stage1,Distillation equipment,P1002,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,80
-WO-BPO4-4-4-Production-stage1,BPO4-4-4-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,80
-WO-BPO4-4-4-Production-stage1,BPO4-4-4-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,80
-WO-BPO4-4-4-Production-stage2,BPO4-4-4-Production-stage2-P1002-F-1-S3,Production-stage2,Capsule filling,P1002,Capsule fillers,,On Hold,F-1-S3,S3,PR-3-CAF,80
-WO-BPO4-4-4-Production-stage2,BPO4-4-4-Production-stage2-P1002-F-1-S3,Production-stage2,Pumps,P1002,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,80
-WO-BPO4-4-5-Production-stage1,BPO4-4-5-Production-stage1-P1002-F-1-S3,Production-stage1,Distillation equipment,P1002,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,80
-WO-BPO4-4-5-Production-stage1,BPO4-4-5-Production-stage1-P1002-F-1-S3,Production-stage1,Tablet compression,P1002,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,80
-WO-BPO4-4-5-Production-stage1,BPO4-4-5-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,80
-WO-BPO4-4-5-Production-stage2,BPO4-4-5-Production-stage2-P1002-F-1-S3,Production-stage2,Pumps,P1002,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,80
-WO-BPO4-4-5-Production-stage2,BPO4-4-5-Production-stage2-P1002-F-1-S3,Production-stage2,Tanks,P1002,Tanks,,Completed,F-1-S3,S3,PR-2-TAT,80
-WO-BPO4-4-6-Production-stage1,BPO4-4-6-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,80
-WO-BPO4-4-6-Production-stage1,BPO4-4-6-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,80
-WO-BPO4-4-6-Production-stage1,BPO4-4-6-Production-stage1-P1002-F-1-S3,Production-stage1,Tablet compression,P1002,Tablet presses,,Completed,F-1-S3,S3,PR-5-TAC,80
-WO-BPO4-4-6-Production-stage2,BPO4-4-6-Production-stage2-P1002-F-1-S3,Production-stage2,Encapsulation,P1002,Encapsulation machines,,Cancelled,F-1-S3,S3,PR-6-ENE,80
-WO-BPO4-4-6-Production-stage2,BPO4-4-6-Production-stage2-P1002-F-1-S3,Production-stage2,Tanks,P1002,Tanks,,Completed,F-1-S3,S3,PR-2-TAT,80
-WO-BPO4-4-7-Production-stage1,BPO4-4-7-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,80
-WO-BPO4-4-7-Production-stage1,BPO4-4-7-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,80
-WO-BPO4-4-7-Production-stage1,BPO4-4-7-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,80
-WO-BPO4-4-7-Production-stage2,BPO4-4-7-Production-stage2-P1002-F-1-S3,Production-stage2,Coating,P1002,Coating machines,,Cancelled,F-1-S3,S3,PR-4-COC,80
-WO-BPO4-4-7-Production-stage2,BPO4-4-7-Production-stage2-P1002-F-1-S3,Production-stage2,Sterilization,P1002,Sterilizers,,In Progress,F-1-S3,S3,PR-5-STS,80
-WO-BPO4-4-8-Production-stage1,BPO4-4-8-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,80
-WO-BPO4-4-8-Production-stage1,BPO4-4-8-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,80
-WO-BPO4-4-8-Production-stage1,BPO4-4-8-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,80
-WO-BPO4-4-8-Production-stage2,BPO4-4-8-Production-stage2-P1002-F-1-S3,Production-stage2,Capsule filling,P1002,Capsule fillers,,Planned,F-1-S3,S3,PR-3-CAF,80
-WO-BPO4-4-8-Production-stage2,BPO4-4-8-Production-stage2-P1002-F-1-S3,Production-stage2,Sterilization,P1002,Sterilizers,,In Progress,F-1-S3,S3,PR-5-STS,80
-WO-BPO4-4-9-Production-stage1,BPO4-4-9-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,80
-WO-BPO4-4-9-Production-stage1,BPO4-4-9-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,80
-WO-BPO4-4-9-Production-stage1,BPO4-4-9-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,80
-WO-BPO4-4-9-Production-stage2,BPO4-4-9-Production-stage2-P1002-F-1-S3,Production-stage2,Filtration,P1002,Filtration machines,,Cancelled,F-1-S3,S3,PR-7-FIF,80
-WO-BPO4-4-9-Production-stage2,BPO4-4-9-Production-stage2-P1002-F-1-S3,Production-stage2,Pumps,P1002,Pumps,,On Hold,F-1-S3,S3,PR-1-PUP,80
-WO-BPO4-4-10-Production-stage1,BPO4-4-10-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,80
-WO-BPO4-4-10-Production-stage1,BPO4-4-10-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,80
-WO-BPO4-4-10-Production-stage1,BPO4-4-10-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,80
-WO-BPO4-4-10-Production-stage2,BPO4-4-10-Production-stage2-P1002-F-1-S3,Production-stage2,Coating,P1002,Coating machines,,On Hold,F-1-S3,S3,PR-4-COC,80
-WO-BPO4-4-10-Production-stage2,BPO4-4-10-Production-stage2-P1002-F-1-S3,Production-stage2,Encapsulation,P1002,Encapsulation machines,,On Hold,F-1-S3,S3,PR-6-ENE,80
-WO-BPO4-4-11-Production-stage1,BPO4-4-11-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Completed,F-1-S3,S3,PR-4-BLB,30
-WO-BPO4-4-11-Production-stage1,BPO4-4-11-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,30
-WO-BPO4-4-11-Production-stage1,BPO4-4-11-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,30
-WO-BPO4-4-11-Production-stage2,BPO4-4-11-Production-stage2-P1002-F-1-S3,Production-stage2,Capsule filling,P1002,Capsule fillers,,Planned,F-1-S3,S3,PR-3-CAF,30
-WO-BPO4-4-11-Production-stage2,BPO4-4-11-Production-stage2-P1002-F-1-S3,Production-stage2,Coating,P1002,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,30
-WO-BPO5-5-1-Production-stage1,BPO5-5-1-Production-stage1-P1009-F-1-S3,Production-stage1,Blending,P1009,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,80
-WO-BPO5-5-1-Production-stage1,BPO5-5-1-Production-stage1-P1009-F-1-S3,Production-stage1,Mixing ingredients,P1009,Mixers,A27,Cancelled,F-1-S3,S3,PR-1-MII,80
-WO-BPO5-5-1-Production-stage1,BPO5-5-1-Production-stage1-P1009-F-1-S3,Production-stage1,Distillation equipment,P1009,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,80
-WO-BPO5-5-1-Production-stage2,BPO5-5-1-Production-stage2-P1009-F-1-S3,Production-stage2,Tanks,P1009,Tanks,,In Progress,F-1-S3,S3,PR-2-TAT,80
-WO-BPO5-5-1-Production-stage2,BPO5-5-1-Production-stage2-P1009-F-1-S3,Production-stage2,Sterilization,P1009,Sterilizers,,Completed,F-1-S3,S3,PR-5-STS,80
-WO-BPO5-5-2-Production-stage1,BPO5-5-2-Production-stage1-P1009-F-1-S3,Production-stage1,Extraction equipment,P1009,Extraction equipment,A33,Planned,F-1-S3,S3,PR-8-EXE,80
-WO-BPO5-5-2-Production-stage1,BPO5-5-2-Production-stage1-P1009-F-1-S3,Production-stage1,Mixing ingredients,P1009,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,80
-WO-BPO5-5-2-Production-stage1,BPO5-5-2-Production-stage1-P1009-F-1-S3,Production-stage1,Reactors,P1009,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,80
-WO-BPO5-5-2-Production-stage2,BPO5-5-2-Production-stage2-P1009-F-1-S3,Production-stage2,Filtration,P1009,Filtration machines,,On Hold,F-1-S3,S3,PR-7-FIF,80
-WO-BPO5-5-2-Production-stage2,BPO5-5-2-Production-stage2-P1009-F-1-S3,Production-stage2,Tanks,P1009,Tanks,,Cancelled,F-1-S3,S3,PR-2-TAT,80
-WO-BPO5-5-3-Production-stage1,BPO5-5-3-Production-stage1-P1009-F-1-S3,Production-stage1,Tablet compression,P1009,Tablet presses,,In Progress,F-1-S3,S3,PR-5-TAC,80
-WO-BPO5-5-3-Production-stage1,BPO5-5-3-Production-stage1-P1009-F-1-S3,Production-stage1,Reactors,P1009,Reactors,A31,Cancelled,F-1-S3,S3,PR-6-RER,80
-WO-BPO5-5-3-Production-stage1,BPO5-5-3-Production-stage1-P1009-F-1-S3,Production-stage1,Mixing ingredients,P1009,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,80
-WO-BPO5-5-3-Production-stage2,BPO5-5-3-Production-stage2-P1009-F-1-S3,Production-stage2,Sterilization,P1009,Sterilizers,,Planned,F-1-S3,S3,PR-5-STS,80
-WO-BPO5-5-3-Production-stage2,BPO5-5-3-Production-stage2-P1009-F-1-S3,Production-stage2,Encapsulation,P1009,Encapsulation machines,,Completed,F-1-S3,S3,PR-6-ENE,80
-WO-BPO5-5-4-Production-stage1,BPO5-5-4-Production-stage1-P1009-F-1-S3,Production-stage1,Reactors,P1009,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,80
-WO-BPO5-5-4-Production-stage1,BPO5-5-4-Production-stage1-P1009-F-1-S3,Production-stage1,Mixing ingredients,P1009,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,80
-WO-BPO5-5-4-Production-stage1,BPO5-5-4-Production-stage1-P1009-F-1-S3,Production-stage1,Tablet compression,P1009,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,80
-WO-BPO5-5-4-Production-stage2,BPO5-5-4-Production-stage2-P1009-F-1-S3,Production-stage2,Tanks,P1009,Tanks,,Cancelled,F-1-S3,S3,PR-2-TAT,80
-WO-BPO5-5-4-Production-stage2,BPO5-5-4-Production-stage2-P1009-F-1-S3,Production-stage2,Capsule filling,P1009,Capsule fillers,,Cancelled,F-1-S3,S3,PR-3-CAF,80
-WO-BPO5-5-5-Production-stage1,BPO5-5-5-Production-stage1-P1009-F-1-S3,Production-stage1,Mixing ingredients,P1009,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,80
-WO-BPO5-5-5-Production-stage1,BPO5-5-5-Production-stage1-P1009-F-1-S3,Production-stage1,Distillation equipment,P1009,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,80
-WO-BPO5-5-5-Production-stage1,BPO5-5-5-Production-stage1-P1009-F-1-S3,Production-stage1,Extraction equipment,P1009,Extraction equipment,A33,On Hold,F-1-S3,S3,PR-8-EXE,80
-WO-BPO5-5-5-Production-stage2,BPO5-5-5-Production-stage2-P1009-F-1-S3,Production-stage2,Filtration,P1009,Filtration machines,,On Hold,F-1-S3,S3,PR-7-FIF,80
-WO-BPO5-5-5-Production-stage2,BPO5-5-5-Production-stage2-P1009-F-1-S3,Production-stage2,Tanks,P1009,Tanks,,On Hold,F-1-S3,S3,PR-2-TAT,80
-WO-BPO5-5-6-Production-stage1,BPO5-5-6-Production-stage1-P1009-F-1-S3,Production-stage1,Extraction equipment,P1009,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,80
-WO-BPO5-5-6-Production-stage1,BPO5-5-6-Production-stage1-P1009-F-1-S3,Production-stage1,Tablet compression,P1009,Tablet presses,,In Progress,F-1-S3,S3,PR-5-TAC,80
-WO-BPO5-5-6-Production-stage1,BPO5-5-6-Production-stage1-P1009-F-1-S3,Production-stage1,Granulation,P1009,Granulators,A28,Completed,F-1-S3,S3,PR-2-GRG,80
-WO-BPO5-5-6-Production-stage2,BPO5-5-6-Production-stage2-P1009-F-1-S3,Production-stage2,Capsule filling,P1009,Capsule fillers,,Cancelled,F-1-S3,S3,PR-3-CAF,80
-WO-BPO5-5-6-Production-stage2,BPO5-5-6-Production-stage2-P1009-F-1-S3,Production-stage2,Sterilization,P1009,Sterilizers,,On Hold,F-1-S3,S3,PR-5-STS,80
-WO-BPO5-5-7-Production-stage1,BPO5-5-7-Production-stage1-P1009-F-1-S3,Production-stage1,Distillation equipment,P1009,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,20
-WO-BPO5-5-7-Production-stage1,BPO5-5-7-Production-stage1-P1009-F-1-S3,Production-stage1,Mixing ingredients,P1009,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,20
-WO-BPO5-5-7-Production-stage1,BPO5-5-7-Production-stage1-P1009-F-1-S3,Production-stage1,Blending,P1009,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,20
-WO-BPO5-5-7-Production-stage2,BPO5-5-7-Production-stage2-P1009-F-1-S3,Production-stage2,Pumps,P1009,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,20
-WO-BPO5-5-7-Production-stage2,BPO5-5-7-Production-stage2-P1009-F-1-S3,Production-stage2,Capsule filling,P1009,Capsule fillers,,Completed,F-1-S3,S3,PR-3-CAF,20
-WO-BPO6-6-1-Production-stage1,BPO6-6-1-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,In Progress,F-1-S4,S4,PR-4-BLB,40
-WO-BPO6-6-1-Production-stage1,BPO6-6-1-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,Completed,F-1-S4,S4,PR-2-GRG,40
-WO-BPO6-6-1-Production-stage1,BPO6-6-1-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,In Progress,F-1-S4,S4,PR-1-MII,40
-WO-BPO6-6-1-Production-stage2,BPO6-6-1-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Completed,F-1-S4,S4,PR-5-STS,40
-WO-BPO6-6-1-Production-stage2,BPO6-6-1-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,Planned,F-1-S4,S4,PR-4-COC,40
-WO-BPO6-6-2-Production-stage1,BPO6-6-2-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,In Progress,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-2-Production-stage1,BPO6-6-2-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Completed,F-1-S4,S4,PR-5-TAC,40
-WO-BPO6-6-2-Production-stage1,BPO6-6-2-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,Cancelled,F-1-S4,S4,PR-4-BLB,40
-WO-BPO6-6-2-Production-stage2,BPO6-6-2-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,On Hold,F-1-S4,S4,PR-5-STS,40
-WO-BPO6-6-2-Production-stage2,BPO6-6-2-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,On Hold,F-1-S4,S4,PR-7-FIF,40
-WO-BPO6-6-3-Production-stage1,BPO6-6-3-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Planned,F-1-S4,S4,PR-5-TAC,40
-WO-BPO6-6-3-Production-stage1,BPO6-6-3-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,On Hold,F-1-S4,S4,PR-1-MII,40
-WO-BPO6-6-3-Production-stage1,BPO6-6-3-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Cancelled,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-3-Production-stage2,BPO6-6-3-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,Completed,F-1-S4,S4,PR-6-ENE,40
-WO-BPO6-6-3-Production-stage2,BPO6-6-3-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,Cancelled,F-1-S4,S4,PR-4-COC,40
-WO-BPO6-6-4-Production-stage1,BPO6-6-4-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,In Progress,F-1-S4,S4,PR-1-MII,40
-WO-BPO6-6-4-Production-stage1,BPO6-6-4-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Planned,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-4-Production-stage1,BPO6-6-4-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,On Hold,F-1-S4,S4,PR-8-EXE,40
-WO-BPO6-6-4-Production-stage2,BPO6-6-4-Production-stage2-P1003-F-1-S4,Production-stage2,Tanks,P1003,Tanks,A46,Planned,F-1-S4,S4,PR-2-TAT,40
-WO-BPO6-6-4-Production-stage2,BPO6-6-4-Production-stage2-P1003-F-1-S4,Production-stage2,Capsule filling,P1003,Capsule fillers,A40,On Hold,F-1-S4,S4,PR-3-CAF,40
-WO-BPO6-6-5-Production-stage1,BPO6-6-5-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,Cancelled,F-1-S4,S4,PR-4-BLB,40
-WO-BPO6-6-5-Production-stage1,BPO6-6-5-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Cancelled,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-5-Production-stage1,BPO6-6-5-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Completed,F-1-S4,S4,PR-3-MIM,40
-WO-BPO6-6-5-Production-stage2,BPO6-6-5-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,In Progress,F-1-S4,S4,PR-6-ENE,40
-WO-BPO6-6-5-Production-stage2,BPO6-6-5-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,Completed,F-1-S4,S4,PR-1-PUP,40
-WO-BPO6-6-6-Production-stage1,BPO6-6-6-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,On Hold,F-1-S4,S4,PR-5-TAC,40
-WO-BPO6-6-6-Production-stage1,BPO6-6-6-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,On Hold,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-6-Production-stage1,BPO6-6-6-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,In Progress,F-1-S4,S4,PR-6-RER,40
-WO-BPO6-6-6-Production-stage2,BPO6-6-6-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,In Progress,F-1-S4,S4,PR-7-FIF,40
-WO-BPO6-6-6-Production-stage2,BPO6-6-6-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,In Progress,F-1-S4,S4,PR-4-COC,40
-WO-BPO6-6-7-Production-stage1,BPO6-6-7-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Cancelled,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-7-Production-stage1,BPO6-6-7-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Planned,F-1-S4,S4,PR-5-TAC,40
-WO-BPO6-6-7-Production-stage1,BPO6-6-7-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,Completed,F-1-S4,S4,PR-8-EXE,40
-WO-BPO6-6-7-Production-stage2,BPO6-6-7-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,Planned,F-1-S4,S4,PR-7-FIF,40
-WO-BPO6-6-7-Production-stage2,BPO6-6-7-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Cancelled,F-1-S4,S4,PR-5-STS,40
-WO-BPO6-6-8-Production-stage1,BPO6-6-8-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,Cancelled,F-1-S4,S4,PR-2-GRG,40
-WO-BPO6-6-8-Production-stage1,BPO6-6-8-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,Planned,F-1-S4,S4,PR-8-EXE,40
-WO-BPO6-6-8-Production-stage1,BPO6-6-8-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,Planned,F-1-S4,S4,PR-4-BLB,40
-WO-BPO6-6-8-Production-stage2,BPO6-6-8-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,On Hold,F-1-S4,S4,PR-6-ENE,40
-WO-BPO6-6-8-Production-stage2,BPO6-6-8-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,Cancelled,F-1-S4,S4,PR-1-PUP,40
-WO-BPO6-6-9-Production-stage1,BPO6-6-9-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,Completed,F-1-S4,S4,PR-2-GRG,40
-WO-BPO6-6-9-Production-stage1,BPO6-6-9-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Planned,F-1-S4,S4,PR-5-TAC,40
-WO-BPO6-6-9-Production-stage1,BPO6-6-9-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,On Hold,F-1-S4,S4,PR-4-BLB,40
-WO-BPO6-6-9-Production-stage2,BPO6-6-9-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,Completed,F-1-S4,S4,PR-7-FIF,40
-WO-BPO6-6-9-Production-stage2,BPO6-6-9-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Completed,F-1-S4,S4,PR-5-STS,40
-WO-BPO6-6-10-Production-stage1,BPO6-6-10-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,In Progress,F-1-S4,S4,PR-1-MII,40
-WO-BPO6-6-10-Production-stage1,BPO6-6-10-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,In Progress,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-10-Production-stage1,BPO6-6-10-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Completed,F-1-S4,S4,PR-5-TAC,40
-WO-BPO6-6-10-Production-stage2,BPO6-6-10-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,Completed,F-1-S4,S4,PR-1-PUP,40
-WO-BPO6-6-10-Production-stage2,BPO6-6-10-Production-stage2-P1003-F-1-S4,Production-stage2,Tanks,P1003,Tanks,A46,Planned,F-1-S4,S4,PR-2-TAT,40
-WO-BPO6-6-11-Production-stage1,BPO6-6-11-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,Planned,F-1-S4,S4,PR-8-EXE,40
-WO-BPO6-6-11-Production-stage1,BPO6-6-11-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Cancelled,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-11-Production-stage1,BPO6-6-11-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Completed,F-1-S4,S4,PR-3-MIM,40
-WO-BPO6-6-11-Production-stage2,BPO6-6-11-Production-stage2-P1003-F-1-S4,Production-stage2,Capsule filling,P1003,Capsule fillers,A40,Cancelled,F-1-S4,S4,PR-3-CAF,40
-WO-BPO6-6-11-Production-stage2,BPO6-6-11-Production-stage2-P1003-F-1-S4,Production-stage2,Tanks,P1003,Tanks,A46,In Progress,F-1-S4,S4,PR-2-TAT,40
-WO-BPO6-6-12-Production-stage1,BPO6-6-12-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,Cancelled,F-1-S4,S4,PR-8-EXE,40
-WO-BPO6-6-12-Production-stage1,BPO6-6-12-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,On Hold,F-1-S4,S4,PR-4-BLB,40
-WO-BPO6-6-12-Production-stage1,BPO6-6-12-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Cancelled,F-1-S4,S4,PR-7-DIE,40
-WO-BPO6-6-12-Production-stage2,BPO6-6-12-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,In Progress,F-1-S4,S4,PR-7-FIF,40
-WO-BPO6-6-12-Production-stage2,BPO6-6-12-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,Cancelled,F-1-S4,S4,PR-1-PUP,40
-WO-BPO6-6-13-Production-stage1,BPO6-6-13-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,On Hold,F-1-S4,S4,PR-6-RER,30
-WO-BPO6-6-13-Production-stage1,BPO6-6-13-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,In Progress,F-1-S4,S4,PR-3-MIM,30
-WO-BPO6-6-13-Production-stage1,BPO6-6-13-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,In Progress,F-1-S4,S4,PR-7-DIE,30
-WO-BPO6-6-13-Production-stage2,BPO6-6-13-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,On Hold,F-1-S4,S4,PR-5-STS,30
-WO-BPO6-6-13-Production-stage2,BPO6-6-13-Production-stage2-P1003-F-1-S4,Production-stage2,Tanks,P1003,Tanks,A46,Planned,F-1-S4,S4,PR-2-TAT,30
-WO-BPO7-7-1-Production-stage1,BPO7-7-1-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO7-7-1-Production-stage1,BPO7-7-1-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,50
-WO-BPO7-7-1-Production-stage1,BPO7-7-1-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Planned,F-1-S3,S3,PR-8-EXE,50
-WO-BPO7-7-1-Production-stage2,BPO7-7-1-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO7-7-1-Production-stage2,BPO7-7-1-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,In Progress,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-2-Production-stage1,BPO7-7-2-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Cancelled,F-1-S3,S3,PR-6-RER,50
-WO-BPO7-7-2-Production-stage1,BPO7-7-2-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,50
-WO-BPO7-7-2-Production-stage1,BPO7-7-2-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,50
-WO-BPO7-7-2-Production-stage2,BPO7-7-2-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,In Progress,F-1-S3,S3,PR-7-FIF,50
-WO-BPO7-7-2-Production-stage2,BPO7-7-2-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Planned,F-1-S3,S3,PR-4-COC,50
-WO-BPO7-7-3-Production-stage1,BPO7-7-3-Production-stage1-P1005-F-1-S3,Production-stage1,Granulation,P1005,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,50
-WO-BPO7-7-3-Production-stage1,BPO7-7-3-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,50
-WO-BPO7-7-3-Production-stage1,BPO7-7-3-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,50
-WO-BPO7-7-3-Production-stage2,BPO7-7-3-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,In Progress,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-3-Production-stage2,BPO7-7-3-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,On Hold,F-1-S3,S3,PR-7-FIF,50
-WO-BPO7-7-4-Production-stage1,BPO7-7-4-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,50
-WO-BPO7-7-4-Production-stage1,BPO7-7-4-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO7-7-4-Production-stage1,BPO7-7-4-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,50
-WO-BPO7-7-4-Production-stage2,BPO7-7-4-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,In Progress,F-1-S3,S3,PR-4-COC,50
-WO-BPO7-7-4-Production-stage2,BPO7-7-4-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Completed,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-5-Production-stage1,BPO7-7-5-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,Completed,F-1-S3,S3,PR-3-MIM,50
-WO-BPO7-7-5-Production-stage1,BPO7-7-5-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Planned,F-1-S3,S3,PR-5-TAC,50
-WO-BPO7-7-5-Production-stage1,BPO7-7-5-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,50
-WO-BPO7-7-5-Production-stage2,BPO7-7-5-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Planned,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-5-Production-stage2,BPO7-7-5-Production-stage2-P1005-F-1-S3,Production-stage2,Capsule filling,P1005,Capsule fillers,,Cancelled,F-1-S3,S3,PR-3-CAF,50
-WO-BPO7-7-6-Production-stage1,BPO7-7-6-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,50
-WO-BPO7-7-6-Production-stage1,BPO7-7-6-Production-stage1-P1005-F-1-S3,Production-stage1,Extraction equipment,P1005,Extraction equipment,A33,In Progress,F-1-S3,S3,PR-8-EXE,50
-WO-BPO7-7-6-Production-stage1,BPO7-7-6-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Completed,F-1-S3,S3,PR-7-DIE,50
-WO-BPO7-7-6-Production-stage2,BPO7-7-6-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Completed,F-1-S3,S3,PR-4-COC,50
-WO-BPO7-7-6-Production-stage2,BPO7-7-6-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,In Progress,F-1-S3,S3,PR-1-PUP,50
-WO-BPO7-7-7-Production-stage1,BPO7-7-7-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,50
-WO-BPO7-7-7-Production-stage1,BPO7-7-7-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,50
-WO-BPO7-7-7-Production-stage1,BPO7-7-7-Production-stage1-P1005-F-1-S3,Production-stage1,Milling,P1005,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,50
-WO-BPO7-7-7-Production-stage2,BPO7-7-7-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Completed,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-7-Production-stage2,BPO7-7-7-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,In Progress,F-1-S3,S3,PR-4-COC,50
-WO-BPO7-7-8-Production-stage1,BPO7-7-8-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO7-7-8-Production-stage1,BPO7-7-8-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,50
-WO-BPO7-7-8-Production-stage1,BPO7-7-8-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Completed,F-1-S3,S3,PR-7-DIE,50
-WO-BPO7-7-8-Production-stage2,BPO7-7-8-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,Cancelled,F-1-S3,S3,PR-6-ENE,50
-WO-BPO7-7-8-Production-stage2,BPO7-7-8-Production-stage2-P1005-F-1-S3,Production-stage2,Coating,P1005,Coating machines,,Cancelled,F-1-S3,S3,PR-4-COC,50
-WO-BPO7-7-9-Production-stage1,BPO7-7-9-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Completed,F-1-S3,S3,PR-4-BLB,50
-WO-BPO7-7-9-Production-stage1,BPO7-7-9-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,Completed,F-1-S3,S3,PR-7-DIE,50
-WO-BPO7-7-9-Production-stage1,BPO7-7-9-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Completed,F-1-S3,S3,PR-5-TAC,50
-WO-BPO7-7-9-Production-stage2,BPO7-7-9-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Cancelled,F-1-S3,S3,PR-7-FIF,50
-WO-BPO7-7-9-Production-stage2,BPO7-7-9-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Completed,F-1-S3,S3,PR-1-PUP,50
-WO-BPO7-7-10-Production-stage1,BPO7-7-10-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,Cancelled,F-1-S3,S3,PR-5-TAC,50
-WO-BPO7-7-10-Production-stage1,BPO7-7-10-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,50
-WO-BPO7-7-10-Production-stage1,BPO7-7-10-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,50
-WO-BPO7-7-10-Production-stage2,BPO7-7-10-Production-stage2-P1005-F-1-S3,Production-stage2,Capsule filling,P1005,Capsule fillers,,Completed,F-1-S3,S3,PR-3-CAF,50
-WO-BPO7-7-10-Production-stage2,BPO7-7-10-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Cancelled,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-11-Production-stage1,BPO7-7-11-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,50
-WO-BPO7-7-11-Production-stage1,BPO7-7-11-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,50
-WO-BPO7-7-11-Production-stage1,BPO7-7-11-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,50
-WO-BPO7-7-11-Production-stage2,BPO7-7-11-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Cancelled,F-1-S3,S3,PR-1-PUP,50
-WO-BPO7-7-11-Production-stage2,BPO7-7-11-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,Planned,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-12-Production-stage1,BPO7-7-12-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,50
-WO-BPO7-7-12-Production-stage1,BPO7-7-12-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,50
-WO-BPO7-7-12-Production-stage1,BPO7-7-12-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,50
-WO-BPO7-7-12-Production-stage2,BPO7-7-12-Production-stage2-P1005-F-1-S3,Production-stage2,Tanks,P1005,Tanks,,Cancelled,F-1-S3,S3,PR-2-TAT,50
-WO-BPO7-7-12-Production-stage2,BPO7-7-12-Production-stage2-P1005-F-1-S3,Production-stage2,Sterilization,P1005,Sterilizers,,On Hold,F-1-S3,S3,PR-5-STS,50
-WO-BPO7-7-13-Production-stage1,BPO7-7-13-Production-stage1-P1005-F-1-S3,Production-stage1,Blending,P1005,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,50
-WO-BPO7-7-13-Production-stage1,BPO7-7-13-Production-stage1-P1005-F-1-S3,Production-stage1,Mixing ingredients,P1005,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,50
-WO-BPO7-7-13-Production-stage1,BPO7-7-13-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,50
-WO-BPO7-7-13-Production-stage2,BPO7-7-13-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Planned,F-1-S3,S3,PR-7-FIF,50
-WO-BPO7-7-13-Production-stage2,BPO7-7-13-Production-stage2-P1005-F-1-S3,Production-stage2,Pumps,P1005,Pumps,,Cancelled,F-1-S3,S3,PR-1-PUP,50
-WO-BPO7-7-14-Production-stage1,BPO7-7-14-Production-stage1-P1005-F-1-S3,Production-stage1,Distillation equipment,P1005,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,40
-WO-BPO7-7-14-Production-stage1,BPO7-7-14-Production-stage1-P1005-F-1-S3,Production-stage1,Reactors,P1005,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,40
-WO-BPO7-7-14-Production-stage1,BPO7-7-14-Production-stage1-P1005-F-1-S3,Production-stage1,Tablet compression,P1005,Tablet presses,,On Hold,F-1-S3,S3,PR-5-TAC,40
-WO-BPO7-7-14-Production-stage2,BPO7-7-14-Production-stage2-P1005-F-1-S3,Production-stage2,Filtration,P1005,Filtration machines,,Completed,F-1-S3,S3,PR-7-FIF,40
-WO-BPO7-7-14-Production-stage2,BPO7-7-14-Production-stage2-P1005-F-1-S3,Production-stage2,Encapsulation,P1005,Encapsulation machines,,On Hold,F-1-S3,S3,PR-6-ENE,40
-WO-BPO8-8-1-Production-stage1,BPO8-8-1-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,Planned,F-1-S4,S4,PR-8-EXE,40
-WO-BPO8-8-1-Production-stage1,BPO8-8-1-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,In Progress,F-1-S4,S4,PR-2-GRG,40
-WO-BPO8-8-1-Production-stage1,BPO8-8-1-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,On Hold,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-1-Production-stage2,BPO8-8-1-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,Planned,F-1-S4,S4,PR-6-ENE,40
-WO-BPO8-8-1-Production-stage2,BPO8-8-1-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,Completed,F-1-S4,S4,PR-7-FIF,40
-WO-BPO8-8-2-Production-stage1,BPO8-8-2-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,Cancelled,F-1-S4,S4,PR-2-GRG,40
-WO-BPO8-8-2-Production-stage1,BPO8-8-2-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,Planned,F-1-S4,S4,PR-6-RER,40
-WO-BPO8-8-2-Production-stage1,BPO8-8-2-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Planned,F-1-S4,S4,PR-5-TAC,40
-WO-BPO8-8-2-Production-stage2,BPO8-8-2-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,Planned,F-1-S4,S4,PR-7-FIF,40
-WO-BPO8-8-2-Production-stage2,BPO8-8-2-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,In Progress,F-1-S4,S4,PR-6-ENE,40
-WO-BPO8-8-3-Production-stage1,BPO8-8-3-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,On Hold,F-1-S4,S4,PR-2-GRG,40
-WO-BPO8-8-3-Production-stage1,BPO8-8-3-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,On Hold,F-1-S4,S4,PR-8-EXE,40
-WO-BPO8-8-3-Production-stage1,BPO8-8-3-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,Cancelled,F-1-S4,S4,PR-6-RER,40
-WO-BPO8-8-3-Production-stage2,BPO8-8-3-Production-stage2-P1003-F-1-S4,Production-stage2,Tanks,P1003,Tanks,A46,In Progress,F-1-S4,S4,PR-2-TAT,40
-WO-BPO8-8-3-Production-stage2,BPO8-8-3-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,Cancelled,F-1-S4,S4,PR-7-FIF,40
-WO-BPO8-8-4-Production-stage1,BPO8-8-4-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Completed,F-1-S4,S4,PR-5-TAC,40
-WO-BPO8-8-4-Production-stage1,BPO8-8-4-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,Cancelled,F-1-S4,S4,PR-6-RER,40
-WO-BPO8-8-4-Production-stage1,BPO8-8-4-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,On Hold,F-1-S4,S4,PR-8-EXE,40
-WO-BPO8-8-4-Production-stage2,BPO8-8-4-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Completed,F-1-S4,S4,PR-5-STS,40
-WO-BPO8-8-4-Production-stage2,BPO8-8-4-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,Completed,F-1-S4,S4,PR-4-COC,40
-WO-BPO8-8-5-Production-stage1,BPO8-8-5-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Cancelled,F-1-S4,S4,PR-7-DIE,40
-WO-BPO8-8-5-Production-stage1,BPO8-8-5-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Planned,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-5-Production-stage1,BPO8-8-5-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,Completed,F-1-S4,S4,PR-2-GRG,40
-WO-BPO8-8-5-Production-stage2,BPO8-8-5-Production-stage2-P1003-F-1-S4,Production-stage2,Tanks,P1003,Tanks,A46,On Hold,F-1-S4,S4,PR-2-TAT,40
-WO-BPO8-8-5-Production-stage2,BPO8-8-5-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,Completed,F-1-S4,S4,PR-4-COC,40
-WO-BPO8-8-6-Production-stage1,BPO8-8-6-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,Planned,F-1-S4,S4,PR-1-MII,40
-WO-BPO8-8-6-Production-stage1,BPO8-8-6-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,In Progress,F-1-S4,S4,PR-6-RER,40
-WO-BPO8-8-6-Production-stage1,BPO8-8-6-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,In Progress,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-6-Production-stage2,BPO8-8-6-Production-stage2-P1003-F-1-S4,Production-stage2,Capsule filling,P1003,Capsule fillers,A40,Completed,F-1-S4,S4,PR-3-CAF,40
-WO-BPO8-8-6-Production-stage2,BPO8-8-6-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,Planned,F-1-S4,S4,PR-1-PUP,40
-WO-BPO8-8-7-Production-stage1,BPO8-8-7-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,On Hold,F-1-S4,S4,PR-8-EXE,40
-WO-BPO8-8-7-Production-stage1,BPO8-8-7-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,In Progress,F-1-S4,S4,PR-2-GRG,40
-WO-BPO8-8-7-Production-stage1,BPO8-8-7-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,On Hold,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-7-Production-stage2,BPO8-8-7-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,Cancelled,F-1-S4,S4,PR-7-FIF,40
-WO-BPO8-8-7-Production-stage2,BPO8-8-7-Production-stage2-P1003-F-1-S4,Production-stage2,Tanks,P1003,Tanks,A46,Cancelled,F-1-S4,S4,PR-2-TAT,40
-WO-BPO8-8-8-Production-stage1,BPO8-8-8-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,Cancelled,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-8-Production-stage1,BPO8-8-8-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Completed,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-8-Production-stage1,BPO8-8-8-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Completed,F-1-S4,S4,PR-7-DIE,40
-WO-BPO8-8-8-Production-stage2,BPO8-8-8-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Planned,F-1-S4,S4,PR-5-STS,40
-WO-BPO8-8-8-Production-stage2,BPO8-8-8-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,On Hold,F-1-S4,S4,PR-7-FIF,40
-WO-BPO8-8-9-Production-stage1,BPO8-8-9-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,Completed,F-1-S4,S4,PR-8-EXE,40
-WO-BPO8-8-9-Production-stage1,BPO8-8-9-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,In Progress,F-1-S4,S4,PR-6-RER,40
-WO-BPO8-8-9-Production-stage1,BPO8-8-9-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Cancelled,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-9-Production-stage2,BPO8-8-9-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,Cancelled,F-1-S4,S4,PR-6-ENE,40
-WO-BPO8-8-9-Production-stage2,BPO8-8-9-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,On Hold,F-1-S4,S4,PR-4-COC,40
-WO-BPO8-8-10-Production-stage1,BPO8-8-10-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Completed,F-1-S4,S4,PR-7-DIE,40
-WO-BPO8-8-10-Production-stage1,BPO8-8-10-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,Cancelled,F-1-S4,S4,PR-1-MII,40
-WO-BPO8-8-10-Production-stage1,BPO8-8-10-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,Planned,F-1-S4,S4,PR-2-GRG,40
-WO-BPO8-8-10-Production-stage2,BPO8-8-10-Production-stage2-P1003-F-1-S4,Production-stage2,Capsule filling,P1003,Capsule fillers,A40,On Hold,F-1-S4,S4,PR-3-CAF,40
-WO-BPO8-8-10-Production-stage2,BPO8-8-10-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,In Progress,F-1-S4,S4,PR-4-COC,40
-WO-BPO8-8-11-Production-stage1,BPO8-8-11-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,On Hold,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-11-Production-stage1,BPO8-8-11-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,Completed,F-1-S4,S4,PR-1-MII,40
-WO-BPO8-8-11-Production-stage1,BPO8-8-11-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Planned,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-11-Production-stage2,BPO8-8-11-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,In Progress,F-1-S4,S4,PR-7-FIF,40
-WO-BPO8-8-11-Production-stage2,BPO8-8-11-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,Planned,F-1-S4,S4,PR-4-COC,40
-WO-BPO8-8-12-Production-stage1,BPO8-8-12-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,Planned,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-12-Production-stage1,BPO8-8-12-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,On Hold,F-1-S4,S4,PR-1-MII,40
-WO-BPO8-8-12-Production-stage1,BPO8-8-12-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,On Hold,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-12-Production-stage2,BPO8-8-12-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,Planned,F-1-S4,S4,PR-1-PUP,40
-WO-BPO8-8-12-Production-stage2,BPO8-8-12-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,Completed,F-1-S4,S4,PR-4-COC,40
-WO-BPO8-8-13-Production-stage1,BPO8-8-13-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,Planned,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-13-Production-stage1,BPO8-8-13-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,Completed,F-1-S4,S4,PR-7-DIE,40
-WO-BPO8-8-13-Production-stage1,BPO8-8-13-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,On Hold,F-1-S4,S4,PR-6-RER,40
-WO-BPO8-8-13-Production-stage2,BPO8-8-13-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Completed,F-1-S4,S4,PR-5-STS,40
-WO-BPO8-8-13-Production-stage2,BPO8-8-13-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,Planned,F-1-S4,S4,PR-1-PUP,40
-WO-BPO8-8-14-Production-stage1,BPO8-8-14-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,Completed,F-1-S4,S4,PR-8-EXE,40
-WO-BPO8-8-14-Production-stage1,BPO8-8-14-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,In Progress,F-1-S4,S4,PR-7-DIE,40
-WO-BPO8-8-14-Production-stage1,BPO8-8-14-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,Completed,F-1-S4,S4,PR-2-GRG,40
-WO-BPO8-8-14-Production-stage2,BPO8-8-14-Production-stage2-P1003-F-1-S4,Production-stage2,Pumps,P1003,Pumps,A45,On Hold,F-1-S4,S4,PR-1-PUP,40
-WO-BPO8-8-14-Production-stage2,BPO8-8-14-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,On Hold,F-1-S4,S4,PR-5-STS,40
-WO-BPO8-8-15-Production-stage1,BPO8-8-15-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Planned,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-15-Production-stage1,BPO8-8-15-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,Completed,F-1-S4,S4,PR-1-MII,40
-WO-BPO8-8-15-Production-stage1,BPO8-8-15-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,On Hold,F-1-S4,S4,PR-5-TAC,40
-WO-BPO8-8-15-Production-stage2,BPO8-8-15-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,On Hold,F-1-S4,S4,PR-6-ENE,40
-WO-BPO8-8-15-Production-stage2,BPO8-8-15-Production-stage2-P1003-F-1-S4,Production-stage2,Coating,P1003,Coating machines,A41,Cancelled,F-1-S4,S4,PR-4-COC,40
-WO-BPO8-8-16-Production-stage1,BPO8-8-16-Production-stage1-P1003-F-1-S4,Production-stage1,Reactors,P1003,Reactors,,On Hold,F-1-S4,S4,PR-6-RER,40
-WO-BPO8-8-16-Production-stage1,BPO8-8-16-Production-stage1-P1003-F-1-S4,Production-stage1,Distillation equipment,P1003,Distillation equipment,,On Hold,F-1-S4,S4,PR-7-DIE,40
-WO-BPO8-8-16-Production-stage1,BPO8-8-16-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Completed,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-16-Production-stage2,BPO8-8-16-Production-stage2-P1003-F-1-S4,Production-stage2,Filtration,P1003,Filtration machines,A44,Completed,F-1-S4,S4,PR-7-FIF,40
-WO-BPO8-8-16-Production-stage2,BPO8-8-16-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Cancelled,F-1-S4,S4,PR-5-STS,40
-WO-BPO8-8-17-Production-stage1,BPO8-8-17-Production-stage1-P1003-F-1-S4,Production-stage1,Blending,P1003,Blenders,,In Progress,F-1-S4,S4,PR-4-BLB,40
-WO-BPO8-8-17-Production-stage1,BPO8-8-17-Production-stage1-P1003-F-1-S4,Production-stage1,Mixing ingredients,P1003,Mixers,,On Hold,F-1-S4,S4,PR-1-MII,40
-WO-BPO8-8-17-Production-stage1,BPO8-8-17-Production-stage1-P1003-F-1-S4,Production-stage1,Milling,P1003,Mills,,Cancelled,F-1-S4,S4,PR-3-MIM,40
-WO-BPO8-8-17-Production-stage2,BPO8-8-17-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,In Progress,F-1-S4,S4,PR-5-STS,40
-WO-BPO8-8-17-Production-stage2,BPO8-8-17-Production-stage2-P1003-F-1-S4,Production-stage2,Encapsulation,P1003,Encapsulation machines,A42,Planned,F-1-S4,S4,PR-6-ENE,40
-WO-BPO8-8-18-Production-stage1,BPO8-8-18-Production-stage1-P1003-F-1-S4,Production-stage1,Tablet compression,P1003,Tablet presses,A39,Planned,F-1-S4,S4,PR-5-TAC,30
-WO-BPO8-8-18-Production-stage1,BPO8-8-18-Production-stage1-P1003-F-1-S4,Production-stage1,Extraction equipment,P1003,Extraction equipment,,In Progress,F-1-S4,S4,PR-8-EXE,30
-WO-BPO8-8-18-Production-stage1,BPO8-8-18-Production-stage1-P1003-F-1-S4,Production-stage1,Granulation,P1003,Granulators,,On Hold,F-1-S4,S4,PR-2-GRG,30
-WO-BPO8-8-18-Production-stage2,BPO8-8-18-Production-stage2-P1003-F-1-S4,Production-stage2,Capsule filling,P1003,Capsule fillers,A40,Planned,F-1-S4,S4,PR-3-CAF,30
-WO-BPO8-8-18-Production-stage2,BPO8-8-18-Production-stage2-P1003-F-1-S4,Production-stage2,Sterilization,P1003,Sterilizers,A43,Completed,F-1-S4,S4,PR-5-STS,30
-WO-BPO9-9-1-Production-stage1,BPO9-9-1-Production-stage1-P1006-F-1-S1,Production-stage1,Tablet compression,P1006,Tablet presses,,Completed,F-1-S1,S1,PR-5-TAC,90
-WO-BPO9-9-1-Production-stage1,BPO9-9-1-Production-stage1-P1006-F-1-S1,Production-stage1,Mixing ingredients,P1006,Mixers,A1,In Progress,F-1-S1,S1,PR-1-MII,90
-WO-BPO9-9-1-Production-stage1,BPO9-9-1-Production-stage1-P1006-F-1-S1,Production-stage1,Granulation,P1006,Granulators,A2,Cancelled,F-1-S1,S1,PR-2-GRG,90
-WO-BPO9-9-1-Production-stage2,BPO9-9-1-Production-stage2-P1006-F-1-S1,Production-stage2,Tanks,P1006,Tanks,,On Hold,F-1-S1,S1,PR-2-TAT,90
-WO-BPO9-9-1-Production-stage2,BPO9-9-1-Production-stage2-P1006-F-1-S1,Production-stage2,Sterilization,P1006,Sterilizers,,Completed,F-1-S1,S1,PR-5-STS,90
-WO-BPO9-9-2-Production-stage1,BPO9-9-2-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Completed,F-1-S1,S1,PR-8-EXE,90
-WO-BPO9-9-2-Production-stage1,BPO9-9-2-Production-stage1-P1006-F-1-S1,Production-stage1,Reactors,P1006,Reactors,A5,Planned,F-1-S1,S1,PR-6-RER,90
-WO-BPO9-9-2-Production-stage1,BPO9-9-2-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,On Hold,F-1-S1,S1,PR-7-DIE,90
-WO-BPO9-9-2-Production-stage2,BPO9-9-2-Production-stage2-P1006-F-1-S1,Production-stage2,Encapsulation,P1006,Encapsulation machines,,Completed,F-1-S1,S1,PR-6-ENE,90
-WO-BPO9-9-2-Production-stage2,BPO9-9-2-Production-stage2-P1006-F-1-S1,Production-stage2,Sterilization,P1006,Sterilizers,,In Progress,F-1-S1,S1,PR-5-STS,90
-WO-BPO9-9-3-Production-stage1,BPO9-9-3-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,Cancelled,F-1-S1,S1,PR-7-DIE,90
-WO-BPO9-9-3-Production-stage1,BPO9-9-3-Production-stage1-P1006-F-1-S1,Production-stage1,Mixing ingredients,P1006,Mixers,A1,Completed,F-1-S1,S1,PR-1-MII,90
-WO-BPO9-9-3-Production-stage1,BPO9-9-3-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Cancelled,F-1-S1,S1,PR-8-EXE,90
-WO-BPO9-9-3-Production-stage2,BPO9-9-3-Production-stage2-P1006-F-1-S1,Production-stage2,Sterilization,P1006,Sterilizers,,Planned,F-1-S1,S1,PR-5-STS,90
-WO-BPO9-9-3-Production-stage2,BPO9-9-3-Production-stage2-P1006-F-1-S1,Production-stage2,Capsule filling,P1006,Capsule fillers,,Cancelled,F-1-S1,S1,PR-3-CAF,90
-WO-BPO9-9-4-Production-stage1,BPO9-9-4-Production-stage1-P1006-F-1-S1,Production-stage1,Granulation,P1006,Granulators,A2,Planned,F-1-S1,S1,PR-2-GRG,90
-WO-BPO9-9-4-Production-stage1,BPO9-9-4-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Completed,F-1-S1,S1,PR-4-BLB,90
-WO-BPO9-9-4-Production-stage1,BPO9-9-4-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,On Hold,F-1-S1,S1,PR-3-MIM,90
-WO-BPO9-9-4-Production-stage2,BPO9-9-4-Production-stage2-P1006-F-1-S1,Production-stage2,Tanks,P1006,Tanks,,In Progress,F-1-S1,S1,PR-2-TAT,90
-WO-BPO9-9-4-Production-stage2,BPO9-9-4-Production-stage2-P1006-F-1-S1,Production-stage2,Pumps,P1006,Pumps,,Cancelled,F-1-S1,S1,PR-1-PUP,90
-WO-BPO9-9-5-Production-stage1,BPO9-9-5-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,On Hold,F-1-S1,S1,PR-8-EXE,90
-WO-BPO9-9-5-Production-stage1,BPO9-9-5-Production-stage1-P1006-F-1-S1,Production-stage1,Mixing ingredients,P1006,Mixers,A1,On Hold,F-1-S1,S1,PR-1-MII,90
-WO-BPO9-9-5-Production-stage1,BPO9-9-5-Production-stage1-P1006-F-1-S1,Production-stage1,Reactors,P1006,Reactors,A5,In Progress,F-1-S1,S1,PR-6-RER,90
-WO-BPO9-9-5-Production-stage2,BPO9-9-5-Production-stage2-P1006-F-1-S1,Production-stage2,Filtration,P1006,Filtration machines,,Cancelled,F-1-S1,S1,PR-7-FIF,90
-WO-BPO9-9-5-Production-stage2,BPO9-9-5-Production-stage2-P1006-F-1-S1,Production-stage2,Encapsulation,P1006,Encapsulation machines,,Planned,F-1-S1,S1,PR-6-ENE,90
-WO-BPO9-9-6-Production-stage1,BPO9-9-6-Production-stage1-P1006-F-1-S1,Production-stage1,Tablet compression,P1006,Tablet presses,,Completed,F-1-S1,S1,PR-5-TAC,90
-WO-BPO9-9-6-Production-stage1,BPO9-9-6-Production-stage1-P1006-F-1-S1,Production-stage1,Reactors,P1006,Reactors,A5,On Hold,F-1-S1,S1,PR-6-RER,90
-WO-BPO9-9-6-Production-stage1,BPO9-9-6-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,On Hold,F-1-S1,S1,PR-7-DIE,90
-WO-BPO9-9-6-Production-stage2,BPO9-9-6-Production-stage2-P1006-F-1-S1,Production-stage2,Filtration,P1006,Filtration machines,,In Progress,F-1-S1,S1,PR-7-FIF,90
-WO-BPO9-9-6-Production-stage2,BPO9-9-6-Production-stage2-P1006-F-1-S1,Production-stage2,Capsule filling,P1006,Capsule fillers,,On Hold,F-1-S1,S1,PR-3-CAF,90
-WO-BPO9-9-7-Production-stage1,BPO9-9-7-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Completed,F-1-S1,S1,PR-4-BLB,90
-WO-BPO9-9-7-Production-stage1,BPO9-9-7-Production-stage1-P1006-F-1-S1,Production-stage1,Tablet compression,P1006,Tablet presses,,On Hold,F-1-S1,S1,PR-5-TAC,90
-WO-BPO9-9-7-Production-stage1,BPO9-9-7-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Cancelled,F-1-S1,S1,PR-8-EXE,90
-WO-BPO9-9-7-Production-stage2,BPO9-9-7-Production-stage2-P1006-F-1-S1,Production-stage2,Filtration,P1006,Filtration machines,,Planned,F-1-S1,S1,PR-7-FIF,90
-WO-BPO9-9-7-Production-stage2,BPO9-9-7-Production-stage2-P1006-F-1-S1,Production-stage2,Coating,P1006,Coating machines,,Completed,F-1-S1,S1,PR-4-COC,90
-WO-BPO9-9-8-Production-stage1,BPO9-9-8-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Cancelled,F-1-S1,S1,PR-4-BLB,90
-WO-BPO9-9-8-Production-stage1,BPO9-9-8-Production-stage1-P1006-F-1-S1,Production-stage1,Mixing ingredients,P1006,Mixers,A1,Planned,F-1-S1,S1,PR-1-MII,90
-WO-BPO9-9-8-Production-stage1,BPO9-9-8-Production-stage1-P1006-F-1-S1,Production-stage1,Reactors,P1006,Reactors,A5,Cancelled,F-1-S1,S1,PR-6-RER,90
-WO-BPO9-9-8-Production-stage2,BPO9-9-8-Production-stage2-P1006-F-1-S1,Production-stage2,Tanks,P1006,Tanks,,Completed,F-1-S1,S1,PR-2-TAT,90
-WO-BPO9-9-8-Production-stage2,BPO9-9-8-Production-stage2-P1006-F-1-S1,Production-stage2,Encapsulation,P1006,Encapsulation machines,,Cancelled,F-1-S1,S1,PR-6-ENE,90
-WO-BPO9-9-9-Production-stage1,BPO9-9-9-Production-stage1-P1006-F-1-S1,Production-stage1,Tablet compression,P1006,Tablet presses,,On Hold,F-1-S1,S1,PR-5-TAC,40
-WO-BPO9-9-9-Production-stage1,BPO9-9-9-Production-stage1-P1006-F-1-S1,Production-stage1,Granulation,P1006,Granulators,A2,Completed,F-1-S1,S1,PR-2-GRG,40
-WO-BPO9-9-9-Production-stage1,BPO9-9-9-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Cancelled,F-1-S1,S1,PR-4-BLB,40
-WO-BPO9-9-9-Production-stage2,BPO9-9-9-Production-stage2-P1006-F-1-S1,Production-stage2,Tanks,P1006,Tanks,,On Hold,F-1-S1,S1,PR-2-TAT,40
-WO-BPO9-9-9-Production-stage2,BPO9-9-9-Production-stage2-P1006-F-1-S1,Production-stage2,Encapsulation,P1006,Encapsulation machines,,Planned,F-1-S1,S1,PR-6-ENE,40
-WO-BPO10-10-1-Production-stage1,BPO10-10-1-Production-stage1-P1006-F-1-S1,Production-stage1,Granulation,P1006,Granulators,A2,On Hold,F-1-S1,S1,PR-2-GRG,90
-WO-BPO10-10-1-Production-stage1,BPO10-10-1-Production-stage1-P1006-F-1-S1,Production-stage1,Tablet compression,P1006,Tablet presses,,Completed,F-1-S1,S1,PR-5-TAC,90
-WO-BPO10-10-1-Production-stage1,BPO10-10-1-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Cancelled,F-1-S1,S1,PR-4-BLB,90
-WO-BPO10-10-1-Production-stage2,BPO10-10-1-Production-stage2-P1006-F-1-S1,Production-stage2,Sterilization,P1006,Sterilizers,,Cancelled,F-1-S1,S1,PR-5-STS,90
-WO-BPO10-10-1-Production-stage2,BPO10-10-1-Production-stage2-P1006-F-1-S1,Production-stage2,Capsule filling,P1006,Capsule fillers,,On Hold,F-1-S1,S1,PR-3-CAF,90
-WO-BPO10-10-2-Production-stage1,BPO10-10-2-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,Cancelled,F-1-S1,S1,PR-3-MIM,90
-WO-BPO10-10-2-Production-stage1,BPO10-10-2-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,Cancelled,F-1-S1,S1,PR-7-DIE,90
-WO-BPO10-10-2-Production-stage1,BPO10-10-2-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Completed,F-1-S1,S1,PR-8-EXE,90
-WO-BPO10-10-2-Production-stage2,BPO10-10-2-Production-stage2-P1006-F-1-S1,Production-stage2,Pumps,P1006,Pumps,,In Progress,F-1-S1,S1,PR-1-PUP,90
-WO-BPO10-10-2-Production-stage2,BPO10-10-2-Production-stage2-P1006-F-1-S1,Production-stage2,Filtration,P1006,Filtration machines,,On Hold,F-1-S1,S1,PR-7-FIF,90
-WO-BPO10-10-3-Production-stage1,BPO10-10-3-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,In Progress,F-1-S1,S1,PR-4-BLB,90
-WO-BPO10-10-3-Production-stage1,BPO10-10-3-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Completed,F-1-S1,S1,PR-8-EXE,90
-WO-BPO10-10-3-Production-stage1,BPO10-10-3-Production-stage1-P1006-F-1-S1,Production-stage1,Tablet compression,P1006,Tablet presses,,Planned,F-1-S1,S1,PR-5-TAC,90
-WO-BPO10-10-3-Production-stage2,BPO10-10-3-Production-stage2-P1006-F-1-S1,Production-stage2,Pumps,P1006,Pumps,,Cancelled,F-1-S1,S1,PR-1-PUP,90
-WO-BPO10-10-3-Production-stage2,BPO10-10-3-Production-stage2-P1006-F-1-S1,Production-stage2,Sterilization,P1006,Sterilizers,,In Progress,F-1-S1,S1,PR-5-STS,90
-WO-BPO10-10-4-Production-stage1,BPO10-10-4-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Cancelled,F-1-S1,S1,PR-4-BLB,90
-WO-BPO10-10-4-Production-stage1,BPO10-10-4-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,On Hold,F-1-S1,S1,PR-3-MIM,90
-WO-BPO10-10-4-Production-stage1,BPO10-10-4-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Planned,F-1-S1,S1,PR-8-EXE,90
-WO-BPO10-10-4-Production-stage2,BPO10-10-4-Production-stage2-P1006-F-1-S1,Production-stage2,Coating,P1006,Coating machines,,Completed,F-1-S1,S1,PR-4-COC,90
-WO-BPO10-10-4-Production-stage2,BPO10-10-4-Production-stage2-P1006-F-1-S1,Production-stage2,Sterilization,P1006,Sterilizers,,Cancelled,F-1-S1,S1,PR-5-STS,90
-WO-BPO10-10-5-Production-stage1,BPO10-10-5-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,Completed,F-1-S1,S1,PR-7-DIE,90
-WO-BPO10-10-5-Production-stage1,BPO10-10-5-Production-stage1-P1006-F-1-S1,Production-stage1,Reactors,P1006,Reactors,A5,Completed,F-1-S1,S1,PR-6-RER,90
-WO-BPO10-10-5-Production-stage1,BPO10-10-5-Production-stage1-P1006-F-1-S1,Production-stage1,Mixing ingredients,P1006,Mixers,A1,Completed,F-1-S1,S1,PR-1-MII,90
-WO-BPO10-10-5-Production-stage2,BPO10-10-5-Production-stage2-P1006-F-1-S1,Production-stage2,Filtration,P1006,Filtration machines,,Planned,F-1-S1,S1,PR-7-FIF,90
-WO-BPO10-10-5-Production-stage2,BPO10-10-5-Production-stage2-P1006-F-1-S1,Production-stage2,Encapsulation,P1006,Encapsulation machines,,Planned,F-1-S1,S1,PR-6-ENE,90
-WO-BPO10-10-6-Production-stage1,BPO10-10-6-Production-stage1-P1006-F-1-S1,Production-stage1,Granulation,P1006,Granulators,A2,Planned,F-1-S1,S1,PR-2-GRG,90
-WO-BPO10-10-6-Production-stage1,BPO10-10-6-Production-stage1-P1006-F-1-S1,Production-stage1,Tablet compression,P1006,Tablet presses,,On Hold,F-1-S1,S1,PR-5-TAC,90
-WO-BPO10-10-6-Production-stage1,BPO10-10-6-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,In Progress,F-1-S1,S1,PR-3-MIM,90
-WO-BPO10-10-6-Production-stage2,BPO10-10-6-Production-stage2-P1006-F-1-S1,Production-stage2,Encapsulation,P1006,Encapsulation machines,,Cancelled,F-1-S1,S1,PR-6-ENE,90
-WO-BPO10-10-6-Production-stage2,BPO10-10-6-Production-stage2-P1006-F-1-S1,Production-stage2,Capsule filling,P1006,Capsule fillers,,Cancelled,F-1-S1,S1,PR-3-CAF,90
-WO-BPO10-10-7-Production-stage1,BPO10-10-7-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,Completed,F-1-S1,S1,PR-7-DIE,90
-WO-BPO10-10-7-Production-stage1,BPO10-10-7-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Completed,F-1-S1,S1,PR-4-BLB,90
-WO-BPO10-10-7-Production-stage1,BPO10-10-7-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Cancelled,F-1-S1,S1,PR-8-EXE,90
-WO-BPO10-10-7-Production-stage2,BPO10-10-7-Production-stage2-P1006-F-1-S1,Production-stage2,Tanks,P1006,Tanks,,Planned,F-1-S1,S1,PR-2-TAT,90
-WO-BPO10-10-7-Production-stage2,BPO10-10-7-Production-stage2-P1006-F-1-S1,Production-stage2,Filtration,P1006,Filtration machines,,Completed,F-1-S1,S1,PR-7-FIF,90
-WO-BPO10-10-8-Production-stage1,BPO10-10-8-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Planned,F-1-S1,S1,PR-8-EXE,30
-WO-BPO10-10-8-Production-stage1,BPO10-10-8-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,Planned,F-1-S1,S1,PR-3-MIM,30
-WO-BPO10-10-8-Production-stage1,BPO10-10-8-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Completed,F-1-S1,S1,PR-4-BLB,30
-WO-BPO10-10-8-Production-stage2,BPO10-10-8-Production-stage2-P1006-F-1-S1,Production-stage2,Filtration,P1006,Filtration machines,,In Progress,F-1-S1,S1,PR-7-FIF,30
-WO-BPO10-10-8-Production-stage2,BPO10-10-8-Production-stage2-P1006-F-1-S1,Production-stage2,Coating,P1006,Coating machines,,In Progress,F-1-S1,S1,PR-4-COC,30
+WO-BPO1-1-1-Production-stage1,BPO1-1-1-Production-stage1-P1006-F-1-S1,Production-stage1,Mixing ingredients,P1006,Mixers,A1,Planned,F-1-S1,S1,PR-1-MII,90
+WO-BPO1-1-1-Production-stage1,BPO1-1-1-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,Completed,F-1-S1,S1,PR-7-DIE,90
+WO-BPO1-1-2-Production-stage1,BPO1-1-2-Production-stage1-P1006-F-1-S1,Production-stage1,Granulation,P1006,Granulators,A2,In Progress,F-1-S1,S1,PR-2-GRG,90
+WO-BPO1-1-2-Production-stage1,BPO1-1-2-Production-stage1-P1006-F-1-S1,Production-stage1,Reactors,P1006,Reactors,A5,Planned,F-1-S1,S1,PR-6-RER,90
+WO-BPO1-1-3-Production-stage1,BPO1-1-3-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,On Hold,F-1-S1,S1,PR-4-BLB,90
+WO-BPO1-1-3-Production-stage1,BPO1-1-3-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,On Hold,F-1-S1,S1,PR-3-MIM,90
+WO-BPO1-1-3-Production-stage1,BPO1-1-3-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,Completed,F-1-S1,S1,PR-8-EXE,90
+WO-BPO1-1-4-Production-stage1,BPO1-1-4-Production-stage1-P1006-F-1-S1,Production-stage1,Extraction equipment,P1006,Extraction equipment,A7,In Progress,F-1-S1,S1,PR-8-EXE,90
+WO-BPO1-1-4-Production-stage1,BPO1-1-4-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,On Hold,F-1-S1,S1,PR-3-MIM,90
+WO-BPO1-1-4-Production-stage1,BPO1-1-4-Production-stage1-P1006-F-1-S1,Production-stage1,Reactors,P1006,Reactors,A5,In Progress,F-1-S1,S1,PR-6-RER,90
+WO-BPO1-1-5-Production-stage1,BPO1-1-5-Production-stage1-P1006-F-1-S1,Production-stage1,Granulation,P1006,Granulators,A2,On Hold,F-1-S1,S1,PR-2-GRG,90
+WO-BPO1-1-5-Production-stage1,BPO1-1-5-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,Planned,F-1-S1,S1,PR-7-DIE,90
+WO-BPO1-1-6-Production-stage1,BPO1-1-6-Production-stage1-P1006-F-1-S1,Production-stage1,Milling,P1006,Mills,A3,Cancelled,F-1-S1,S1,PR-3-MIM,80
+WO-BPO1-1-6-Production-stage1,BPO1-1-6-Production-stage1-P1006-F-1-S1,Production-stage1,Distillation equipment,P1006,Distillation equipment,A6,Planned,F-1-S1,S1,PR-7-DIE,80
+WO-BPO1-1-6-Production-stage1,BPO1-1-6-Production-stage1-P1006-F-1-S1,Production-stage1,Blending,P1006,Blenders,A4,Cancelled,F-1-S1,S1,PR-4-BLB,80
+WO-BPO2-2-1-Production-stage1,BPO2-2-1-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,70
+WO-BPO2-2-1-Production-stage1,BPO2-2-1-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,70
+WO-BPO2-2-1-Production-stage1,BPO2-2-1-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,Cancelled,F-1-S3,S3,PR-6-RER,70
+WO-BPO2-2-2-Production-stage1,BPO2-2-2-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,70
+WO-BPO2-2-2-Production-stage1,BPO2-2-2-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,70
+WO-BPO2-2-2-Production-stage1,BPO2-2-2-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,In Progress,F-1-S3,S3,PR-8-EXE,70
+WO-BPO2-2-3-Production-stage1,BPO2-2-3-Production-stage1-P1002-F-1-S3,Production-stage1,Distillation equipment,P1002,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,70
+WO-BPO2-2-3-Production-stage1,BPO2-2-3-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,70
+WO-BPO2-2-3-Production-stage1,BPO2-2-3-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,70
+WO-BPO2-2-4-Production-stage1,BPO2-2-4-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,70
+WO-BPO2-2-4-Production-stage1,BPO2-2-4-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,70
+WO-BPO2-2-4-Production-stage1,BPO2-2-4-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,70
+WO-BPO2-2-5-Production-stage1,BPO2-2-5-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,70
+WO-BPO2-2-5-Production-stage1,BPO2-2-5-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,70
+WO-BPO2-2-5-Production-stage1,BPO2-2-5-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,70
+WO-BPO2-2-6-Production-stage1,BPO2-2-6-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,70
+WO-BPO2-2-6-Production-stage1,BPO2-2-6-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,70
+WO-BPO2-2-6-Production-stage1,BPO2-2-6-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,70
+WO-BPO2-2-7-Production-stage1,BPO2-2-7-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,70
+WO-BPO2-2-7-Production-stage1,BPO2-2-7-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,70
+WO-BPO2-2-7-Production-stage1,BPO2-2-7-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,Completed,F-1-S3,S3,PR-3-MIM,70
+WO-BPO2-2-8-Production-stage1,BPO2-2-8-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,70
+WO-BPO2-2-8-Production-stage1,BPO2-2-8-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,70
+WO-BPO2-2-9-Production-stage1,BPO2-2-9-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,70
+WO-BPO2-2-9-Production-stage1,BPO2-2-9-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,Planned,F-1-S3,S3,PR-8-EXE,70
+WO-BPO2-2-10-Production-stage1,BPO2-2-10-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,Completed,F-1-S3,S3,PR-4-BLB,70
+WO-BPO2-2-10-Production-stage1,BPO2-2-10-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,70
+WO-BPO2-2-10-Production-stage1,BPO2-2-10-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,70
+WO-BPO3-3-1-Production-stage2,BPO3-3-1-Production-stage2-P1008-F-1-S4,Production-stage2,Tanks,P1008,Tanks,A46,In Progress,F-1-S4,S4,PR-2-TAT,80
+WO-BPO3-3-1-Production-stage2,BPO3-3-1-Production-stage2-P1008-F-1-S4,Production-stage2,Pumps,P1008,Pumps,A45,Completed,F-1-S4,S4,PR-1-PUP,80
+WO-BPO3-3-1-QMS,BPO3-3-1-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,In Progress,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-2-Production-stage2,BPO3-3-2-Production-stage2-P1008-F-1-S4,Production-stage2,Tanks,P1008,Tanks,A46,In Progress,F-1-S4,S4,PR-2-TAT,80
+WO-BPO3-3-2-Production-stage2,BPO3-3-2-Production-stage2-P1008-F-1-S4,Production-stage2,Capsule filling,P1008,Capsule fillers,A40,Planned,F-1-S4,S4,PR-3-CAF,80
+WO-BPO3-3-2-QMS,BPO3-3-2-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,In Progress,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-3-Production-stage2,BPO3-3-3-Production-stage2-P1008-F-1-S4,Production-stage2,Capsule filling,P1008,Capsule fillers,A40,Cancelled,F-1-S4,S4,PR-3-CAF,80
+WO-BPO3-3-3-Production-stage2,BPO3-3-3-Production-stage2-P1008-F-1-S4,Production-stage2,Filtration,P1008,Filtration machines,A44,Cancelled,F-1-S4,S4,PR-7-FIF,80
+WO-BPO3-3-3-QMS,BPO3-3-3-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,On Hold,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-4-Production-stage1,BPO3-3-4-Production-stage1-P1008-F-1-S4,Production-stage1,Tablet compression,P1008,Tablet presses,A39,Planned,F-1-S4,S4,PR-5-TAC,80
+WO-BPO3-3-4-Production-stage2,BPO3-3-4-Production-stage2-P1008-F-1-S4,Production-stage2,Filtration,P1008,Filtration machines,A44,Cancelled,F-1-S4,S4,PR-7-FIF,80
+WO-BPO3-3-4-Production-stage2,BPO3-3-4-Production-stage2-P1008-F-1-S4,Production-stage2,Tanks,P1008,Tanks,A46,Planned,F-1-S4,S4,PR-2-TAT,80
+WO-BPO3-3-4-QMS,BPO3-3-4-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,Completed,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-5-Production-stage1,BPO3-3-5-Production-stage1-P1008-F-1-S4,Production-stage1,Tablet compression,P1008,Tablet presses,A39,In Progress,F-1-S4,S4,PR-5-TAC,80
+WO-BPO3-3-5-Production-stage2,BPO3-3-5-Production-stage2-P1008-F-1-S4,Production-stage2,Tanks,P1008,Tanks,A46,In Progress,F-1-S4,S4,PR-2-TAT,80
+WO-BPO3-3-5-Production-stage2,BPO3-3-5-Production-stage2-P1008-F-1-S4,Production-stage2,Encapsulation,P1008,Encapsulation machines,A42,In Progress,F-1-S4,S4,PR-6-ENE,80
+WO-BPO3-3-5-QMS,BPO3-3-5-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,Completed,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-6-Production-stage1,BPO3-3-6-Production-stage1-P1008-F-1-S4,Production-stage1,Tablet compression,P1008,Tablet presses,A39,Cancelled,F-1-S4,S4,PR-5-TAC,80
+WO-BPO3-3-6-Production-stage2,BPO3-3-6-Production-stage2-P1008-F-1-S4,Production-stage2,Capsule filling,P1008,Capsule fillers,A40,On Hold,F-1-S4,S4,PR-3-CAF,80
+WO-BPO3-3-6-Production-stage2,BPO3-3-6-Production-stage2-P1008-F-1-S4,Production-stage2,Pumps,P1008,Pumps,A45,Cancelled,F-1-S4,S4,PR-1-PUP,80
+WO-BPO3-3-6-QMS,BPO3-3-6-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,On Hold,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-7-Production-stage1,BPO3-3-7-Production-stage1-P1008-F-1-S4,Production-stage1,Tablet compression,P1008,Tablet presses,A39,In Progress,F-1-S4,S4,PR-5-TAC,80
+WO-BPO3-3-7-Production-stage2,BPO3-3-7-Production-stage2-P1008-F-1-S4,Production-stage2,Pumps,P1008,Pumps,A45,On Hold,F-1-S4,S4,PR-1-PUP,80
+WO-BPO3-3-7-Production-stage2,BPO3-3-7-Production-stage2-P1008-F-1-S4,Production-stage2,Sterilization,P1008,Sterilizers,A43,Cancelled,F-1-S4,S4,PR-5-STS,80
+WO-BPO3-3-7-QMS,BPO3-3-7-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,In Progress,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-8-Production-stage1,BPO3-3-8-Production-stage1-P1008-F-1-S4,Production-stage1,Tablet compression,P1008,Tablet presses,A39,Planned,F-1-S4,S4,PR-5-TAC,80
+WO-BPO3-3-8-Production-stage2,BPO3-3-8-Production-stage2-P1008-F-1-S4,Production-stage2,Capsule filling,P1008,Capsule fillers,A40,Cancelled,F-1-S4,S4,PR-3-CAF,80
+WO-BPO3-3-8-Production-stage2,BPO3-3-8-Production-stage2-P1008-F-1-S4,Production-stage2,Encapsulation,P1008,Encapsulation machines,A42,On Hold,F-1-S4,S4,PR-6-ENE,80
+WO-BPO3-3-8-QMS,BPO3-3-8-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,On Hold,F-1-S4,S4,QM-1-CAC,80
+WO-BPO3-3-9-Production-stage1,BPO3-3-9-Production-stage1-P1008-F-1-S4,Production-stage1,Tablet compression,P1008,Tablet presses,A39,In Progress,F-1-S4,S4,PR-5-TAC,20
+WO-BPO3-3-9-Production-stage2,BPO3-3-9-Production-stage2-P1008-F-1-S4,Production-stage2,Encapsulation,P1008,Encapsulation machines,A42,On Hold,F-1-S4,S4,PR-6-ENE,20
+WO-BPO3-3-9-Production-stage2,BPO3-3-9-Production-stage2-P1008-F-1-S4,Production-stage2,Filtration,P1008,Filtration machines,A44,Completed,F-1-S4,S4,PR-7-FIF,20
+WO-BPO3-3-9-QMS,BPO3-3-9-QMS-P1008-F-1-S4,QMS,Calibration,P1008,Calibrator,A47,Cancelled,F-1-S4,S4,QM-1-CAC,20
+WO-BPO4-4-1-Production-stage2,BPO4-4-1-Production-stage2-P1001-F-1-S8,Production-stage2,Tanks,P1001,Tanks,A98,Cancelled,F-1-S8,S8,PR-2-TAT,80
+WO-BPO4-4-1-Production-stage2,BPO4-4-1-Production-stage2-P1001-F-1-S8,Production-stage2,Coating,P1001,Coating machines,A93,Planned,F-1-S8,S8,PR-4-COC,80
+WO-BPO4-4-1-QMS,BPO4-4-1-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,On Hold,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-2-Production-stage2,BPO4-4-2-Production-stage2-P1001-F-1-S8,Production-stage2,Sterilization,P1001,Sterilizers,A95,In Progress,F-1-S8,S8,PR-5-STS,80
+WO-BPO4-4-2-Production-stage2,BPO4-4-2-Production-stage2-P1001-F-1-S8,Production-stage2,Encapsulation,P1001,Encapsulation machines,A94,Cancelled,F-1-S8,S8,PR-6-ENE,80
+WO-BPO4-4-2-QMS,BPO4-4-2-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Completed,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-3-Production-stage1,BPO4-4-3-Production-stage1-P1001-F-1-S8,Production-stage1,Tablet compression,P1001,Tablet presses,A91,Planned,F-1-S8,S8,PR-5-TAC,80
+WO-BPO4-4-3-Production-stage2,BPO4-4-3-Production-stage2-P1001-F-1-S8,Production-stage2,Tanks,P1001,Tanks,A98,Planned,F-1-S8,S8,PR-2-TAT,80
+WO-BPO4-4-3-Production-stage2,BPO4-4-3-Production-stage2-P1001-F-1-S8,Production-stage2,Filtration,P1001,Filtration machines,A96,Cancelled,F-1-S8,S8,PR-7-FIF,80
+WO-BPO4-4-3-QMS,BPO4-4-3-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Completed,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-4-Production-stage2,BPO4-4-4-Production-stage2-P1001-F-1-S8,Production-stage2,Coating,P1001,Coating machines,A93,Planned,F-1-S8,S8,PR-4-COC,80
+WO-BPO4-4-4-Production-stage2,BPO4-4-4-Production-stage2-P1001-F-1-S8,Production-stage2,Pumps,P1001,Pumps,A97,Planned,F-1-S8,S8,PR-1-PUP,80
+WO-BPO4-4-4-QMS,BPO4-4-4-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Planned,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-5-Production-stage2,BPO4-4-5-Production-stage2-P1001-F-1-S8,Production-stage2,Encapsulation,P1001,Encapsulation machines,A94,Cancelled,F-1-S8,S8,PR-6-ENE,80
+WO-BPO4-4-5-Production-stage2,BPO4-4-5-Production-stage2-P1001-F-1-S8,Production-stage2,Sterilization,P1001,Sterilizers,A95,Completed,F-1-S8,S8,PR-5-STS,80
+WO-BPO4-4-5-QMS,BPO4-4-5-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Cancelled,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-6-Production-stage1,BPO4-4-6-Production-stage1-P1001-F-1-S8,Production-stage1,Tablet compression,P1001,Tablet presses,A91,On Hold,F-1-S8,S8,PR-5-TAC,80
+WO-BPO4-4-6-Production-stage2,BPO4-4-6-Production-stage2-P1001-F-1-S8,Production-stage2,Coating,P1001,Coating machines,A93,On Hold,F-1-S8,S8,PR-4-COC,80
+WO-BPO4-4-6-Production-stage2,BPO4-4-6-Production-stage2-P1001-F-1-S8,Production-stage2,Encapsulation,P1001,Encapsulation machines,A94,In Progress,F-1-S8,S8,PR-6-ENE,80
+WO-BPO4-4-6-QMS,BPO4-4-6-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Planned,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-7-Production-stage1,BPO4-4-7-Production-stage1-P1001-F-1-S8,Production-stage1,Tablet compression,P1001,Tablet presses,A91,On Hold,F-1-S8,S8,PR-5-TAC,80
+WO-BPO4-4-7-Production-stage2,BPO4-4-7-Production-stage2-P1001-F-1-S8,Production-stage2,Sterilization,P1001,Sterilizers,A95,In Progress,F-1-S8,S8,PR-5-STS,80
+WO-BPO4-4-7-Production-stage2,BPO4-4-7-Production-stage2-P1001-F-1-S8,Production-stage2,Capsule filling,P1001,Capsule fillers,A92,Completed,F-1-S8,S8,PR-3-CAF,80
+WO-BPO4-4-7-QMS,BPO4-4-7-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Completed,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-8-Production-stage2,BPO4-4-8-Production-stage2-P1001-F-1-S8,Production-stage2,Pumps,P1001,Pumps,A97,In Progress,F-1-S8,S8,PR-1-PUP,80
+WO-BPO4-4-8-Production-stage2,BPO4-4-8-Production-stage2-P1001-F-1-S8,Production-stage2,Sterilization,P1001,Sterilizers,A95,In Progress,F-1-S8,S8,PR-5-STS,80
+WO-BPO4-4-8-QMS,BPO4-4-8-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Completed,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-9-Production-stage2,BPO4-4-9-Production-stage2-P1001-F-1-S8,Production-stage2,Sterilization,P1001,Sterilizers,A95,Completed,F-1-S8,S8,PR-5-STS,80
+WO-BPO4-4-9-Production-stage2,BPO4-4-9-Production-stage2-P1001-F-1-S8,Production-stage2,Capsule filling,P1001,Capsule fillers,A92,In Progress,F-1-S8,S8,PR-3-CAF,80
+WO-BPO4-4-9-QMS,BPO4-4-9-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,On Hold,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-10-Production-stage2,BPO4-4-10-Production-stage2-P1001-F-1-S8,Production-stage2,Filtration,P1001,Filtration machines,A96,On Hold,F-1-S8,S8,PR-7-FIF,80
+WO-BPO4-4-10-Production-stage2,BPO4-4-10-Production-stage2-P1001-F-1-S8,Production-stage2,Capsule filling,P1001,Capsule fillers,A92,Cancelled,F-1-S8,S8,PR-3-CAF,80
+WO-BPO4-4-10-QMS,BPO4-4-10-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,On Hold,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-11-Production-stage1,BPO4-4-11-Production-stage1-P1001-F-1-S8,Production-stage1,Tablet compression,P1001,Tablet presses,A91,Cancelled,F-1-S8,S8,PR-5-TAC,80
+WO-BPO4-4-11-Production-stage2,BPO4-4-11-Production-stage2-P1001-F-1-S8,Production-stage2,Encapsulation,P1001,Encapsulation machines,A94,In Progress,F-1-S8,S8,PR-6-ENE,80
+WO-BPO4-4-11-Production-stage2,BPO4-4-11-Production-stage2-P1001-F-1-S8,Production-stage2,Filtration,P1001,Filtration machines,A96,Cancelled,F-1-S8,S8,PR-7-FIF,80
+WO-BPO4-4-11-QMS,BPO4-4-11-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,Completed,F-1-S8,S8,QM-1-CAC,80
+WO-BPO4-4-12-Production-stage2,BPO4-4-12-Production-stage2-P1001-F-1-S8,Production-stage2,Encapsulation,P1001,Encapsulation machines,A94,Planned,F-1-S8,S8,PR-6-ENE,50
+WO-BPO4-4-12-Production-stage2,BPO4-4-12-Production-stage2-P1001-F-1-S8,Production-stage2,Tanks,P1001,Tanks,A98,In Progress,F-1-S8,S8,PR-2-TAT,50
+WO-BPO4-4-12-QMS,BPO4-4-12-QMS-P1001-F-1-S8,QMS,Calibration,P1001,Calibrator,A99,On Hold,F-1-S8,S8,QM-1-CAC,50
+WO-BPO5-5-1-Production-stage2,BPO5-5-1-Production-stage2-P1003-F-1-S2,Production-stage2,Sterilization,P1003,Sterilizers,A17,On Hold,F-1-S2,S2,PR-5-STS,60
+WO-BPO5-5-1-Production-stage2,BPO5-5-1-Production-stage2-P1003-F-1-S2,Production-stage2,Encapsulation,P1003,Encapsulation machines,A16,Planned,F-1-S2,S2,PR-6-ENE,60
+WO-BPO5-5-1-QMS,BPO5-5-1-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-2-Production-stage1,BPO5-5-2-Production-stage1-P1003-F-1-S2,Production-stage1,Tablet compression,P1003,Tablet presses,A13,Planned,F-1-S2,S2,PR-5-TAC,60
+WO-BPO5-5-2-Production-stage2,BPO5-5-2-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Cancelled,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-2-Production-stage2,BPO5-5-2-Production-stage2-P1003-F-1-S2,Production-stage2,Sterilization,P1003,Sterilizers,A17,Cancelled,F-1-S2,S2,PR-5-STS,60
+WO-BPO5-5-2-QMS,BPO5-5-2-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-3-Production-stage2,BPO5-5-3-Production-stage2-P1003-F-1-S2,Production-stage2,Sterilization,P1003,Sterilizers,A17,In Progress,F-1-S2,S2,PR-5-STS,60
+WO-BPO5-5-3-Production-stage2,BPO5-5-3-Production-stage2-P1003-F-1-S2,Production-stage2,Capsule filling,P1003,Capsule fillers,A14,Cancelled,F-1-S2,S2,PR-3-CAF,60
+WO-BPO5-5-3-QMS,BPO5-5-3-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-4-Production-stage2,BPO5-5-4-Production-stage2-P1003-F-1-S2,Production-stage2,Tanks,P1003,Tanks,A20,On Hold,F-1-S2,S2,PR-2-TAT,60
+WO-BPO5-5-4-Production-stage2,BPO5-5-4-Production-stage2-P1003-F-1-S2,Production-stage2,Encapsulation,P1003,Encapsulation machines,A16,Planned,F-1-S2,S2,PR-6-ENE,60
+WO-BPO5-5-4-QMS,BPO5-5-4-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-5-Production-stage2,BPO5-5-5-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Planned,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-5-Production-stage2,BPO5-5-5-Production-stage2-P1003-F-1-S2,Production-stage2,Coating,P1003,Coating machines,A15,Cancelled,F-1-S2,S2,PR-4-COC,60
+WO-BPO5-5-5-QMS,BPO5-5-5-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,On Hold,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-6-Production-stage1,BPO5-5-6-Production-stage1-P1003-F-1-S2,Production-stage1,Tablet compression,P1003,Tablet presses,A13,On Hold,F-1-S2,S2,PR-5-TAC,60
+WO-BPO5-5-6-Production-stage2,BPO5-5-6-Production-stage2-P1003-F-1-S2,Production-stage2,Encapsulation,P1003,Encapsulation machines,A16,Completed,F-1-S2,S2,PR-6-ENE,60
+WO-BPO5-5-6-Production-stage2,BPO5-5-6-Production-stage2-P1003-F-1-S2,Production-stage2,Tanks,P1003,Tanks,A20,Completed,F-1-S2,S2,PR-2-TAT,60
+WO-BPO5-5-6-QMS,BPO5-5-6-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,On Hold,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-7-Production-stage2,BPO5-5-7-Production-stage2-P1003-F-1-S2,Production-stage2,Encapsulation,P1003,Encapsulation machines,A16,Cancelled,F-1-S2,S2,PR-6-ENE,60
+WO-BPO5-5-7-Production-stage2,BPO5-5-7-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Completed,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-7-QMS,BPO5-5-7-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-8-Production-stage2,BPO5-5-8-Production-stage2-P1003-F-1-S2,Production-stage2,Tanks,P1003,Tanks,A20,Planned,F-1-S2,S2,PR-2-TAT,60
+WO-BPO5-5-8-Production-stage2,BPO5-5-8-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Completed,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-8-QMS,BPO5-5-8-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-9-Production-stage2,BPO5-5-9-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,In Progress,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-9-Production-stage2,BPO5-5-9-Production-stage2-P1003-F-1-S2,Production-stage2,Filtration,P1003,Filtration machines,A18,In Progress,F-1-S2,S2,PR-7-FIF,60
+WO-BPO5-5-9-QMS,BPO5-5-9-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-10-Production-stage2,BPO5-5-10-Production-stage2-P1003-F-1-S2,Production-stage2,Coating,P1003,Coating machines,A15,In Progress,F-1-S2,S2,PR-4-COC,60
+WO-BPO5-5-10-Production-stage2,BPO5-5-10-Production-stage2-P1003-F-1-S2,Production-stage2,Sterilization,P1003,Sterilizers,A17,Planned,F-1-S2,S2,PR-5-STS,60
+WO-BPO5-5-10-QMS,BPO5-5-10-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-11-Production-stage2,BPO5-5-11-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Planned,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-11-Production-stage2,BPO5-5-11-Production-stage2-P1003-F-1-S2,Production-stage2,Sterilization,P1003,Sterilizers,A17,Completed,F-1-S2,S2,PR-5-STS,60
+WO-BPO5-5-11-QMS,BPO5-5-11-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-12-Production-stage1,BPO5-5-12-Production-stage1-P1003-F-1-S2,Production-stage1,Tablet compression,P1003,Tablet presses,A13,Cancelled,F-1-S2,S2,PR-5-TAC,60
+WO-BPO5-5-12-Production-stage2,BPO5-5-12-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Planned,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-12-Production-stage2,BPO5-5-12-Production-stage2-P1003-F-1-S2,Production-stage2,Filtration,P1003,Filtration machines,A18,Cancelled,F-1-S2,S2,PR-7-FIF,60
+WO-BPO5-5-12-QMS,BPO5-5-12-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-13-Production-stage2,BPO5-5-13-Production-stage2-P1003-F-1-S2,Production-stage2,Filtration,P1003,Filtration machines,A18,Completed,F-1-S2,S2,PR-7-FIF,60
+WO-BPO5-5-13-Production-stage2,BPO5-5-13-Production-stage2-P1003-F-1-S2,Production-stage2,Capsule filling,P1003,Capsule fillers,A14,Cancelled,F-1-S2,S2,PR-3-CAF,60
+WO-BPO5-5-13-QMS,BPO5-5-13-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-14-Production-stage1,BPO5-5-14-Production-stage1-P1003-F-1-S2,Production-stage1,Tablet compression,P1003,Tablet presses,A13,On Hold,F-1-S2,S2,PR-5-TAC,60
+WO-BPO5-5-14-Production-stage2,BPO5-5-14-Production-stage2-P1003-F-1-S2,Production-stage2,Coating,P1003,Coating machines,A15,Completed,F-1-S2,S2,PR-4-COC,60
+WO-BPO5-5-14-Production-stage2,BPO5-5-14-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Completed,F-1-S2,S2,PR-1-PUP,60
+WO-BPO5-5-14-QMS,BPO5-5-14-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,60
+WO-BPO5-5-15-Production-stage2,BPO5-5-15-Production-stage2-P1003-F-1-S2,Production-stage2,Sterilization,P1003,Sterilizers,A17,Completed,F-1-S2,S2,PR-5-STS,40
+WO-BPO5-5-15-Production-stage2,BPO5-5-15-Production-stage2-P1003-F-1-S2,Production-stage2,Pumps,P1003,Pumps,A19,Planned,F-1-S2,S2,PR-1-PUP,40
+WO-BPO5-5-15-QMS,BPO5-5-15-QMS-P1003-F-1-S2,QMS,Calibration,P1003,Calibrator,A21,On Hold,F-1-S2,S2,QM-1-CAC,40
+WO-BPO6-6-1-Production-stage1,BPO6-6-1-Production-stage1-P1002-F-1-S3,Production-stage1,Distillation equipment,P1002,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,70
+WO-BPO6-6-1-Production-stage1,BPO6-6-1-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,70
+WO-BPO6-6-2-Production-stage1,BPO6-6-2-Production-stage1-P1002-F-1-S3,Production-stage1,Distillation equipment,P1002,Distillation equipment,A32,On Hold,F-1-S3,S3,PR-7-DIE,70
+WO-BPO6-6-2-Production-stage1,BPO6-6-2-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,70
+WO-BPO6-6-2-Production-stage1,BPO6-6-2-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,70
+WO-BPO6-6-3-Production-stage1,BPO6-6-3-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,70
+WO-BPO6-6-3-Production-stage1,BPO6-6-3-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,Cancelled,F-1-S3,S3,PR-8-EXE,70
+WO-BPO6-6-4-Production-stage1,BPO6-6-4-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,70
+WO-BPO6-6-4-Production-stage1,BPO6-6-4-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,70
+WO-BPO6-6-5-Production-stage1,BPO6-6-5-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,70
+WO-BPO6-6-5-Production-stage1,BPO6-6-5-Production-stage1-P1002-F-1-S3,Production-stage1,Reactors,P1002,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,70
+WO-BPO6-6-6-Production-stage1,BPO6-6-6-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,70
+WO-BPO6-6-6-Production-stage1,BPO6-6-6-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,70
+WO-BPO6-6-7-Production-stage1,BPO6-6-7-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,70
+WO-BPO6-6-7-Production-stage1,BPO6-6-7-Production-stage1-P1002-F-1-S3,Production-stage1,Blending,P1002,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,70
+WO-BPO6-6-8-Production-stage1,BPO6-6-8-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,70
+WO-BPO6-6-8-Production-stage1,BPO6-6-8-Production-stage1-P1002-F-1-S3,Production-stage1,Milling,P1002,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,70
+WO-BPO6-6-8-Production-stage1,BPO6-6-8-Production-stage1-P1002-F-1-S3,Production-stage1,Mixing ingredients,P1002,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,70
+WO-BPO6-6-9-Production-stage1,BPO6-6-9-Production-stage1-P1002-F-1-S3,Production-stage1,Distillation equipment,P1002,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,60
+WO-BPO6-6-9-Production-stage1,BPO6-6-9-Production-stage1-P1002-F-1-S3,Production-stage1,Extraction equipment,P1002,Extraction equipment,A33,In Progress,F-1-S3,S3,PR-8-EXE,60
+WO-BPO6-6-9-Production-stage1,BPO6-6-9-Production-stage1-P1002-F-1-S3,Production-stage1,Granulation,P1002,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,60
+WO-BPO7-7-1-Production-stage2,BPO7-7-1-Production-stage2-P1009-F-1-S2,Production-stage2,Encapsulation,P1009,Encapsulation machines,A16,In Progress,F-1-S2,S2,PR-6-ENE,50
+WO-BPO7-7-1-Production-stage2,BPO7-7-1-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,In Progress,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-1-QMS,BPO7-7-1-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-2-Production-stage2,BPO7-7-2-Production-stage2-P1009-F-1-S2,Production-stage2,Encapsulation,P1009,Encapsulation machines,A16,On Hold,F-1-S2,S2,PR-6-ENE,50
+WO-BPO7-7-2-Production-stage2,BPO7-7-2-Production-stage2-P1009-F-1-S2,Production-stage2,Sterilization,P1009,Sterilizers,A17,In Progress,F-1-S2,S2,PR-5-STS,50
+WO-BPO7-7-2-QMS,BPO7-7-2-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-3-Production-stage2,BPO7-7-3-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,Planned,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-3-Production-stage2,BPO7-7-3-Production-stage2-P1009-F-1-S2,Production-stage2,Sterilization,P1009,Sterilizers,A17,Completed,F-1-S2,S2,PR-5-STS,50
+WO-BPO7-7-3-QMS,BPO7-7-3-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-4-Production-stage2,BPO7-7-4-Production-stage2-P1009-F-1-S2,Production-stage2,Sterilization,P1009,Sterilizers,A17,In Progress,F-1-S2,S2,PR-5-STS,50
+WO-BPO7-7-4-Production-stage2,BPO7-7-4-Production-stage2-P1009-F-1-S2,Production-stage2,Filtration,P1009,Filtration machines,A18,Completed,F-1-S2,S2,PR-7-FIF,50
+WO-BPO7-7-4-QMS,BPO7-7-4-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-5-Production-stage2,BPO7-7-5-Production-stage2-P1009-F-1-S2,Production-stage2,Coating,P1009,Coating machines,A15,Completed,F-1-S2,S2,PR-4-COC,50
+WO-BPO7-7-5-Production-stage2,BPO7-7-5-Production-stage2-P1009-F-1-S2,Production-stage2,Filtration,P1009,Filtration machines,A18,Planned,F-1-S2,S2,PR-7-FIF,50
+WO-BPO7-7-5-QMS,BPO7-7-5-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-6-Production-stage2,BPO7-7-6-Production-stage2-P1009-F-1-S2,Production-stage2,Tanks,P1009,Tanks,A20,In Progress,F-1-S2,S2,PR-2-TAT,50
+WO-BPO7-7-6-Production-stage2,BPO7-7-6-Production-stage2-P1009-F-1-S2,Production-stage2,Coating,P1009,Coating machines,A15,In Progress,F-1-S2,S2,PR-4-COC,50
+WO-BPO7-7-6-QMS,BPO7-7-6-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-7-Production-stage1,BPO7-7-7-Production-stage1-P1009-F-1-S2,Production-stage1,Tablet compression,P1009,Tablet presses,A13,Cancelled,F-1-S2,S2,PR-5-TAC,50
+WO-BPO7-7-7-Production-stage2,BPO7-7-7-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,Completed,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-7-Production-stage2,BPO7-7-7-Production-stage2-P1009-F-1-S2,Production-stage2,Filtration,P1009,Filtration machines,A18,Completed,F-1-S2,S2,PR-7-FIF,50
+WO-BPO7-7-7-QMS,BPO7-7-7-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-8-Production-stage1,BPO7-7-8-Production-stage1-P1009-F-1-S2,Production-stage1,Tablet compression,P1009,Tablet presses,A13,Completed,F-1-S2,S2,PR-5-TAC,50
+WO-BPO7-7-8-Production-stage2,BPO7-7-8-Production-stage2-P1009-F-1-S2,Production-stage2,Filtration,P1009,Filtration machines,A18,In Progress,F-1-S2,S2,PR-7-FIF,50
+WO-BPO7-7-8-Production-stage2,BPO7-7-8-Production-stage2-P1009-F-1-S2,Production-stage2,Pumps,P1009,Pumps,A19,On Hold,F-1-S2,S2,PR-1-PUP,50
+WO-BPO7-7-8-QMS,BPO7-7-8-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-9-Production-stage2,BPO7-7-9-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,Planned,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-9-Production-stage2,BPO7-7-9-Production-stage2-P1009-F-1-S2,Production-stage2,Tanks,P1009,Tanks,A20,In Progress,F-1-S2,S2,PR-2-TAT,50
+WO-BPO7-7-9-QMS,BPO7-7-9-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-10-Production-stage1,BPO7-7-10-Production-stage1-P1009-F-1-S2,Production-stage1,Tablet compression,P1009,Tablet presses,A13,Cancelled,F-1-S2,S2,PR-5-TAC,50
+WO-BPO7-7-10-Production-stage2,BPO7-7-10-Production-stage2-P1009-F-1-S2,Production-stage2,Tanks,P1009,Tanks,A20,On Hold,F-1-S2,S2,PR-2-TAT,50
+WO-BPO7-7-10-Production-stage2,BPO7-7-10-Production-stage2-P1009-F-1-S2,Production-stage2,Sterilization,P1009,Sterilizers,A17,Completed,F-1-S2,S2,PR-5-STS,50
+WO-BPO7-7-10-QMS,BPO7-7-10-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,On Hold,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-11-Production-stage2,BPO7-7-11-Production-stage2-P1009-F-1-S2,Production-stage2,Coating,P1009,Coating machines,A15,On Hold,F-1-S2,S2,PR-4-COC,50
+WO-BPO7-7-11-Production-stage2,BPO7-7-11-Production-stage2-P1009-F-1-S2,Production-stage2,Pumps,P1009,Pumps,A19,Planned,F-1-S2,S2,PR-1-PUP,50
+WO-BPO7-7-11-QMS,BPO7-7-11-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-12-Production-stage1,BPO7-7-12-Production-stage1-P1009-F-1-S2,Production-stage1,Tablet compression,P1009,Tablet presses,A13,Cancelled,F-1-S2,S2,PR-5-TAC,50
+WO-BPO7-7-12-Production-stage2,BPO7-7-12-Production-stage2-P1009-F-1-S2,Production-stage2,Coating,P1009,Coating machines,A15,Planned,F-1-S2,S2,PR-4-COC,50
+WO-BPO7-7-12-Production-stage2,BPO7-7-12-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,Completed,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-12-QMS,BPO7-7-12-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Completed,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-13-Production-stage2,BPO7-7-13-Production-stage2-P1009-F-1-S2,Production-stage2,Filtration,P1009,Filtration machines,A18,On Hold,F-1-S2,S2,PR-7-FIF,50
+WO-BPO7-7-13-Production-stage2,BPO7-7-13-Production-stage2-P1009-F-1-S2,Production-stage2,Tanks,P1009,Tanks,A20,In Progress,F-1-S2,S2,PR-2-TAT,50
+WO-BPO7-7-13-QMS,BPO7-7-13-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-14-Production-stage2,BPO7-7-14-Production-stage2-P1009-F-1-S2,Production-stage2,Tanks,P1009,Tanks,A20,On Hold,F-1-S2,S2,PR-2-TAT,50
+WO-BPO7-7-14-Production-stage2,BPO7-7-14-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,Planned,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-14-QMS,BPO7-7-14-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-15-Production-stage1,BPO7-7-15-Production-stage1-P1009-F-1-S2,Production-stage1,Tablet compression,P1009,Tablet presses,A13,In Progress,F-1-S2,S2,PR-5-TAC,50
+WO-BPO7-7-15-Production-stage2,BPO7-7-15-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,Completed,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-15-Production-stage2,BPO7-7-15-Production-stage2-P1009-F-1-S2,Production-stage2,Pumps,P1009,Pumps,A19,Completed,F-1-S2,S2,PR-1-PUP,50
+WO-BPO7-7-15-QMS,BPO7-7-15-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-16-Production-stage1,BPO7-7-16-Production-stage1-P1009-F-1-S2,Production-stage1,Tablet compression,P1009,Tablet presses,A13,Planned,F-1-S2,S2,PR-5-TAC,50
+WO-BPO7-7-16-Production-stage2,BPO7-7-16-Production-stage2-P1009-F-1-S2,Production-stage2,Encapsulation,P1009,Encapsulation machines,A16,Planned,F-1-S2,S2,PR-6-ENE,50
+WO-BPO7-7-16-Production-stage2,BPO7-7-16-Production-stage2-P1009-F-1-S2,Production-stage2,Sterilization,P1009,Sterilizers,A17,In Progress,F-1-S2,S2,PR-5-STS,50
+WO-BPO7-7-16-QMS,BPO7-7-16-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-17-Production-stage1,BPO7-7-17-Production-stage1-P1009-F-1-S2,Production-stage1,Tablet compression,P1009,Tablet presses,A13,In Progress,F-1-S2,S2,PR-5-TAC,50
+WO-BPO7-7-17-Production-stage2,BPO7-7-17-Production-stage2-P1009-F-1-S2,Production-stage2,Capsule filling,P1009,Capsule fillers,A14,Cancelled,F-1-S2,S2,PR-3-CAF,50
+WO-BPO7-7-17-Production-stage2,BPO7-7-17-Production-stage2-P1009-F-1-S2,Production-stage2,Sterilization,P1009,Sterilizers,A17,On Hold,F-1-S2,S2,PR-5-STS,50
+WO-BPO7-7-17-QMS,BPO7-7-17-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-18-Production-stage2,BPO7-7-18-Production-stage2-P1009-F-1-S2,Production-stage2,Encapsulation,P1009,Encapsulation machines,A16,Cancelled,F-1-S2,S2,PR-6-ENE,50
+WO-BPO7-7-18-Production-stage2,BPO7-7-18-Production-stage2-P1009-F-1-S2,Production-stage2,Pumps,P1009,Pumps,A19,Cancelled,F-1-S2,S2,PR-1-PUP,50
+WO-BPO7-7-18-QMS,BPO7-7-18-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO7-7-19-Production-stage2,BPO7-7-19-Production-stage2-P1009-F-1-S2,Production-stage2,Tanks,P1009,Tanks,A20,On Hold,F-1-S2,S2,PR-2-TAT,50
+WO-BPO7-7-19-Production-stage2,BPO7-7-19-Production-stage2-P1009-F-1-S2,Production-stage2,Sterilization,P1009,Sterilizers,A17,Cancelled,F-1-S2,S2,PR-5-STS,50
+WO-BPO7-7-19-QMS,BPO7-7-19-QMS-P1009-F-1-S2,QMS,Calibration,P1009,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-1-Production-stage1,BPO8-8-1-Production-stage1-P1004-F-1-S2,Production-stage1,Tablet compression,P1004,Tablet presses,A13,Cancelled,F-1-S2,S2,PR-5-TAC,50
+WO-BPO8-8-1-Production-stage2,BPO8-8-1-Production-stage2-P1004-F-1-S2,Production-stage2,Pumps,P1004,Pumps,A19,Completed,F-1-S2,S2,PR-1-PUP,50
+WO-BPO8-8-1-Production-stage2,BPO8-8-1-Production-stage2-P1004-F-1-S2,Production-stage2,Encapsulation,P1004,Encapsulation machines,A16,On Hold,F-1-S2,S2,PR-6-ENE,50
+WO-BPO8-8-1-QMS,BPO8-8-1-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-2-Production-stage2,BPO8-8-2-Production-stage2-P1004-F-1-S2,Production-stage2,Coating,P1004,Coating machines,A15,Planned,F-1-S2,S2,PR-4-COC,50
+WO-BPO8-8-2-Production-stage2,BPO8-8-2-Production-stage2-P1004-F-1-S2,Production-stage2,Sterilization,P1004,Sterilizers,A17,Cancelled,F-1-S2,S2,PR-5-STS,50
+WO-BPO8-8-2-QMS,BPO8-8-2-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-3-Production-stage1,BPO8-8-3-Production-stage1-P1004-F-1-S2,Production-stage1,Tablet compression,P1004,Tablet presses,A13,In Progress,F-1-S2,S2,PR-5-TAC,50
+WO-BPO8-8-3-Production-stage2,BPO8-8-3-Production-stage2-P1004-F-1-S2,Production-stage2,Encapsulation,P1004,Encapsulation machines,A16,Planned,F-1-S2,S2,PR-6-ENE,50
+WO-BPO8-8-3-Production-stage2,BPO8-8-3-Production-stage2-P1004-F-1-S2,Production-stage2,Coating,P1004,Coating machines,A15,In Progress,F-1-S2,S2,PR-4-COC,50
+WO-BPO8-8-3-QMS,BPO8-8-3-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-4-Production-stage2,BPO8-8-4-Production-stage2-P1004-F-1-S2,Production-stage2,Sterilization,P1004,Sterilizers,A17,On Hold,F-1-S2,S2,PR-5-STS,50
+WO-BPO8-8-4-Production-stage2,BPO8-8-4-Production-stage2-P1004-F-1-S2,Production-stage2,Coating,P1004,Coating machines,A15,On Hold,F-1-S2,S2,PR-4-COC,50
+WO-BPO8-8-4-QMS,BPO8-8-4-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-5-Production-stage2,BPO8-8-5-Production-stage2-P1004-F-1-S2,Production-stage2,Pumps,P1004,Pumps,A19,On Hold,F-1-S2,S2,PR-1-PUP,50
+WO-BPO8-8-5-Production-stage2,BPO8-8-5-Production-stage2-P1004-F-1-S2,Production-stage2,Encapsulation,P1004,Encapsulation machines,A16,Cancelled,F-1-S2,S2,PR-6-ENE,50
+WO-BPO8-8-5-QMS,BPO8-8-5-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-6-Production-stage2,BPO8-8-6-Production-stage2-P1004-F-1-S2,Production-stage2,Pumps,P1004,Pumps,A19,Cancelled,F-1-S2,S2,PR-1-PUP,50
+WO-BPO8-8-6-Production-stage2,BPO8-8-6-Production-stage2-P1004-F-1-S2,Production-stage2,Coating,P1004,Coating machines,A15,In Progress,F-1-S2,S2,PR-4-COC,50
+WO-BPO8-8-6-QMS,BPO8-8-6-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,On Hold,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-7-Production-stage2,BPO8-8-7-Production-stage2-P1004-F-1-S2,Production-stage2,Capsule filling,P1004,Capsule fillers,A14,Cancelled,F-1-S2,S2,PR-3-CAF,50
+WO-BPO8-8-7-Production-stage2,BPO8-8-7-Production-stage2-P1004-F-1-S2,Production-stage2,Encapsulation,P1004,Encapsulation machines,A16,Cancelled,F-1-S2,S2,PR-6-ENE,50
+WO-BPO8-8-7-QMS,BPO8-8-7-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-8-Production-stage1,BPO8-8-8-Production-stage1-P1004-F-1-S2,Production-stage1,Tablet compression,P1004,Tablet presses,A13,Cancelled,F-1-S2,S2,PR-5-TAC,50
+WO-BPO8-8-8-Production-stage2,BPO8-8-8-Production-stage2-P1004-F-1-S2,Production-stage2,Sterilization,P1004,Sterilizers,A17,Completed,F-1-S2,S2,PR-5-STS,50
+WO-BPO8-8-8-Production-stage2,BPO8-8-8-Production-stage2-P1004-F-1-S2,Production-stage2,Tanks,P1004,Tanks,A20,In Progress,F-1-S2,S2,PR-2-TAT,50
+WO-BPO8-8-8-QMS,BPO8-8-8-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,In Progress,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-9-Production-stage1,BPO8-8-9-Production-stage1-P1004-F-1-S2,Production-stage1,Tablet compression,P1004,Tablet presses,A13,On Hold,F-1-S2,S2,PR-5-TAC,50
+WO-BPO8-8-9-Production-stage2,BPO8-8-9-Production-stage2-P1004-F-1-S2,Production-stage2,Capsule filling,P1004,Capsule fillers,A14,Cancelled,F-1-S2,S2,PR-3-CAF,50
+WO-BPO8-8-9-Production-stage2,BPO8-8-9-Production-stage2-P1004-F-1-S2,Production-stage2,Sterilization,P1004,Sterilizers,A17,On Hold,F-1-S2,S2,PR-5-STS,50
+WO-BPO8-8-9-QMS,BPO8-8-9-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Cancelled,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-10-Production-stage2,BPO8-8-10-Production-stage2-P1004-F-1-S2,Production-stage2,Encapsulation,P1004,Encapsulation machines,A16,In Progress,F-1-S2,S2,PR-6-ENE,50
+WO-BPO8-8-10-Production-stage2,BPO8-8-10-Production-stage2-P1004-F-1-S2,Production-stage2,Coating,P1004,Coating machines,A15,Completed,F-1-S2,S2,PR-4-COC,50
+WO-BPO8-8-10-QMS,BPO8-8-10-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,50
+WO-BPO8-8-11-Production-stage1,BPO8-8-11-Production-stage1-P1004-F-1-S2,Production-stage1,Tablet compression,P1004,Tablet presses,A13,On Hold,F-1-S2,S2,PR-5-TAC,20
+WO-BPO8-8-11-Production-stage2,BPO8-8-11-Production-stage2-P1004-F-1-S2,Production-stage2,Filtration,P1004,Filtration machines,A18,Completed,F-1-S2,S2,PR-7-FIF,20
+WO-BPO8-8-11-Production-stage2,BPO8-8-11-Production-stage2-P1004-F-1-S2,Production-stage2,Pumps,P1004,Pumps,A19,Cancelled,F-1-S2,S2,PR-1-PUP,20
+WO-BPO8-8-11-QMS,BPO8-8-11-QMS-P1004-F-1-S2,QMS,Calibration,P1004,Calibrator,A21,Planned,F-1-S2,S2,QM-1-CAC,20
+WO-BPO9-9-1-Production-stage1,BPO9-9-1-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,On Hold,F-1-S3,S3,PR-4-BLB,80
+WO-BPO9-9-1-Production-stage1,BPO9-9-1-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,80
+WO-BPO9-9-1-Production-stage1,BPO9-9-1-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,80
+WO-BPO9-9-2-Production-stage1,BPO9-9-2-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,80
+WO-BPO9-9-2-Production-stage1,BPO9-9-2-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,80
+WO-BPO9-9-3-Production-stage1,BPO9-9-3-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,80
+WO-BPO9-9-3-Production-stage1,BPO9-9-3-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,80
+WO-BPO9-9-3-Production-stage1,BPO9-9-3-Production-stage1-P1007-F-1-S3,Production-stage1,Mixing ingredients,P1007,Mixers,A27,Planned,F-1-S3,S3,PR-1-MII,80
+WO-BPO9-9-4-Production-stage1,BPO9-9-4-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,80
+WO-BPO9-9-4-Production-stage1,BPO9-9-4-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,80
+WO-BPO9-9-4-Production-stage1,BPO9-9-4-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,80
+WO-BPO9-9-5-Production-stage1,BPO9-9-5-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,80
+WO-BPO9-9-5-Production-stage1,BPO9-9-5-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,Completed,F-1-S3,S3,PR-2-GRG,80
+WO-BPO9-9-6-Production-stage1,BPO9-9-6-Production-stage1-P1007-F-1-S3,Production-stage1,Extraction equipment,P1007,Extraction equipment,A33,Planned,F-1-S3,S3,PR-8-EXE,80
+WO-BPO9-9-6-Production-stage1,BPO9-9-6-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,80
+WO-BPO9-9-6-Production-stage1,BPO9-9-6-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,80
+WO-BPO9-9-7-Production-stage1,BPO9-9-7-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,80
+WO-BPO9-9-7-Production-stage1,BPO9-9-7-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,Cancelled,F-1-S3,S3,PR-7-DIE,80
+WO-BPO9-9-8-Production-stage1,BPO9-9-8-Production-stage1-P1007-F-1-S3,Production-stage1,Extraction equipment,P1007,Extraction equipment,A33,On Hold,F-1-S3,S3,PR-8-EXE,80
+WO-BPO9-9-8-Production-stage1,BPO9-9-8-Production-stage1-P1007-F-1-S3,Production-stage1,Mixing ingredients,P1007,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,80
+WO-BPO9-9-8-Production-stage1,BPO9-9-8-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,80
+WO-BPO9-9-9-Production-stage1,BPO9-9-9-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,On Hold,F-1-S3,S3,PR-2-GRG,80
+WO-BPO9-9-9-Production-stage1,BPO9-9-9-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,On Hold,F-1-S3,S3,PR-3-MIM,80
+WO-BPO9-9-9-Production-stage1,BPO9-9-9-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,80
+WO-BPO9-9-10-Production-stage1,BPO9-9-10-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,Completed,F-1-S3,S3,PR-4-BLB,80
+WO-BPO9-9-10-Production-stage1,BPO9-9-10-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,Planned,F-1-S3,S3,PR-2-GRG,80
+WO-BPO9-9-10-Production-stage1,BPO9-9-10-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,In Progress,F-1-S3,S3,PR-3-MIM,80
+WO-BPO9-9-11-Production-stage1,BPO9-9-11-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,80
+WO-BPO9-9-11-Production-stage1,BPO9-9-11-Production-stage1-P1007-F-1-S3,Production-stage1,Mixing ingredients,P1007,Mixers,A27,Cancelled,F-1-S3,S3,PR-1-MII,80
+WO-BPO9-9-11-Production-stage1,BPO9-9-11-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,80
+WO-BPO9-9-12-Production-stage1,BPO9-9-12-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,70
+WO-BPO9-9-12-Production-stage1,BPO9-9-12-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,70
+WO-BPO9-9-12-Production-stage1,BPO9-9-12-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,70
+WO-BPO10-10-1-Production-stage1,BPO10-10-1-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,80
+WO-BPO10-10-1-Production-stage1,BPO10-10-1-Production-stage1-P1007-F-1-S3,Production-stage1,Mixing ingredients,P1007,Mixers,A27,Cancelled,F-1-S3,S3,PR-1-MII,80
+WO-BPO10-10-1-Production-stage1,BPO10-10-1-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,Planned,F-1-S3,S3,PR-3-MIM,80
+WO-BPO10-10-2-Production-stage1,BPO10-10-2-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,Cancelled,F-1-S3,S3,PR-2-GRG,80
+WO-BPO10-10-2-Production-stage1,BPO10-10-2-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,On Hold,F-1-S3,S3,PR-6-RER,80
+WO-BPO10-10-3-Production-stage1,BPO10-10-3-Production-stage1-P1007-F-1-S3,Production-stage1,Mixing ingredients,P1007,Mixers,A27,In Progress,F-1-S3,S3,PR-1-MII,80
+WO-BPO10-10-3-Production-stage1,BPO10-10-3-Production-stage1-P1007-F-1-S3,Production-stage1,Granulation,P1007,Granulators,A28,In Progress,F-1-S3,S3,PR-2-GRG,80
+WO-BPO10-10-3-Production-stage1,BPO10-10-3-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,80
+WO-BPO10-10-4-Production-stage1,BPO10-10-4-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,Cancelled,F-1-S3,S3,PR-3-MIM,80
+WO-BPO10-10-4-Production-stage1,BPO10-10-4-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,Planned,F-1-S3,S3,PR-7-DIE,80
+WO-BPO10-10-5-Production-stage1,BPO10-10-5-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,In Progress,F-1-S3,S3,PR-6-RER,80
+WO-BPO10-10-5-Production-stage1,BPO10-10-5-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,Completed,F-1-S3,S3,PR-7-DIE,80
+WO-BPO10-10-6-Production-stage1,BPO10-10-6-Production-stage1-P1007-F-1-S3,Production-stage1,Extraction equipment,P1007,Extraction equipment,A33,Completed,F-1-S3,S3,PR-8-EXE,80
+WO-BPO10-10-6-Production-stage1,BPO10-10-6-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,Planned,F-1-S3,S3,PR-6-RER,80
+WO-BPO10-10-6-Production-stage1,BPO10-10-6-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,Cancelled,F-1-S3,S3,PR-4-BLB,80
+WO-BPO10-10-7-Production-stage1,BPO10-10-7-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,In Progress,F-1-S3,S3,PR-4-BLB,80
+WO-BPO10-10-7-Production-stage1,BPO10-10-7-Production-stage1-P1007-F-1-S3,Production-stage1,Distillation equipment,P1007,Distillation equipment,A32,In Progress,F-1-S3,S3,PR-7-DIE,80
+WO-BPO10-10-7-Production-stage1,BPO10-10-7-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,80
+WO-BPO10-10-8-Production-stage1,BPO10-10-8-Production-stage1-P1007-F-1-S3,Production-stage1,Mixing ingredients,P1007,Mixers,A27,On Hold,F-1-S3,S3,PR-1-MII,80
+WO-BPO10-10-8-Production-stage1,BPO10-10-8-Production-stage1-P1007-F-1-S3,Production-stage1,Blending,P1007,Blenders,A30,Planned,F-1-S3,S3,PR-4-BLB,80
+WO-BPO10-10-9-Production-stage1,BPO10-10-9-Production-stage1-P1007-F-1-S3,Production-stage1,Milling,P1007,Mills,A29,Completed,F-1-S3,S3,PR-3-MIM,30
+WO-BPO10-10-9-Production-stage1,BPO10-10-9-Production-stage1-P1007-F-1-S3,Production-stage1,Mixing ingredients,P1007,Mixers,A27,Completed,F-1-S3,S3,PR-1-MII,30
+WO-BPO10-10-9-Production-stage1,BPO10-10-9-Production-stage1-P1007-F-1-S3,Production-stage1,Reactors,P1007,Reactors,A31,Completed,F-1-S3,S3,PR-6-RER,30

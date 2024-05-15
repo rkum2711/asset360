@@ -1,11 +1,11 @@
 id,Name,SiteID,BatchSizeLimit
-P1001,AdcircaÂ® (tadalafil),S3,50
-P1002,AlimtaÂ® (pemetrexed),S3,80
-P1003,CialisÂ® (tadalafil),S4,40
-P1004,CymbaltaÂ® (duloxetine),S8,40
-P1005,EmgalityÂ® (galcanezumab),S3,50
+P1001,AdcircaÂ® (tadalafil),S8,80
+P1002,AlimtaÂ® (pemetrexed),S3,70
+P1003,CialisÂ® (tadalafil),S2,60
+P1004,CymbaltaÂ® (duloxetine),S2,50
+P1005,EmgalityÂ® (galcanezumab),S9,50
 P1006,ForsteoÂ® (teriparatide),S1,90
-P1007,HumalogÂ® (human insulin analogue),S2,50
-P1008,HumulinÂ® (human insulin),S8,90
-P1009,OlumiantÂ® (baricitinib),S3,80
-P10010,StratteraÂ® (atomoxetine),S9,80
+P1007,HumalogÂ® (human insulin analogue),S3,80
+P1008,HumulinÂ® (human insulin),S4,80
+P1009,OlumiantÂ® (baricitinib),S2,50
+P10010,StratteraÂ® (atomoxetine),S4,60

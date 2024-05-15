@@ -42,7 +42,8 @@ def get_asset_data():
         site_ids_raw = graph.runInstalledQuery("get_sites")
         list_site = sorted([row["Name"] for row in site_ids_raw[0]["T"]])
         return list_asset_ids,list_facility,list_site
-
+    
+@st.cache_data
 def app():
     footer()
     st.title("Asset 360 - Accelerator")

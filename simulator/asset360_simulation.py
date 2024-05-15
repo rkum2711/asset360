@@ -176,26 +176,29 @@ def generate_asset_info(asset):
 
 def generate_asset_operation(asset):
     assetIDs = asset['id'].tolist()
-    columns = ['id', 'AssetID', 'ProductionQuantity', 'Downtime']
-    num_operations = len(assetIDs)
-    total_production_qty = np.random.randint(500, 1000, size=num_operations)
+    num_assets = len(assetIDs)
+
+    total_production_qty = np.random.randint(500, 1000, size=num_assets)
     good_qty_percentage = np.random.uniform(0.8, 0.9)
-    downtime = np.random.uniform(10, 20, size=num_operations) 
-    performance = np.random.uniform(85, 100, size=num_operations)
-    good_qty = total_production_qty * good_qty_percentage
+    downtime = np.random.uniform(10, 20, size=num_assets) 
+    performance = np.random.uniform(85, 100, size=num_assets)
     
+    good_qty = total_production_qty * good_qty_percentage
     quality = good_qty / total_production_qty
-    asset_oper_ids = ['AO' + str(i+1).zfill(3) for i in range(len(assetIDs))]
+    availability = 100 - downtime
+    
+    # Create DataFrame with one row per asset
+    asset_oper_ids = ['AO' + str(i+1).zfill(3) for i in range(num_assets)]
     asset_operations = pd.DataFrame({
         'id': asset_oper_ids,
-        'AssetID': np.random.choice(assetIDs, size=num_operations),
-        'ProductionQuantity': total_production_qty,
-        'Downtime': downtime
-    }, columns=columns)
-    asset_operations['Performance'] = performance
-    asset_operations['Availability'] = 100 - asset_operations['Downtime']
-    asset_operations['Quality'] = quality * 100
-    #asset_operations['OEE'] = (asset_operations['Availability']/100) * (asset_operations['Performance']/100) * (asset_operations['Quality']/100)
+        'AssetID': assetIDs,
+        'TotalProductionQuantity': total_production_qty,
+        'GoodQuantity': good_qty,
+        'Downtime': downtime,
+        'Performance': performance,
+        'Availability': availability,
+        'Quality': quality * 100
+    })
     return asset_operations
 
 def generate_oee(asset_operations):
@@ -205,6 +208,55 @@ def generate_oee(asset_operations):
     asset_oee['OEE'] =  asset_oee['OEE'] *100
     asset_oee['id'] = ['OEE' + str(i+1).zfill(3) for i in range(len(asset_oee))]
     return asset_oee
+
+def generate_machine_attributes(asset, oee_df):
+    assetIDs = asset['id'].tolist()
+    num_assets = len(assetIDs)
+    temperature = []
+    pressure = []
+    vibration = []
+    noise = []
+    throughput = []
+    
+    for asset_id in assetIDs:
+        if asset_id in oee_df['AssetID'].values:
+            oee_value = oee_df.loc[oee_df['AssetID'] == asset_id, 'OEE'].values[0]
+            if oee_value > 70:
+                temperature.append(np.random.uniform(20, 25))
+                pressure.append(np.random.uniform(0.8, 0.9))
+                vibration.append(np.random.uniform(5, 10))
+                noise.append(np.random.uniform(40, 50))
+                throughput.append(np.random.uniform(95, 100))
+            elif 50 < oee_value < 70:
+                temperature.append(np.random.uniform(18, 28))
+                pressure.append(np.random.uniform(0.7, 0.8))
+                vibration.append(np.random.uniform(10, 20))
+                noise.append(np.random.uniform(50, 60))
+                throughput.append(np.random.uniform(70, 90))
+            else:
+                temperature.append(np.random.uniform(10, 20))
+                pressure.append(np.random.uniform(0.6, 0.7))
+                vibration.append(np.random.uniform(20, 30))
+                noise.append(np.random.uniform(60, 70))
+                throughput.append(np.random.uniform(60, 80))
+        else:
+            temperature.append(np.random.uniform(20, 25))
+            pressure.append(np.random.uniform(0.8, 0.9))
+            vibration.append(np.random.uniform(5, 10))
+            noise.append(np.random.uniform(40, 50))
+            throughput.append(np.random.uniform(95, 100))
+    asset_machine_ids = ['AM' + str(i+1).zfill(3) for i in range(num_assets)]
+    asset_machine_df = pd.DataFrame({
+        'id': asset_machine_ids,
+        'AssetID': assetIDs,
+        'Temperature': temperature,
+        'Vibration': vibration,
+        'Noise': noise,
+        'Pressure': pressure,
+        'Throughput': throughput
+    })
+    return asset_machine_df
+
 
 def generate_products(product_list, num_products, sites):
     site_ids = sites['id'].tolist()
@@ -365,7 +417,7 @@ def generate_wo(batch, up, asset):
         unit_procedure_ids_cleaning = get_random_unit_procedures(up, 'Cleaning', 1)
         unit_procedure_ids_Qms = get_random_unit_procedures(up, 'QMS', 1)
         unit_procedure_ids_lims = get_random_unit_procedures(up, 'LIMS', 3)
-        unit_procedure_ids_combined = unit_procedure_ids_stage1 + unit_procedure_ids_stage2
+        unit_procedure_ids_combined = unit_procedure_ids_stage1 + unit_procedure_ids_stage2 + unit_procedure_ids_cleaning + unit_procedure_ids_Qms + unit_procedure_ids_lims
         # print(unit_procedure_ids_combined)
         for unit_procedure in unit_procedure_ids_combined:
             asset_type = up.loc[up['id'] == unit_procedure, 'AssetType'].values[0]
@@ -375,33 +427,32 @@ def generate_wo(batch, up, asset):
             if not filtered_assets.empty:
                 # selected_asset = filtered_assets.sample(n=1)
                 asset_id = filtered_assets['id'].values[0]
+                status = np.random.choice(["Planned", "In Progress", "Completed", "Cancelled", "On Hold"])
+                start_date = bstart + timedelta(days=np.random.randint(1, 2))
+                if status == "In Progress":
+                    end_date = datetime.now()
+                else:
+                    end_date = start_date
+                workorder_id = f"WO-{batch_id}-{wo_type}"
+                workorder_name = f"{batch_id}-{wo_type}-{product_id}-{facility_id}"
+                workorder_data['id'].append(workorder_id) 
+                workorder_data['Name'].append(workorder_name)
+                workorder_data['WOType'].append(wo_type)
+                workorder_data['Task'].append(wo_task)
+                # workorder_data['POID'].append(poid)
+                workorder_data['ProductID'].append(product_id)
+                # workorder_data['BatchID'].append(batch_id)
+                workorder_data['AssetType'].append(asset_type)
+                workorder_data['AssetID'].append(asset_id)
+                workorder_data['Status'].append(status)
+                # workorder_data['StartDate'].append(start_date)
+                # workorder_data['EndDate'].append(end_date)
+                workorder_data['FacilityID'].append(facility_id)
+                workorder_data['SiteID'].append(site_id)
+                workorder_data['UnitProcedureID'].append(unit_procedure)
+                workorder_data['BatchQty'].append(BatchQty)
             else:
                 asset_id = None
-
-            status = np.random.choice(["Planned", "In Progress", "Completed", "Cancelled", "On Hold"])
-            start_date = bstart + timedelta(days=np.random.randint(1, 2))
-            if status == "In Progress":
-                end_date = datetime.now()
-            else:
-                end_date = start_date
-            workorder_id = f"WO-{batch_id}-{wo_type}"
-            workorder_name = f"{batch_id}-{wo_type}-{product_id}-{facility_id}"
-            workorder_data['id'].append(workorder_id) 
-            workorder_data['Name'].append(workorder_name)
-            workorder_data['WOType'].append(wo_type)
-            workorder_data['Task'].append(wo_task)
-            # workorder_data['POID'].append(poid)
-            workorder_data['ProductID'].append(product_id)
-            # workorder_data['BatchID'].append(batch_id)
-            workorder_data['AssetType'].append(asset_type)
-            workorder_data['AssetID'].append(asset_id)
-            workorder_data['Status'].append(status)
-            # workorder_data['StartDate'].append(start_date)
-            # workorder_data['EndDate'].append(end_date)
-            workorder_data['FacilityID'].append(facility_id)
-            workorder_data['SiteID'].append(site_id)
-            workorder_data['UnitProcedureID'].append(unit_procedure)
-            workorder_data['BatchQty'].append(BatchQty)
     wo = pd.DataFrame(workorder_data)
     return wo
 
@@ -421,9 +472,9 @@ def generate_maintenance(asset,oee_df):
         if asset_id in oee_df['AssetID'].values:
             oee_value = oee_df.loc[oee_df['AssetID'] == asset_id, 'OEE'].values[0]
             if oee_value < 70:
-                num_records = int(np.random.uniform(6, 10) * oee_value)
+                num_records = int(np.random.uniform(6, 10))
             else:
-                num_records = int(np.random.uniform(1, 5) * oee_value)
+                num_records = int(np.random.uniform(1, 5))
         else:
             oee_value = 90
             num_records = 1
@@ -549,6 +600,7 @@ wo_df = generate_wo(batch_df, up_df, asset_df)
 lims_df = generate_lims(wo_df)
 asset_oper_df = generate_asset_operation(asset_df)
 asset_oee_df = generate_oee(asset_oper_df)
+asset_machine_df = generate_machine_attributes(asset_df,asset_oee_df)
 maintenance_df = generate_maintenance(asset_df, asset_oee_df)
 calibration_df = generate_calibration(asset_df)
 compliance_df = generate_compliance(asset_df)
@@ -568,6 +620,7 @@ print(wo_df.head())
 print(lims_df.head())
 print(asset_oper_df.head())
 print(asset_oee_df.head())
+print(asset_machine_df.head())
 print(maintenance_df.head())
 print(calibration_df.head())
 print(compliance_df.head())
@@ -587,6 +640,7 @@ wo_df.to_csv(os.path.join(data_folder, 'wo.csv'), index=False)
 lims_df.to_csv(os.path.join(data_folder, 'lims.csv'), index=False)
 asset_oper_df.to_csv(os.path.join(data_folder, 'asset_oper.csv'), index=False)
 asset_oee_df.to_csv(os.path.join(data_folder, 'asset_oee.csv'), index=False)
+asset_machine_df.to_csv(os.path.join(data_folder, 'asset_machine.csv'), index=False)
 maintenance_df.to_csv(os.path.join(data_folder, 'maintenance.csv'), index=False)
 calibration_df.to_csv(os.path.join(data_folder, 'calibration.csv'), index=False)
 compliance_df.to_csv(os.path.join(data_folder, 'compliance.csv'), index=False)
