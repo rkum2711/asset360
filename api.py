@@ -48,7 +48,10 @@ def generated_nodes_edges(data,graph,query_number):
                 if node['label'] == key:
                     node['color'] = legend_mapping[key]
         if node['label'] == "OEE":
-            node['label'] = node['oee_value']
+            node_prop = graph.getVerticesById(vertexType = node["type"], vertexIds = node["id"])
+            node_property = node_prop[0]['attributes'] if node_prop else {}
+            print(node_property['oee_value'])
+            node['label'] = node_property['oee_value']
         else:
             node['label'] += ":" + node['id']
         title_html_text = " Attributes: "
