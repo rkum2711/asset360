@@ -81,10 +81,10 @@ def app():
                                 elif q == question_list[3]:
                                     graphData = graph.runInstalledQuery(question_dict[q],
                                                                         params= {"oee_value": 70})
-                            with st.spinner("Converting into Graph ..."):
-                                query_number = 1
-                                network = generated_nodes_edges(graphData,graph,query_number)
-                                save_graph_file(components,network,html_file_path)
+                                with st.spinner("Converting into Graph ..."):
+                                    query_number = 1
+                                    network = generated_nodes_edges(graphData,graph,query_number)
+                                    save_graph_file(components,network,html_file_path)
                         except Exception as e:
                             st.error(f"Error executing query: {e}")
                         st.write("Query execution complete")
