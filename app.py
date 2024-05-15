@@ -84,28 +84,28 @@ def app():
                         except Exception as e:
                             st.error(f"Error executing query: {e}")
                         st.write("Query execution complete")
-        elif option == options_list[1]:
-            st.subheader(options_list[1])
-            with col1:
-                st.info(f"Total Assets: {len(list_asset_ids)}")
-            with col2:
-                st.success(f"Total Facilities : {len(list_facility)}")
-                facility_identifier = st.selectbox("Select Facility", list_facility)
-            with col3:
-                st.success(f"Total Sites : {len(list_site)}")
-                site_identifier = st.selectbox("Select Sites", list_site)
-            with st.spinner("Executing query..."):
-                try:
-                    with st.spinner("Data Loading ...."):
-                        graphData = graph.runInstalledQuery("assets_filters", 
-                                                            params= {"sitename": site_identifier, 
-                                                                     "facilityname":facility_identifier})
-                        with st.spinner("Converting into Graph ..."):
-                            query_number = 1
-                            network = generated_nodes_edges(graphData,graph,query_number)
-                            save_graph_file(components,network,html_file_path)
-                except Exception as e:
-                    st.error(f"Error executing query: {e}")
-                st.write("Query execution complete")
+    elif option == options_list[1]:
+        st.subheader(options_list[1])
+        with col1:
+            st.success(f"Total Assets: {len(list_asset_ids)}")
+        with col2:
+            st.info(f"Total Facilities : {len(list_facility)}")
+            facility_identifier = st.selectbox("Select Facility", list_facility)
+        with col3:
+            st.info(f"Total Sites : {len(list_site)}")
+            site_identifier = st.selectbox("Select Sites", list_site)
+        with st.spinner("Executing query..."):
+            try:
+                with st.spinner("Data Loading ...."):
+                    graphData = graph.runInstalledQuery("assets_filters", 
+                                                        params= {"sitename": site_identifier, 
+                                                                 "facilityname":facility_identifier})
+                    with st.spinner("Converting into Graph ..."):
+                        query_number = 1
+                        network = generated_nodes_edges(graphData,graph,query_number)
+                        save_graph_file(components,network,html_file_path)
+            except Exception as e:
+                st.error(f"Error executing query: {e}")
+            st.write("Query execution complete")
 if __name__ == "__main__":
     app()
