@@ -41,23 +41,27 @@ def get_asset_data():
         list_facility = sorted([row["Name"] for row in facility_ids_raw[0]["T"]])
         site_ids_raw = graph.runInstalledQuery("get_sites")
         list_site = sorted([row["Name"] for row in site_ids_raw[0]["T"]])
-        return list_asset_ids,list_facility,list_site
+        rigion_ids_raw = graph.runInstalledQuery("get_region")
+        list_region = sorted([row["Name"] for row in rigion_ids_raw[0]["T"]])
+        return list_asset_ids,list_facility,list_site, list_region
     
 def app():
     footer()
     st.title("Asset 360 - Accelerator")
     # st.image(gdm_image, caption='', width=1000)
-    list_asset_ids,list_facility,list_site = get_asset_data()
-    col1, col2, col3 = st.columns(3)
+    list_asset_ids,list_facility,list_site, list_region = get_asset_data()
+    col1, col2, col3, col4 = st.columns(4)
     option = st.sidebar.radio("Select Option", options_list)
     display_legend(st)
     if option == options_list[0]:
         with col1:
-            st.info(f"Total Assets: {len(list_asset_ids)}")
+            st.success(f"Total Assets: {len(list_asset_ids)}")
         with col2:
-            st.success(f"Total Facilities : {len(list_facility)}")
+            st.info(f"Total Facilities : {len(list_facility)}")
         with col3:
-            st.success(f"Total Sites : {len(list_site)}")
+            st.info(f"Total Sites : {len(list_site)}")
+        with col4:
+            st.info(f"Total Region : {len(list_region)}")
         st.subheader(options_list[0])
         query_type = st.selectbox("Select Questions? ", question_list)
         if st.button("Search"):
@@ -94,18 +98,22 @@ def app():
         with col3:
             st.info(f"Total Sites : {len(list_site)}")
             site_identifier = st.selectbox("Select Sites", list_site)
-        with st.spinner("Executing query..."):
-            try:
-                with st.spinner("Data Loading ...."):
-                    graphData = graph.runInstalledQuery("assets_filters", 
-                                                        params= {"sitename": site_identifier, 
-                                                                 "facilityname":facility_identifier})
-                    with st.spinner("Converting into Graph ..."):
-                        query_number = 1
-                        network = generated_nodes_edges(graphData,graph,query_number)
-                        save_graph_file(components,network,html_file_path)
-            except Exception as e:
-                st.error(f"Error executing query: {e}")
-            st.write("Query execution complete")
+        with col4:
+            st.info(f"Total Region : {len(list_region)}")
+            region_identifier = st.selectbox("Select Region", list_region)
+        if st.button("Search"):
+            with st.spinner("Executing query..."):
+                try:
+                    with st.spinner("Data Loading ...."):
+                        graphData = graph.runInstalledQuery("assets_filters", 
+                                                            params= {"sitename": site_identifier, 
+                                                                    "facilityname":facility_identifier})
+                        with st.spinner("Converting into Graph ..."):
+                            query_number = 1
+                            network = generated_nodes_edges(graphData,graph,query_number)
+                            save_graph_file(components,network,html_file_path)
+                except Exception as e:
+                    st.error(f"Error executing query: {e}")
+                st.write("Query execution complete")
 if __name__ == "__main__":
     app()
