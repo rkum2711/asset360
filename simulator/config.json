@@ -107,8 +107,8 @@
       "Capsule filling",
       "Coating",
       "Sterilization",
-      "Encapsulation machines",
-      "Filtration machines"
+      "Encapsulation",
+      "Filtration"
     ],
     "Maintenance": [
       "Equipment pre Check",
@@ -156,8 +156,8 @@
     "Physical Testing": "Particle Size Analyzers",
     "Environmental Monitoring": "Air Particle Counters",
     "Stability Testing": "Temperature and Humidity Controllers",
-    "Pump": "Pumps",
-    "Tank": "Tanks",
+    "Pumps": "Pumps",
+    "Tanks": "Tanks",
     "Reactors": "Reactors",
     "Distillation equipment": "Distillation equipment",
     "Extraction equipment": "Extraction equipment",
@@ -259,7 +259,7 @@
         "State": "Rhode Island",
         "County": "Providence",
         "City": "Cumberland",
-        "Plant Name": "Lilly Del Caribe, Inc."
+        "Plant Name": "Lilly Del Caribe Inc."
     },
     {
         "Country": "Ireland",
@@ -283,7 +283,7 @@
         "Country": "Spain",
         "Region": "Europe",
         "City": "Alcobendas",
-        "Plant Name": "Lilly Spain, S.A."
+        "Plant Name": "Lilly Spain S.A."
     }
 ],
   "country_codes" :{
@@ -316,8 +316,5 @@
 ],
   "num_products": 10,
   "num_process_orders": 10,
-  "num_facilities": 10,
-  "num_sites": 10,
-  "num_regions": 10,
   "num_oems": 10
 }

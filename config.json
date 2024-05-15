@@ -4,25 +4,23 @@
   "chatgpt_icon": "images/chat.png",
   "wip": "images/wip.png",
   "question_dict" : {
-    "View E2E Genealogy of the Asset": "Asset_lineage"
+    "View E2E Traceability of all Asset": "all_asset_lineage",
+    "View all assets that has AMC and insurance < 1 year": "AMC",
+    "View all assets that has high downtime Percentage (MTBF)": "all_asset_lineage",
+    "View all assets where OEE < 70%": "low_oee"
   },
   "options_list" : [
-    "Deep Dive into Selective Assets", 
-    "Deep Dive into All Assets"
+    "Deep Dive into All Assets",
+    "Deep Dive into All Assets with Filters",
+    "Deep Dive into Selective Assets"
   ],
   "legend_mapping" : {
-    "BATCH1": "indigo",
     "ASSET": "brown",
     "LINE": "skyblue",
     "FACILITY": "slateblue",
     "SITE": "sienna",
     "REGION": "cadetblue",
     "PRODUCT": "limegreen",
-    "FAMILY": "springgreen",
-    "RECIPE": "palegreen",
-    "MATERIAL": "aquamarine",
-    "PLANTMATERIAL": "salmon",
-    "SUPPLIER": "slategrey",
     "PROCESSORDER": "orange",
     "QMS": "olive",
     "LIMS": "teal",

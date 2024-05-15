@@ -7,13 +7,13 @@ PR-5-TAC,Production-stage1-5-Tablet_compression,Production-stage1,Tablet compres
 PR-6-RER,Production-stage1-6-Reactors,Production-stage1,Reactors,Reactors
 PR-7-DIE,Production-stage1-7-Distillation_equipment,Production-stage1,Distillation equipment,Distillation equipment
 PR-8-EXE,Production-stage1-8-Extraction_equipment,Production-stage1,Extraction equipment,Extraction equipment
-PR-1-PUP,Production-stage2-1-Pumps,Production-stage2,Pumps,
-PR-2-TAT,Production-stage2-2-Tanks,Production-stage2,Tanks,
+PR-1-PUP,Production-stage2-1-Pumps,Production-stage2,Pumps,Pumps
+PR-2-TAT,Production-stage2-2-Tanks,Production-stage2,Tanks,Tanks
 PR-3-CAF,Production-stage2-3-Capsule_filling,Production-stage2,Capsule filling,Capsule fillers
 PR-4-COC,Production-stage2-4-Coating,Production-stage2,Coating,Coating machines
 PR-5-STS,Production-stage2-5-Sterilization,Production-stage2,Sterilization,Sterilizers
-PR-6-ENM,Production-stage2-6-Encapsulation_machines,Production-stage2,Encapsulation machines,
-PR-7-FIM,Production-stage2-7-Filtration_machines,Production-stage2,Filtration machines,
+PR-6-ENE,Production-stage2-6-Encapsulation,Production-stage2,Encapsulation,Encapsulation machines
+PR-7-FIF,Production-stage2-7-Filtration,Production-stage2,Filtration,Filtration machines
 MA-1-EQP,Maintenance-1-Equipment_pre_Check,Maintenance,Equipment pre Check,Pre Check
 MA-2-EQP,Maintenance-2-Equipment_post_Check,Maintenance,Equipment post Check,Post Check
 CL-1-EQC,Cleaning-1-Equipment_cleaning,Cleaning,Equipment cleaning,Cleaning machines

@@ -1,51 +1,51 @@
 id,Name,FType,SiteID,RegionID
-F-1-S1,Eli Lilly S.A. Manufacturing,Manufacturing,S1,R1
-F-2-S1,Eli Lilly S.A. R&D,R&D,S1,R1
-F-3-S1,Eli Lilly S.A. Quality Control and Assurance,Quality Control and Assurance,S1,R1
-F-4-S1,Eli Lilly S.A. Regulatory Compliance,Regulatory Compliance,S1,R1
-F-5-S1,Eli Lilly S.A. Warehousing and Distribution,Warehousing and Distribution,S1,R1
-F-1-S2,"Lilly Spain, S.A. Manufacturing",Manufacturing,S2,R1
-F-2-S2,"Lilly Spain, S.A. R&D",R&D,S2,R1
-F-3-S2,"Lilly Spain, S.A. Quality Control and Assurance",Quality Control and Assurance,S2,R1
-F-4-S2,"Lilly Spain, S.A. Regulatory Compliance",Regulatory Compliance,S2,R1
-F-5-S2,"Lilly Spain, S.A. Warehousing and Distribution",Warehousing and Distribution,S2,R1
-F-1-S3,Clinton Laboratories Manufacturing,Manufacturing,S3,R2
-F-2-S3,Clinton Laboratories R&D,R&D,S3,R2
-F-3-S3,Clinton Laboratories Quality Control and Assurance,Quality Control and Assurance,S3,R2
-F-4-S3,Clinton Laboratories Regulatory Compliance,Regulatory Compliance,S3,R2
-F-5-S3,Clinton Laboratories Warehousing and Distribution,Warehousing and Distribution,S3,R2
-F-1-S4,Lilly Biotechnology Center Manufacturing,Manufacturing,S4,R2
-F-2-S4,Lilly Biotechnology Center R&D,R&D,S4,R2
-F-3-S4,Lilly Biotechnology Center Quality Control and Assurance,Quality Control and Assurance,S4,R2
-F-4-S4,Lilly Biotechnology Center Regulatory Compliance,Regulatory Compliance,S4,R2
-F-5-S4,Lilly Biotechnology Center Warehousing and Distribution,Warehousing and Distribution,S4,R2
-F-1-S5,Lilly Italia S.p.A. Manufacturing,Manufacturing,S5,R1
-F-2-S5,Lilly Italia S.p.A. R&D,R&D,S5,R1
-F-3-S5,Lilly Italia S.p.A. Quality Control and Assurance,Quality Control and Assurance,S5,R1
-F-4-S5,Lilly Italia S.p.A. Regulatory Compliance,Regulatory Compliance,S5,R1
-F-5-S5,Lilly Italia S.p.A. Warehousing and Distribution,Warehousing and Distribution,S5,R1
-F-1-S6,Fort Dodge Animal Health Manufacturing,Manufacturing,S6,R2
-F-2-S6,Fort Dodge Animal Health R&D,R&D,S6,R2
-F-3-S6,Fort Dodge Animal Health Quality Control and Assurance,Quality Control and Assurance,S6,R2
-F-4-S6,Fort Dodge Animal Health Regulatory Compliance,Regulatory Compliance,S6,R2
-F-5-S6,Fort Dodge Animal Health Warehousing and Distribution,Warehousing and Distribution,S6,R2
-F-1-S7,"Lilly Del Caribe, Inc. Manufacturing",Manufacturing,S7,R2
-F-2-S7,"Lilly Del Caribe, Inc. R&D",R&D,S7,R2
-F-3-S7,"Lilly Del Caribe, Inc. Quality Control and Assurance",Quality Control and Assurance,S7,R2
-F-4-S7,"Lilly Del Caribe, Inc. Regulatory Compliance",Regulatory Compliance,S7,R2
-F-5-S7,"Lilly Del Caribe, Inc. Warehousing and Distribution",Warehousing and Distribution,S7,R2
-F-1-S8,Fegersheim Pharmaceutical Operations Manufacturing,Manufacturing,S8,R1
-F-2-S8,Fegersheim Pharmaceutical Operations R&D,R&D,S8,R1
-F-3-S8,Fegersheim Pharmaceutical Operations Quality Control and Assurance,Quality Control and Assurance,S8,R1
-F-4-S8,Fegersheim Pharmaceutical Operations Regulatory Compliance,Regulatory Compliance,S8,R1
-F-5-S8,Fegersheim Pharmaceutical Operations Warehousing and Distribution,Warehousing and Distribution,S8,R1
-F-1-S9,Eli Lilly and Company Manufacturing,Manufacturing,S9,R2
-F-2-S9,Eli Lilly and Company R&D,R&D,S9,R2
-F-3-S9,Eli Lilly and Company Quality Control and Assurance,Quality Control and Assurance,S9,R2
-F-4-S9,Eli Lilly and Company Regulatory Compliance,Regulatory Compliance,S9,R2
-F-5-S9,Eli Lilly and Company Warehousing and Distribution,Warehousing and Distribution,S9,R2
-F-1-S10,Indianapolis Parenteral Manufacturing Manufacturing,Manufacturing,S10,R2
-F-2-S10,Indianapolis Parenteral Manufacturing R&D,R&D,S10,R2
-F-3-S10,Indianapolis Parenteral Manufacturing Quality Control and Assurance,Quality Control and Assurance,S10,R2
-F-4-S10,Indianapolis Parenteral Manufacturing Regulatory Compliance,Regulatory Compliance,S10,R2
-F-5-S10,Indianapolis Parenteral Manufacturing Warehousing and Distribution,Warehousing and Distribution,S10,R2
+F-1-S1,Fort Dodge Animal Health Manufacturing,Manufacturing,S1,R1
+F-2-S1,Fort Dodge Animal Health R&D,R&D,S1,R1
+F-3-S1,Fort Dodge Animal Health Quality Control and Assurance,Quality Control and Assurance,S1,R1
+F-4-S1,Fort Dodge Animal Health Regulatory Compliance,Regulatory Compliance,S1,R1
+F-5-S1,Fort Dodge Animal Health Warehousing and Distribution,Warehousing and Distribution,S1,R1
+F-1-S2,Lilly Biotechnology Center Manufacturing,Manufacturing,S2,R1
+F-2-S2,Lilly Biotechnology Center R&D,R&D,S2,R1
+F-3-S2,Lilly Biotechnology Center Quality Control and Assurance,Quality Control and Assurance,S2,R1
+F-4-S2,Lilly Biotechnology Center Regulatory Compliance,Regulatory Compliance,S2,R1
+F-5-S2,Lilly Biotechnology Center Warehousing and Distribution,Warehousing and Distribution,S2,R1
+F-1-S3,Eli Lilly S.A. Manufacturing,Manufacturing,S3,R2
+F-2-S3,Eli Lilly S.A. R&D,R&D,S3,R2
+F-3-S3,Eli Lilly S.A. Quality Control and Assurance,Quality Control and Assurance,S3,R2
+F-4-S3,Eli Lilly S.A. Regulatory Compliance,Regulatory Compliance,S3,R2
+F-5-S3,Eli Lilly S.A. Warehousing and Distribution,Warehousing and Distribution,S3,R2
+F-1-S4,Lilly Del Caribe Inc. Manufacturing,Manufacturing,S4,R1
+F-2-S4,Lilly Del Caribe Inc. R&D,R&D,S4,R1
+F-3-S4,Lilly Del Caribe Inc. Quality Control and Assurance,Quality Control and Assurance,S4,R1
+F-4-S4,Lilly Del Caribe Inc. Regulatory Compliance,Regulatory Compliance,S4,R1
+F-5-S4,Lilly Del Caribe Inc. Warehousing and Distribution,Warehousing and Distribution,S4,R1
+F-1-S5,Fegersheim Pharmaceutical Operations Manufacturing,Manufacturing,S5,R2
+F-2-S5,Fegersheim Pharmaceutical Operations R&D,R&D,S5,R2
+F-3-S5,Fegersheim Pharmaceutical Operations Quality Control and Assurance,Quality Control and Assurance,S5,R2
+F-4-S5,Fegersheim Pharmaceutical Operations Regulatory Compliance,Regulatory Compliance,S5,R2
+F-5-S5,Fegersheim Pharmaceutical Operations Warehousing and Distribution,Warehousing and Distribution,S5,R2
+F-1-S6,Lilly Italia S.p.A. Manufacturing,Manufacturing,S6,R2
+F-2-S6,Lilly Italia S.p.A. R&D,R&D,S6,R2
+F-3-S6,Lilly Italia S.p.A. Quality Control and Assurance,Quality Control and Assurance,S6,R2
+F-4-S6,Lilly Italia S.p.A. Regulatory Compliance,Regulatory Compliance,S6,R2
+F-5-S6,Lilly Italia S.p.A. Warehousing and Distribution,Warehousing and Distribution,S6,R2
+F-1-S7,Clinton Laboratories Manufacturing,Manufacturing,S7,R1
+F-2-S7,Clinton Laboratories R&D,R&D,S7,R1
+F-3-S7,Clinton Laboratories Quality Control and Assurance,Quality Control and Assurance,S7,R1
+F-4-S7,Clinton Laboratories Regulatory Compliance,Regulatory Compliance,S7,R1
+F-5-S7,Clinton Laboratories Warehousing and Distribution,Warehousing and Distribution,S7,R1
+F-1-S8,Lilly Spain S.A. Manufacturing,Manufacturing,S8,R2
+F-2-S8,Lilly Spain S.A. R&D,R&D,S8,R2
+F-3-S8,Lilly Spain S.A. Quality Control and Assurance,Quality Control and Assurance,S8,R2
+F-4-S8,Lilly Spain S.A. Regulatory Compliance,Regulatory Compliance,S8,R2
+F-5-S8,Lilly Spain S.A. Warehousing and Distribution,Warehousing and Distribution,S8,R2
+F-1-S9,Indianapolis Parenteral Manufacturing Manufacturing,Manufacturing,S9,R1
+F-2-S9,Indianapolis Parenteral Manufacturing R&D,R&D,S9,R1
+F-3-S9,Indianapolis Parenteral Manufacturing Quality Control and Assurance,Quality Control and Assurance,S9,R1
+F-4-S9,Indianapolis Parenteral Manufacturing Regulatory Compliance,Regulatory Compliance,S9,R1
+F-5-S9,Indianapolis Parenteral Manufacturing Warehousing and Distribution,Warehousing and Distribution,S9,R1
+F-1-S10,Eli Lilly and Company Manufacturing,Manufacturing,S10,R1
+F-2-S10,Eli Lilly and Company R&D,R&D,S10,R1
+F-3-S10,Eli Lilly and Company Quality Control and Assurance,Quality Control and Assurance,S10,R1
+F-4-S10,Eli Lilly and Company Regulatory Compliance,Regulatory Compliance,S10,R1
+F-5-S10,Eli Lilly and Company Warehousing and Distribution,Warehousing and Distribution,S10,R1

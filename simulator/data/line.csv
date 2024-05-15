@@ -1,51 +1,51 @@
 id,Name,FacilityID,LType,Capacity,Floor
-L1,LineTier1-Production-Line-TypeManufacturing-F-1-S1,F-1-S1,Tier1-Production-Line,70,1
-L2,LineR&D-TypeR&D-F-2-S1,F-2-S1,R&D,80,1
-L3,LineLIMS Line-TypeQuality Control and Assurance-F-3-S1,F-3-S1,LIMS Line,90,1
+L1,LineTier1-Production-Line-TypeManufacturing-F-1-S1,F-1-S1,Tier1-Production-Line,90,1
+L2,LineR&D-TypeR&D-F-2-S1,F-2-S1,R&D,70,1
+L3,LineLIMS Line-TypeQuality Control and Assurance-F-3-S1,F-3-S1,LIMS Line,60,1
 L4,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S1,F-4-S1,Regulatory Compliance,100,1
-L5,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S1,F-5-S1,Warehousing and Distribution,50,1
-L6,LineTier2-Production Line-TypeManufacturing-F-1-S2,F-1-S2,Tier2-Production Line,100,1
+L5,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S1,F-5-S1,Warehousing and Distribution,80,1
+L6,LineTier2-Production Line-TypeManufacturing-F-1-S2,F-1-S2,Tier2-Production Line,50,1
 L7,LineR&D-TypeR&D-F-2-S2,F-2-S2,R&D,70,1
-L8,LineLIMS Line-TypeQuality Control and Assurance-F-3-S2,F-3-S2,LIMS Line,60,1
-L9,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S2,F-4-S2,Regulatory Compliance,50,1
-L10,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S2,F-5-S2,Warehousing and Distribution,100,1
-L11,LineTier1-Production-Line-TypeManufacturing-F-1-S3,F-1-S3,Tier1-Production-Line,60,1
-L12,LineR&D-TypeR&D-F-2-S3,F-2-S3,R&D,90,1
-L13,LineLIMS Line-TypeQuality Control and Assurance-F-3-S3,F-3-S3,LIMS Line,80,1
+L8,LineLIMS Line-TypeQuality Control and Assurance-F-3-S2,F-3-S2,LIMS Line,70,1
+L9,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S2,F-4-S2,Regulatory Compliance,60,1
+L10,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S2,F-5-S2,Warehousing and Distribution,50,1
+L11,LineTier1-Production-Line-TypeManufacturing-F-1-S3,F-1-S3,Tier1-Production-Line,50,1
+L12,LineR&D-TypeR&D-F-2-S3,F-2-S3,R&D,60,1
+L13,LineLIMS Line-TypeQuality Control and Assurance-F-3-S3,F-3-S3,LIMS Line,60,1
 L14,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S3,F-4-S3,Regulatory Compliance,50,1
-L15,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S3,F-5-S3,Warehousing and Distribution,70,1
-L16,LineTier2-Production Line-TypeManufacturing-F-1-S4,F-1-S4,Tier2-Production Line,90,1
-L17,LineR&D-TypeR&D-F-2-S4,F-2-S4,R&D,70,1
-L18,LineLIMS Line-TypeQuality Control and Assurance-F-3-S4,F-3-S4,LIMS Line,60,1
-L19,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S4,F-4-S4,Regulatory Compliance,50,1
-L20,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S4,F-5-S4,Warehousing and Distribution,90,1
-L21,LineTier1-Production-Line-TypeManufacturing-F-1-S5,F-1-S5,Tier1-Production-Line,60,1
-L22,LineR&D-TypeR&D-F-2-S5,F-2-S5,R&D,70,1
-L23,LineLIMS Line-TypeQuality Control and Assurance-F-3-S5,F-3-S5,LIMS Line,50,1
-L24,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S5,F-4-S5,Regulatory Compliance,100,1
-L25,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S5,F-5-S5,Warehousing and Distribution,60,1
-L26,LineTier2-Production Line-TypeManufacturing-F-1-S6,F-1-S6,Tier2-Production Line,70,1
-L27,LineR&D-TypeR&D-F-2-S6,F-2-S6,R&D,80,1
-L28,LineLIMS Line-TypeQuality Control and Assurance-F-3-S6,F-3-S6,LIMS Line,90,1
-L29,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S6,F-4-S6,Regulatory Compliance,60,1
-L30,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S6,F-5-S6,Warehousing and Distribution,50,1
-L31,LineTier1-Production-Line-TypeManufacturing-F-1-S7,F-1-S7,Tier1-Production-Line,50,1
-L32,LineR&D-TypeR&D-F-2-S7,F-2-S7,R&D,90,1
+L15,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S3,F-5-S3,Warehousing and Distribution,80,1
+L16,LineTier2-Production Line-TypeManufacturing-F-1-S4,F-1-S4,Tier2-Production Line,100,1
+L17,LineR&D-TypeR&D-F-2-S4,F-2-S4,R&D,60,1
+L18,LineLIMS Line-TypeQuality Control and Assurance-F-3-S4,F-3-S4,LIMS Line,80,1
+L19,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S4,F-4-S4,Regulatory Compliance,100,1
+L20,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S4,F-5-S4,Warehousing and Distribution,80,1
+L21,LineTier1-Production-Line-TypeManufacturing-F-1-S5,F-1-S5,Tier1-Production-Line,50,1
+L22,LineR&D-TypeR&D-F-2-S5,F-2-S5,R&D,100,1
+L23,LineLIMS Line-TypeQuality Control and Assurance-F-3-S5,F-3-S5,LIMS Line,80,1
+L24,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S5,F-4-S5,Regulatory Compliance,60,1
+L25,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S5,F-5-S5,Warehousing and Distribution,50,1
+L26,LineTier2-Production Line-TypeManufacturing-F-1-S6,F-1-S6,Tier2-Production Line,90,1
+L27,LineR&D-TypeR&D-F-2-S6,F-2-S6,R&D,70,1
+L28,LineLIMS Line-TypeQuality Control and Assurance-F-3-S6,F-3-S6,LIMS Line,100,1
+L29,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S6,F-4-S6,Regulatory Compliance,100,1
+L30,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S6,F-5-S6,Warehousing and Distribution,60,1
+L31,LineTier1-Production-Line-TypeManufacturing-F-1-S7,F-1-S7,Tier1-Production-Line,100,1
+L32,LineR&D-TypeR&D-F-2-S7,F-2-S7,R&D,80,1
 L33,LineLIMS Line-TypeQuality Control and Assurance-F-3-S7,F-3-S7,LIMS Line,90,1
 L34,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S7,F-4-S7,Regulatory Compliance,50,1
-L35,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S7,F-5-S7,Warehousing and Distribution,90,1
-L36,LineTier2-Production Line-TypeManufacturing-F-1-S8,F-1-S8,Tier2-Production Line,60,1
-L37,LineR&D-TypeR&D-F-2-S8,F-2-S8,R&D,50,1
-L38,LineLIMS Line-TypeQuality Control and Assurance-F-3-S8,F-3-S8,LIMS Line,80,1
-L39,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S8,F-4-S8,Regulatory Compliance,50,1
-L40,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S8,F-5-S8,Warehousing and Distribution,80,1
-L41,LineTier1-Production-Line-TypeManufacturing-F-1-S9,F-1-S9,Tier1-Production-Line,70,1
-L42,LineR&D-TypeR&D-F-2-S9,F-2-S9,R&D,70,1
+L35,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S7,F-5-S7,Warehousing and Distribution,80,1
+L36,LineTier2-Production Line-TypeManufacturing-F-1-S8,F-1-S8,Tier2-Production Line,100,1
+L37,LineR&D-TypeR&D-F-2-S8,F-2-S8,R&D,70,1
+L38,LineLIMS Line-TypeQuality Control and Assurance-F-3-S8,F-3-S8,LIMS Line,60,1
+L39,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S8,F-4-S8,Regulatory Compliance,80,1
+L40,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S8,F-5-S8,Warehousing and Distribution,100,1
+L41,LineTier1-Production-Line-TypeManufacturing-F-1-S9,F-1-S9,Tier1-Production-Line,90,1
+L42,LineR&D-TypeR&D-F-2-S9,F-2-S9,R&D,100,1
 L43,LineLIMS Line-TypeQuality Control and Assurance-F-3-S9,F-3-S9,LIMS Line,80,1
-L44,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S9,F-4-S9,Regulatory Compliance,60,1
-L45,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S9,F-5-S9,Warehousing and Distribution,50,1
-L46,LineTier2-Production Line-TypeManufacturing-F-1-S10,F-1-S10,Tier2-Production Line,80,1
+L44,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S9,F-4-S9,Regulatory Compliance,50,1
+L45,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S9,F-5-S9,Warehousing and Distribution,70,1
+L46,LineTier2-Production Line-TypeManufacturing-F-1-S10,F-1-S10,Tier2-Production Line,100,1
 L47,LineR&D-TypeR&D-F-2-S10,F-2-S10,R&D,50,1
-L48,LineLIMS Line-TypeQuality Control and Assurance-F-3-S10,F-3-S10,LIMS Line,70,1
-L49,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S10,F-4-S10,Regulatory Compliance,90,1
-L50,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S10,F-5-S10,Warehousing and Distribution,60,1
+L48,LineLIMS Line-TypeQuality Control and Assurance-F-3-S10,F-3-S10,LIMS Line,90,1
+L49,LineRegulatory Compliance-TypeRegulatory Compliance-F-4-S10,F-4-S10,Regulatory Compliance,80,1
+L50,LineWarehousing and Distribution-TypeWarehousing and Distribution-F-5-S10,F-5-S10,Warehousing and Distribution,50,1

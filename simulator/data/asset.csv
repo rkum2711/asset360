@@ -1,131 +1,131 @@
 id,Name,AType,FacilityID,LineID,LineFloor,ManufacturerID,unitProcedureID
-A1,A1:Mixers,Mixers,F-1-S1,L1,1,MFR6,PR-1-MII
+A1,A1:Mixers,Mixers,F-1-S1,L1,1,MFR2,PR-1-MII
 A2,A2:Granulators,Granulators,F-1-S1,L1,1,MFR6,PR-2-GRG
-A3,A3:Mills,Mills,F-1-S1,L1,1,MFR8,PR-3-MIM
-A4,A4:Blenders,Blenders,F-1-S1,L1,1,MFR6,PR-4-BLB
-A5,A5:Reactors,Reactors,F-1-S1,L1,1,MFR5,PR-6-RER
-A6,A6:Distillation equipment,Distillation equipment,F-1-S1,L1,1,MFR2,PR-7-DIE
-A7,A7:Extraction equipment,Extraction equipment,F-1-S1,L1,1,MFR11,PR-8-EXE
-A8,A8:Incubators,Incubators,F-3-S1,L3,1,MFR12,LI-1-MIT
-A9,A9:HPLC,HPLC,F-3-S1,L3,1,MFR6,LI-2-CHA
-A10,A10:Particle Size Analyzers,Particle Size Analyzers,F-3-S1,L3,1,MFR1,LI-3-PHT
-A11,A11:Air Particle Counters,Air Particle Counters,F-3-S1,L3,1,MFR3,LI-4-ENM
-A12,A12:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S1,L3,1,MFR9,LI-5-STT
-A13,A13:Tablet presses,Tablet presses,F-1-S2,L6,1,MFR3,PR-5-TAC
-A14,A14:Capsule fillers,Capsule fillers,F-1-S2,L6,1,MFR7,PR-3-CAF
-A15,A15:Coating machines,Coating machines,F-1-S2,L6,1,MFR12,PR-4-COC
-A16,A16:Encapsulation machines,Encapsulation machines,F-1-S2,L6,1,MFR7,
-A17,A17:Sterilizers,Sterilizers,F-1-S2,L6,1,MFR10,PR-5-STS
-A18,A18:Filtration machines,Filtration machines,F-1-S2,L6,1,MFR11,
-A19,A19:Pumps,Pumps,F-1-S2,L6,1,MFR12,
-A20,A20:Tanks,Tanks,F-1-S2,L6,1,MFR3,
-A21,A21:Calibrator,Calibrator,F-1-S2,L6,1,MFR10,QM-1-CAC
-A22,A22:Incubators,Incubators,F-3-S2,L8,1,MFR6,LI-1-MIT
-A23,A23:HPLC,HPLC,F-3-S2,L8,1,MFR5,LI-2-CHA
-A24,A24:Particle Size Analyzers,Particle Size Analyzers,F-3-S2,L8,1,MFR8,LI-3-PHT
-A25,A25:Air Particle Counters,Air Particle Counters,F-3-S2,L8,1,MFR4,LI-4-ENM
-A26,A26:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S2,L8,1,MFR1,LI-5-STT
-A27,A27:Mixers,Mixers,F-1-S3,L11,1,MFR6,PR-1-MII
-A28,A28:Granulators,Granulators,F-1-S3,L11,1,MFR9,PR-2-GRG
-A29,A29:Mills,Mills,F-1-S3,L11,1,MFR2,PR-3-MIM
+A3,A3:Mills,Mills,F-1-S1,L1,1,MFR10,PR-3-MIM
+A4,A4:Blenders,Blenders,F-1-S1,L1,1,MFR7,PR-4-BLB
+A5,A5:Reactors,Reactors,F-1-S1,L1,1,MFR10,PR-6-RER
+A6,A6:Distillation equipment,Distillation equipment,F-1-S1,L1,1,MFR10,PR-7-DIE
+A7,A7:Extraction equipment,Extraction equipment,F-1-S1,L1,1,MFR6,PR-8-EXE
+A8,A8:Incubators,Incubators,F-3-S1,L3,1,MFR10,LI-1-MIT
+A9,A9:HPLC,HPLC,F-3-S1,L3,1,MFR1,LI-2-CHA
+A10,A10:Particle Size Analyzers,Particle Size Analyzers,F-3-S1,L3,1,MFR12,LI-3-PHT
+A11,A11:Air Particle Counters,Air Particle Counters,F-3-S1,L3,1,MFR1,LI-4-ENM
+A12,A12:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S1,L3,1,MFR4,LI-5-STT
+A13,A13:Tablet presses,Tablet presses,F-1-S2,L6,1,MFR8,PR-5-TAC
+A14,A14:Capsule fillers,Capsule fillers,F-1-S2,L6,1,MFR5,PR-3-CAF
+A15,A15:Coating machines,Coating machines,F-1-S2,L6,1,MFR5,PR-4-COC
+A16,A16:Encapsulation machines,Encapsulation machines,F-1-S2,L6,1,MFR1,PR-6-ENE
+A17,A17:Sterilizers,Sterilizers,F-1-S2,L6,1,MFR1,PR-5-STS
+A18,A18:Filtration machines,Filtration machines,F-1-S2,L6,1,MFR9,PR-7-FIF
+A19,A19:Pumps,Pumps,F-1-S2,L6,1,MFR2,PR-1-PUP
+A20,A20:Tanks,Tanks,F-1-S2,L6,1,MFR12,PR-2-TAT
+A21,A21:Calibrator,Calibrator,F-1-S2,L6,1,MFR12,QM-1-CAC
+A22,A22:Incubators,Incubators,F-3-S2,L8,1,MFR5,LI-1-MIT
+A23,A23:HPLC,HPLC,F-3-S2,L8,1,MFR3,LI-2-CHA
+A24,A24:Particle Size Analyzers,Particle Size Analyzers,F-3-S2,L8,1,MFR3,LI-3-PHT
+A25,A25:Air Particle Counters,Air Particle Counters,F-3-S2,L8,1,MFR7,LI-4-ENM
+A26,A26:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S2,L8,1,MFR12,LI-5-STT
+A27,A27:Mixers,Mixers,F-1-S3,L11,1,MFR5,PR-1-MII
+A28,A28:Granulators,Granulators,F-1-S3,L11,1,MFR11,PR-2-GRG
+A29,A29:Mills,Mills,F-1-S3,L11,1,MFR6,PR-3-MIM
 A30,A30:Blenders,Blenders,F-1-S3,L11,1,MFR8,PR-4-BLB
-A31,A31:Reactors,Reactors,F-1-S3,L11,1,MFR11,PR-6-RER
-A32,A32:Distillation equipment,Distillation equipment,F-1-S3,L11,1,MFR4,PR-7-DIE
-A33,A33:Extraction equipment,Extraction equipment,F-1-S3,L11,1,MFR3,PR-8-EXE
-A34,A34:Incubators,Incubators,F-3-S3,L13,1,MFR2,LI-1-MIT
-A35,A35:HPLC,HPLC,F-3-S3,L13,1,MFR5,LI-2-CHA
-A36,A36:Particle Size Analyzers,Particle Size Analyzers,F-3-S3,L13,1,MFR12,LI-3-PHT
-A37,A37:Air Particle Counters,Air Particle Counters,F-3-S3,L13,1,MFR5,LI-4-ENM
-A38,A38:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S3,L13,1,MFR1,LI-5-STT
-A39,A39:Tablet presses,Tablet presses,F-1-S4,L16,1,MFR12,PR-5-TAC
-A40,A40:Capsule fillers,Capsule fillers,F-1-S4,L16,1,MFR9,PR-3-CAF
-A41,A41:Coating machines,Coating machines,F-1-S4,L16,1,MFR11,PR-4-COC
-A42,A42:Encapsulation machines,Encapsulation machines,F-1-S4,L16,1,MFR7,
-A43,A43:Sterilizers,Sterilizers,F-1-S4,L16,1,MFR5,PR-5-STS
-A44,A44:Filtration machines,Filtration machines,F-1-S4,L16,1,MFR8,
-A45,A45:Pumps,Pumps,F-1-S4,L16,1,MFR5,
-A46,A46:Tanks,Tanks,F-1-S4,L16,1,MFR4,
-A47,A47:Calibrator,Calibrator,F-1-S4,L16,1,MFR9,QM-1-CAC
-A48,A48:Incubators,Incubators,F-3-S4,L18,1,MFR6,LI-1-MIT
-A49,A49:HPLC,HPLC,F-3-S4,L18,1,MFR10,LI-2-CHA
-A50,A50:Particle Size Analyzers,Particle Size Analyzers,F-3-S4,L18,1,MFR1,LI-3-PHT
+A31,A31:Reactors,Reactors,F-1-S3,L11,1,MFR5,PR-6-RER
+A32,A32:Distillation equipment,Distillation equipment,F-1-S3,L11,1,MFR11,PR-7-DIE
+A33,A33:Extraction equipment,Extraction equipment,F-1-S3,L11,1,MFR5,PR-8-EXE
+A34,A34:Incubators,Incubators,F-3-S3,L13,1,MFR4,LI-1-MIT
+A35,A35:HPLC,HPLC,F-3-S3,L13,1,MFR6,LI-2-CHA
+A36,A36:Particle Size Analyzers,Particle Size Analyzers,F-3-S3,L13,1,MFR8,LI-3-PHT
+A37,A37:Air Particle Counters,Air Particle Counters,F-3-S3,L13,1,MFR12,LI-4-ENM
+A38,A38:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S3,L13,1,MFR9,LI-5-STT
+A39,A39:Tablet presses,Tablet presses,F-1-S4,L16,1,MFR1,PR-5-TAC
+A40,A40:Capsule fillers,Capsule fillers,F-1-S4,L16,1,MFR4,PR-3-CAF
+A41,A41:Coating machines,Coating machines,F-1-S4,L16,1,MFR4,PR-4-COC
+A42,A42:Encapsulation machines,Encapsulation machines,F-1-S4,L16,1,MFR3,PR-6-ENE
+A43,A43:Sterilizers,Sterilizers,F-1-S4,L16,1,MFR7,PR-5-STS
+A44,A44:Filtration machines,Filtration machines,F-1-S4,L16,1,MFR7,PR-7-FIF
+A45,A45:Pumps,Pumps,F-1-S4,L16,1,MFR11,PR-1-PUP
+A46,A46:Tanks,Tanks,F-1-S4,L16,1,MFR7,PR-2-TAT
+A47,A47:Calibrator,Calibrator,F-1-S4,L16,1,MFR8,QM-1-CAC
+A48,A48:Incubators,Incubators,F-3-S4,L18,1,MFR5,LI-1-MIT
+A49,A49:HPLC,HPLC,F-3-S4,L18,1,MFR1,LI-2-CHA
+A50,A50:Particle Size Analyzers,Particle Size Analyzers,F-3-S4,L18,1,MFR8,LI-3-PHT
 A51,A51:Air Particle Counters,Air Particle Counters,F-3-S4,L18,1,MFR10,LI-4-ENM
-A52,A52:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S4,L18,1,MFR6,LI-5-STT
-A53,A53:Mixers,Mixers,F-1-S5,L21,1,MFR8,PR-1-MII
-A54,A54:Granulators,Granulators,F-1-S5,L21,1,MFR10,PR-2-GRG
-A55,A55:Mills,Mills,F-1-S5,L21,1,MFR8,PR-3-MIM
-A56,A56:Blenders,Blenders,F-1-S5,L21,1,MFR10,PR-4-BLB
-A57,A57:Reactors,Reactors,F-1-S5,L21,1,MFR10,PR-6-RER
-A58,A58:Distillation equipment,Distillation equipment,F-1-S5,L21,1,MFR8,PR-7-DIE
-A59,A59:Extraction equipment,Extraction equipment,F-1-S5,L21,1,MFR4,PR-8-EXE
-A60,A60:Incubators,Incubators,F-3-S5,L23,1,MFR11,LI-1-MIT
-A61,A61:HPLC,HPLC,F-3-S5,L23,1,MFR4,LI-2-CHA
-A62,A62:Particle Size Analyzers,Particle Size Analyzers,F-3-S5,L23,1,MFR11,LI-3-PHT
-A63,A63:Air Particle Counters,Air Particle Counters,F-3-S5,L23,1,MFR9,LI-4-ENM
-A64,A64:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S5,L23,1,MFR9,LI-5-STT
-A65,A65:Tablet presses,Tablet presses,F-1-S6,L26,1,MFR8,PR-5-TAC
-A66,A66:Capsule fillers,Capsule fillers,F-1-S6,L26,1,MFR4,PR-3-CAF
-A67,A67:Coating machines,Coating machines,F-1-S6,L26,1,MFR2,PR-4-COC
-A68,A68:Encapsulation machines,Encapsulation machines,F-1-S6,L26,1,MFR5,
-A69,A69:Sterilizers,Sterilizers,F-1-S6,L26,1,MFR8,PR-5-STS
-A70,A70:Filtration machines,Filtration machines,F-1-S6,L26,1,MFR5,
-A71,A71:Pumps,Pumps,F-1-S6,L26,1,MFR5,
-A72,A72:Tanks,Tanks,F-1-S6,L26,1,MFR1,
-A73,A73:Calibrator,Calibrator,F-1-S6,L26,1,MFR4,QM-1-CAC
-A74,A74:Incubators,Incubators,F-3-S6,L28,1,MFR8,LI-1-MIT
-A75,A75:HPLC,HPLC,F-3-S6,L28,1,MFR7,LI-2-CHA
-A76,A76:Particle Size Analyzers,Particle Size Analyzers,F-3-S6,L28,1,MFR3,LI-3-PHT
+A52,A52:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S4,L18,1,MFR1,LI-5-STT
+A53,A53:Mixers,Mixers,F-1-S5,L21,1,MFR6,PR-1-MII
+A54,A54:Granulators,Granulators,F-1-S5,L21,1,MFR7,PR-2-GRG
+A55,A55:Mills,Mills,F-1-S5,L21,1,MFR10,PR-3-MIM
+A56,A56:Blenders,Blenders,F-1-S5,L21,1,MFR11,PR-4-BLB
+A57,A57:Reactors,Reactors,F-1-S5,L21,1,MFR7,PR-6-RER
+A58,A58:Distillation equipment,Distillation equipment,F-1-S5,L21,1,MFR5,PR-7-DIE
+A59,A59:Extraction equipment,Extraction equipment,F-1-S5,L21,1,MFR11,PR-8-EXE
+A60,A60:Incubators,Incubators,F-3-S5,L23,1,MFR3,LI-1-MIT
+A61,A61:HPLC,HPLC,F-3-S5,L23,1,MFR10,LI-2-CHA
+A62,A62:Particle Size Analyzers,Particle Size Analyzers,F-3-S5,L23,1,MFR7,LI-3-PHT
+A63,A63:Air Particle Counters,Air Particle Counters,F-3-S5,L23,1,MFR7,LI-4-ENM
+A64,A64:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S5,L23,1,MFR2,LI-5-STT
+A65,A65:Tablet presses,Tablet presses,F-1-S6,L26,1,MFR7,PR-5-TAC
+A66,A66:Capsule fillers,Capsule fillers,F-1-S6,L26,1,MFR7,PR-3-CAF
+A67,A67:Coating machines,Coating machines,F-1-S6,L26,1,MFR8,PR-4-COC
+A68,A68:Encapsulation machines,Encapsulation machines,F-1-S6,L26,1,MFR8,PR-6-ENE
+A69,A69:Sterilizers,Sterilizers,F-1-S6,L26,1,MFR12,PR-5-STS
+A70,A70:Filtration machines,Filtration machines,F-1-S6,L26,1,MFR3,PR-7-FIF
+A71,A71:Pumps,Pumps,F-1-S6,L26,1,MFR10,PR-1-PUP
+A72,A72:Tanks,Tanks,F-1-S6,L26,1,MFR7,PR-2-TAT
+A73,A73:Calibrator,Calibrator,F-1-S6,L26,1,MFR8,QM-1-CAC
+A74,A74:Incubators,Incubators,F-3-S6,L28,1,MFR11,LI-1-MIT
+A75,A75:HPLC,HPLC,F-3-S6,L28,1,MFR3,LI-2-CHA
+A76,A76:Particle Size Analyzers,Particle Size Analyzers,F-3-S6,L28,1,MFR12,LI-3-PHT
 A77,A77:Air Particle Counters,Air Particle Counters,F-3-S6,L28,1,MFR2,LI-4-ENM
-A78,A78:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S6,L28,1,MFR7,LI-5-STT
-A79,A79:Mixers,Mixers,F-1-S7,L31,1,MFR8,PR-1-MII
-A80,A80:Granulators,Granulators,F-1-S7,L31,1,MFR10,PR-2-GRG
+A78,A78:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S6,L28,1,MFR2,LI-5-STT
+A79,A79:Mixers,Mixers,F-1-S7,L31,1,MFR12,PR-1-MII
+A80,A80:Granulators,Granulators,F-1-S7,L31,1,MFR1,PR-2-GRG
 A81,A81:Mills,Mills,F-1-S7,L31,1,MFR3,PR-3-MIM
-A82,A82:Blenders,Blenders,F-1-S7,L31,1,MFR3,PR-4-BLB
-A83,A83:Reactors,Reactors,F-1-S7,L31,1,MFR8,PR-6-RER
-A84,A84:Distillation equipment,Distillation equipment,F-1-S7,L31,1,MFR10,PR-7-DIE
-A85,A85:Extraction equipment,Extraction equipment,F-1-S7,L31,1,MFR12,PR-8-EXE
-A86,A86:Incubators,Incubators,F-3-S7,L33,1,MFR10,LI-1-MIT
-A87,A87:HPLC,HPLC,F-3-S7,L33,1,MFR2,LI-2-CHA
-A88,A88:Particle Size Analyzers,Particle Size Analyzers,F-3-S7,L33,1,MFR6,LI-3-PHT
-A89,A89:Air Particle Counters,Air Particle Counters,F-3-S7,L33,1,MFR3,LI-4-ENM
-A90,A90:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S7,L33,1,MFR9,LI-5-STT
-A91,A91:Tablet presses,Tablet presses,F-1-S8,L36,1,MFR12,PR-5-TAC
+A82,A82:Blenders,Blenders,F-1-S7,L31,1,MFR5,PR-4-BLB
+A83,A83:Reactors,Reactors,F-1-S7,L31,1,MFR11,PR-6-RER
+A84,A84:Distillation equipment,Distillation equipment,F-1-S7,L31,1,MFR3,PR-7-DIE
+A85,A85:Extraction equipment,Extraction equipment,F-1-S7,L31,1,MFR9,PR-8-EXE
+A86,A86:Incubators,Incubators,F-3-S7,L33,1,MFR12,LI-1-MIT
+A87,A87:HPLC,HPLC,F-3-S7,L33,1,MFR4,LI-2-CHA
+A88,A88:Particle Size Analyzers,Particle Size Analyzers,F-3-S7,L33,1,MFR8,LI-3-PHT
+A89,A89:Air Particle Counters,Air Particle Counters,F-3-S7,L33,1,MFR7,LI-4-ENM
+A90,A90:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S7,L33,1,MFR7,LI-5-STT
+A91,A91:Tablet presses,Tablet presses,F-1-S8,L36,1,MFR3,PR-5-TAC
 A92,A92:Capsule fillers,Capsule fillers,F-1-S8,L36,1,MFR9,PR-3-CAF
-A93,A93:Coating machines,Coating machines,F-1-S8,L36,1,MFR3,PR-4-COC
-A94,A94:Encapsulation machines,Encapsulation machines,F-1-S8,L36,1,MFR6,
-A95,A95:Sterilizers,Sterilizers,F-1-S8,L36,1,MFR9,PR-5-STS
-A96,A96:Filtration machines,Filtration machines,F-1-S8,L36,1,MFR2,
-A97,A97:Pumps,Pumps,F-1-S8,L36,1,MFR4,
-A98,A98:Tanks,Tanks,F-1-S8,L36,1,MFR12,
-A99,A99:Calibrator,Calibrator,F-1-S8,L36,1,MFR11,QM-1-CAC
-A100,A100:Incubators,Incubators,F-3-S8,L38,1,MFR2,LI-1-MIT
-A101,A101:HPLC,HPLC,F-3-S8,L38,1,MFR4,LI-2-CHA
-A102,A102:Particle Size Analyzers,Particle Size Analyzers,F-3-S8,L38,1,MFR1,LI-3-PHT
-A103,A103:Air Particle Counters,Air Particle Counters,F-3-S8,L38,1,MFR6,LI-4-ENM
-A104,A104:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S8,L38,1,MFR1,LI-5-STT
-A105,A105:Mixers,Mixers,F-1-S9,L41,1,MFR3,PR-1-MII
-A106,A106:Granulators,Granulators,F-1-S9,L41,1,MFR5,PR-2-GRG
-A107,A107:Mills,Mills,F-1-S9,L41,1,MFR11,PR-3-MIM
-A108,A108:Blenders,Blenders,F-1-S9,L41,1,MFR4,PR-4-BLB
-A109,A109:Reactors,Reactors,F-1-S9,L41,1,MFR8,PR-6-RER
+A93,A93:Coating machines,Coating machines,F-1-S8,L36,1,MFR4,PR-4-COC
+A94,A94:Encapsulation machines,Encapsulation machines,F-1-S8,L36,1,MFR5,PR-6-ENE
+A95,A95:Sterilizers,Sterilizers,F-1-S8,L36,1,MFR3,PR-5-STS
+A96,A96:Filtration machines,Filtration machines,F-1-S8,L36,1,MFR2,PR-7-FIF
+A97,A97:Pumps,Pumps,F-1-S8,L36,1,MFR8,PR-1-PUP
+A98,A98:Tanks,Tanks,F-1-S8,L36,1,MFR10,PR-2-TAT
+A99,A99:Calibrator,Calibrator,F-1-S8,L36,1,MFR8,QM-1-CAC
+A100,A100:Incubators,Incubators,F-3-S8,L38,1,MFR6,LI-1-MIT
+A101,A101:HPLC,HPLC,F-3-S8,L38,1,MFR11,LI-2-CHA
+A102,A102:Particle Size Analyzers,Particle Size Analyzers,F-3-S8,L38,1,MFR3,LI-3-PHT
+A103,A103:Air Particle Counters,Air Particle Counters,F-3-S8,L38,1,MFR3,LI-4-ENM
+A104,A104:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S8,L38,1,MFR3,LI-5-STT
+A105,A105:Mixers,Mixers,F-1-S9,L41,1,MFR2,PR-1-MII
+A106,A106:Granulators,Granulators,F-1-S9,L41,1,MFR6,PR-2-GRG
+A107,A107:Mills,Mills,F-1-S9,L41,1,MFR6,PR-3-MIM
+A108,A108:Blenders,Blenders,F-1-S9,L41,1,MFR2,PR-4-BLB
+A109,A109:Reactors,Reactors,F-1-S9,L41,1,MFR6,PR-6-RER
 A110,A110:Distillation equipment,Distillation equipment,F-1-S9,L41,1,MFR12,PR-7-DIE
-A111,A111:Extraction equipment,Extraction equipment,F-1-S9,L41,1,MFR9,PR-8-EXE
-A112,A112:Incubators,Incubators,F-3-S9,L43,1,MFR12,LI-1-MIT
-A113,A113:HPLC,HPLC,F-3-S9,L43,1,MFR4,LI-2-CHA
+A111,A111:Extraction equipment,Extraction equipment,F-1-S9,L41,1,MFR7,PR-8-EXE
+A112,A112:Incubators,Incubators,F-3-S9,L43,1,MFR3,LI-1-MIT
+A113,A113:HPLC,HPLC,F-3-S9,L43,1,MFR7,LI-2-CHA
 A114,A114:Particle Size Analyzers,Particle Size Analyzers,F-3-S9,L43,1,MFR10,LI-3-PHT
-A115,A115:Air Particle Counters,Air Particle Counters,F-3-S9,L43,1,MFR2,LI-4-ENM
-A116,A116:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S9,L43,1,MFR4,LI-5-STT
-A117,A117:Tablet presses,Tablet presses,F-1-S10,L46,1,MFR11,PR-5-TAC
-A118,A118:Capsule fillers,Capsule fillers,F-1-S10,L46,1,MFR9,PR-3-CAF
-A119,A119:Coating machines,Coating machines,F-1-S10,L46,1,MFR9,PR-4-COC
-A120,A120:Encapsulation machines,Encapsulation machines,F-1-S10,L46,1,MFR9,
-A121,A121:Sterilizers,Sterilizers,F-1-S10,L46,1,MFR6,PR-5-STS
-A122,A122:Filtration machines,Filtration machines,F-1-S10,L46,1,MFR9,
-A123,A123:Pumps,Pumps,F-1-S10,L46,1,MFR7,
-A124,A124:Tanks,Tanks,F-1-S10,L46,1,MFR8,
-A125,A125:Calibrator,Calibrator,F-1-S10,L46,1,MFR1,QM-1-CAC
-A126,A126:Incubators,Incubators,F-3-S10,L48,1,MFR4,LI-1-MIT
-A127,A127:HPLC,HPLC,F-3-S10,L48,1,MFR12,LI-2-CHA
-A128,A128:Particle Size Analyzers,Particle Size Analyzers,F-3-S10,L48,1,MFR8,LI-3-PHT
-A129,A129:Air Particle Counters,Air Particle Counters,F-3-S10,L48,1,MFR8,LI-4-ENM
-A130,A130:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S10,L48,1,MFR7,LI-5-STT
+A115,A115:Air Particle Counters,Air Particle Counters,F-3-S9,L43,1,MFR12,LI-4-ENM
+A116,A116:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S9,L43,1,MFR9,LI-5-STT
+A117,A117:Tablet presses,Tablet presses,F-1-S10,L46,1,MFR8,PR-5-TAC
+A118,A118:Capsule fillers,Capsule fillers,F-1-S10,L46,1,MFR7,PR-3-CAF
+A119,A119:Coating machines,Coating machines,F-1-S10,L46,1,MFR3,PR-4-COC
+A120,A120:Encapsulation machines,Encapsulation machines,F-1-S10,L46,1,MFR2,PR-6-ENE
+A121,A121:Sterilizers,Sterilizers,F-1-S10,L46,1,MFR12,PR-5-STS
+A122,A122:Filtration machines,Filtration machines,F-1-S10,L46,1,MFR12,PR-7-FIF
+A123,A123:Pumps,Pumps,F-1-S10,L46,1,MFR1,PR-1-PUP
+A124,A124:Tanks,Tanks,F-1-S10,L46,1,MFR2,PR-2-TAT
+A125,A125:Calibrator,Calibrator,F-1-S10,L46,1,MFR5,QM-1-CAC
+A126,A126:Incubators,Incubators,F-3-S10,L48,1,MFR5,LI-1-MIT
+A127,A127:HPLC,HPLC,F-3-S10,L48,1,MFR3,LI-2-CHA
+A128,A128:Particle Size Analyzers,Particle Size Analyzers,F-3-S10,L48,1,MFR6,LI-3-PHT
+A129,A129:Air Particle Counters,Air Particle Counters,F-3-S10,L48,1,MFR4,LI-4-ENM
+A130,A130:Temperature and Humidity Controllers,Temperature and Humidity Controllers,F-3-S10,L48,1,MFR8,LI-5-STT

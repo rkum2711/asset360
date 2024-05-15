@@ -15,7 +15,7 @@ def generated_nodes_edges(data,graph,query_number):
         height="750px",
         width="100%",
         select_menu=True,
-        filter_menu=True
+        # filter_menu=True
     )
     # net.show_buttons(filter_= ['nodes', 'edges'])
     added_nodes = set()
