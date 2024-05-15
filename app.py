@@ -94,20 +94,42 @@ def app():
             st.success(f"Total Assets: {len(list_asset_ids)}")
         with col2:
             st.info(f"Total Facilities : {len(list_facility)}")
-            facility_identifier = st.selectbox("Select Facility", list_facility)
         with col3:
             st.info(f"Total Sites : {len(list_site)}")
             site_identifier = st.selectbox("Select Sites", list_site)
         with col4:
             st.info(f"Total Region : {len(list_region)}")
-            region_identifier = st.selectbox("Select Region", list_region)
         if st.button("Search"):
             with st.spinner("Executing query..."):
                 try:
                     with st.spinner("Data Loading ...."):
                         graphData = graph.runInstalledQuery("assets_filters", 
-                                                            params= {"sitename": site_identifier, 
-                                                                    "facilityname":facility_identifier})
+                                                            params= {"sitename": site_identifier})
+                        with st.spinner("Converting into Graph ..."):
+                            query_number = 1
+                            network = generated_nodes_edges(graphData,graph,query_number)
+                            save_graph_file(components,network,html_file_path)
+                except Exception as e:
+                    st.error(f"Error executing query: {e}")
+                st.write("Query execution complete")
+
+    elif option == options_list[2]:
+        st.subheader(options_list[2])
+        with col1:
+            st.success(f"Total Assets: {len(list_asset_ids)}")
+            asset_identifier = st.selectbox("Select assets", list_asset_ids)
+        with col2:
+            st.info(f"Total Facilities : {len(list_facility)}")
+        with col3:
+            st.info(f"Total Sites : {len(list_site)}")
+        with col4:
+            st.info(f"Total Region : {len(list_region)}")
+        if st.button("Search"):
+            with st.spinner("Executing query..."):
+                try:
+                    with st.spinner("Data Loading ...."):
+                        graphData = graph.runInstalledQuery("Asset_lineage", 
+                                                            params= {"Asset_id": asset_identifier})
                         with st.spinner("Converting into Graph ..."):
                             query_number = 1
                             network = generated_nodes_edges(graphData,graph,query_number)

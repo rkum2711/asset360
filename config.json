@@ -6,7 +6,7 @@
   "question_dict" : {
     "View E2E Traceability of all Asset": "all_asset_lineage",
     "View all assets that has AMC and insurance < 1 year": "AMC",
-    "View all assets that has high downtime Percentage (MTBF)": "top_n_high_downtime",
+    "View all assets that has high downtime Percentage (MTBF)": "all_asset_lineage_limit",
     "View all assets where OEE < 70%": "low_oee"
   },
   "options_list" : [

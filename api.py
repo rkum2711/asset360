@@ -28,7 +28,6 @@ def generated_nodes_edges(data,graph,query_number):
                         target_node_id = value["to_id"]
                         source_node_type = value["from_type"]
                         target_node_type = value["to_type"]
-                        edge_id = key
                         edge_name = value["e_type"]
                         node_list = [{"id": source_node_id, "type": source_node_type},
                                     {"id": target_node_id, "type": target_node_type}]
@@ -37,27 +36,28 @@ def generated_nodes_edges(data,graph,query_number):
                             if node["id"] not in added_nodes:
                                 node_prop = graph.getVerticesById(vertexType = node["type"], vertexIds = node["id"])
                                 node_property = node_prop[0]['attributes'] if node_prop else {}
+                                if 'id' in node_property:
+                                    del node_property['id']
                                 # Adding Nodes
                                 net.add_node(node["id"], label=node["type"].upper(), title=node_property)
                                 added_nodes.add(node["id"])
                         # Adding edge
                         net.add_edge(source_node_id, target_node_id, title=f"Edge {edge_name}")
     for node in net.nodes:
-        for key in legend_mapping.keys(): 
-            if query_number in [1]:
-                if node['label'] == key:
-                    node['color'] = legend_mapping[key]
+        if query_number == 1 and node['label'] in legend_mapping:
+            node['color'] = legend_mapping[node['label']]
+        
         if node['label'] == "OEE":
-            node_prop = graph.getVerticesById(vertexType = node["label"], vertexIds = node["id"])
+            node_prop = graph.getVerticesById(vertexType=node["label"], vertexIds=node["id"])
             node_property = node_prop[0]['attributes'] if node_prop else {}
-            print(node_property['oee_value'])
-            node['label'] = node_property['oee_value']
+            node['title'] = {"OEE": node_property['oee_value']}
         else:
             node['label'] += ":" + node['id']
-        title_html_text = " Attributes: "
+        
+        title_html_text = ""
         for key, value in node['title'].items():
-            title_html_text += f"{key}:{value}"
-            node['title'] = title_html_text
+            title_html_text += f"{key} : {value}\n"
+        node['title'] = title_html_text
     return net
 
 def save_graph_file(components,network,html_file_path):
