@@ -43,7 +43,6 @@ def get_asset_data():
         list_site = sorted([row["Name"] for row in site_ids_raw[0]["T"]])
         return list_asset_ids,list_facility,list_site
     
-@st.cache_data
 def app():
     footer()
     st.title("Asset 360 - Accelerator")
@@ -98,7 +97,9 @@ def app():
             with st.spinner("Executing query..."):
                 try:
                     with st.spinner("Data Loading ...."):
-                        graphData = graph.runInstalledQuery("assets_filters", params= {"sitename": site_identifier, "facilityname":facility_identifier})
+                        graphData = graph.runInstalledQuery("assets_filters", 
+                                                            params= {"sitename": site_identifier, 
+                                                                     "facilityname":facility_identifier})
                         with st.spinner("Converting into Graph ..."):
                             query_number = 1
                             network = generated_nodes_edges(graphData,graph,query_number)
