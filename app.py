@@ -137,5 +137,48 @@ def app():
                 except Exception as e:
                     st.error(f"Error executing query: {e}")
                 st.write("Query execution complete")
+    elif option == options_list[3]:
+        st.image(chatgpt_icon, width=50)
+        ai_search = st.text_input("AI CHATBOT", "")
+        with col1:
+            st.success(f"Total Assets: {len(list_asset_ids)}")
+            asset_identifier = st.selectbox("Select assets", list_asset_ids)
+        with col2:
+            st.info(f"Total Facilities : {len(list_facility)}")
+        with col3:
+            st.info(f"Total Sites : {len(list_site)}")
+        with col4:
+            st.info(f"Total Region : {len(list_region)}")
+        if st.button("RUN"):
+            query_number = 1
+            with st.spinner("Executing query..."):
+                try:
+                    with st.spinner("Data Loading ...."):
+                        downtime = re.findall(r'downtime?', ai_search, flags=re.IGNORECASE)
+                        asset = re.findall(r'asset(?:es|s)?', ai_search, flags=re.IGNORECASE)
+                        if downtime:
+                            graphData = graph.runInstalledQuery("top_n_high_downtime")
+                            with st.spinner("Converting into RESULT ..."):
+                                data = []
+                                for item in graphData[0]["T"]:
+                                    asset_value = item["a"]
+                                    downtime_value = item["Downtime"]
+                                    data.append({"asset": asset_value, "downtime": downtime_value})
+                            st.table(data)
+                        elif asset:
+                            asset_id = re.findall(r'A\d+', ai_search)[0]
+                            try:
+                                graphData = graph.runInstalledQuery("Asset_viewer", params={"AssetID": asset_id})
+                                with st.spinner("Converting into Graph ..."):
+                                    network = generated_nodes_edges(graphData,graph,query_number)
+                                    save_graph_file(components,network,html_file_path)
+                            except Exception as e:
+                                st.error(f"Error executing query:{query_type}: {e}")
+                            st.write("Query execution complete")
+                        else:
+                            st.error("Please Try Again")
+                except Exception as e:
+                    st.error(f"Error executing query: {e}")
+                st.write("Query execution complete")
 if __name__ == "__main__":
     app()
