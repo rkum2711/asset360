@@ -153,10 +153,19 @@ def app():
                 try:
                     with st.spinner("Data Loading ...."):
                         graphData = graph.runInstalledQuery("Asset_maintenance")
-                        with st.spinner("Converting into Graph ..."):
-                            query_number = 1
-                            network = generated_nodes_edges(graphData,graph,query_number)
-                            save_graph_file(components,network,html_file_path)
+                        with st.spinner("Converting into RESULT ..."):
+                            features = []
+                            for item in data:
+                                for vs_item in item["VS_XXX"]:
+                                    features.append({
+                                        "Asset": vs_item["attributes"]["a"],
+                                        "QMS Count": vs_item["attributes"]["qmsCount"],
+                                        "Spare Replacement Count": vs_item["attributes"]["spareReplacementCount"],
+                                        "Total Calibration": len(vs_item["attributes"]["totalCalibration"]),
+                                        "Total Workorder": len(vs_item["attributes"]["totalWorkorder"]),
+                                        "Total Maintenance": len(vs_item["attributes"]["totalmaintenance"])
+                                    })
+                        st.table(features)
                 except Exception as e:
                     st.error(f"Error executing query: {e}")
                 st.write("Query execution complete")
