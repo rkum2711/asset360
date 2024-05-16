@@ -92,14 +92,17 @@ def app():
                                                     "Total Maintenance": len(vs_item["attributes"]["totalmaintenance"]),
                                                     "Total Calibration": len(vs_item["attributes"]["totalCalibration"])
                                                 })
+                                    st.table(features)
                                 elif q == question_list[6]:
                                     with st.spinner("Converting into RESULT ..."):
+                                        spare = []
                                         for item in graphData:
                                             for vs_item in item["T_1"]:
                                                 spare.append({
                                                     "Asset": vs_item["id"],
                                                     "Spare Replacement Count": vs_item["spareReplacementCount"],
                                                 })
+                                    st.table(spare)
                         except Exception as e:
                             st.error(f"Error executing query: {e}")
                         st.write("Query execution complete")
