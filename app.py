@@ -51,7 +51,7 @@ def app():
     # st.image(gdm_image, caption='', width=1000)
     list_asset_ids,list_facility,list_site, list_region = get_asset_data()
     col1, col2, col3, col4 = st.columns(4)
-    option = st.sidebar.radio('Select Options', options_list, format_func=lambda x: f'<h3>{x}</h3>')
+    option = st.sidebar.radio('Select Options', options_list)
     display_legend(st)
     if option == options_list[0]:
         with col1:

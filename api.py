@@ -67,14 +67,14 @@ def save_graph_file(components,network,html_file_path):
     components.html(source_code, height=1200, width=1000)
 
 def display_legend(st):
-    legend_html = "<h3>Legend</h3>"
+    legend_html = "<h5>Legend</h5>"
     count = 0
     for key, value in legend_mapping.items():
         if count % 3 == 0:
             if count != 0:
                 legend_html += "</div>"
             legend_html += "<div>"
-        legend_html += f'<span style="color:{value}; font-size:12px;"><b>&#9632;</b></span> <span style="font-weight:bold; font-size:10px;">{key}</span>'
+        legend_html += f'<span style="color:{value}; font-size:12px;"><b>&#9632;</b></span> <span style="font-size:10px;">{key}</span>'
         count += 1
     if count % 3 != 0:
         legend_html += "</div>"
