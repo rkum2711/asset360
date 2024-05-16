@@ -136,13 +136,13 @@ def app():
         with col1:
             st.success(f"Total Assets: {len(list_asset_ids)}")
             asset_identifier = st.selectbox("Select assets", list_asset_ids)
-            asset_bt = st.button("Search")
+            asset_bt = st.button("Search assets")
         with col2:
             st.info(f"Total Facilities : {len(list_facility)}")
         with col3:
             st.info(f"Total Sites : {len(list_site)}")
             site_identifier = st.selectbox("Select Sites", list_site)
-            site_bt = st.button("Search")
+            site_bt = st.button("Search sites")
         with col4:
             st.info(f"Total Region : {len(list_region)}")
         if asset_bt:
