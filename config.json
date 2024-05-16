@@ -35,7 +35,7 @@
     "CALIBRATIONS": "#ebfa63",
     "MAINTENANCE": "#8ca252",
     "COMPLIANCE": "#c6dbef",
-    "BATCH": "#ad494a",
+    "BATCHES": "#ad494a",
     "FAILED": "red",
     "PASSED": "green"
 },
