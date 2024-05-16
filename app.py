@@ -43,13 +43,15 @@ def get_asset_data():
         list_site = sorted([row["Name"] for row in site_ids_raw[0]["T"]])
         rigion_ids_raw = graph.runInstalledQuery("get_region")
         list_region = sorted([row["Name"] for row in rigion_ids_raw[0]["T"]])
-        return list_asset_ids,list_facility,list_site, list_region
+        batch_ids_raw = graph.runInstalledQuery("batches")
+        list_batch = sorted([row["id"] for row in batch_ids_raw[0]["T"]])
+        return list_asset_ids,list_facility,list_site, list_region, list_batch
     
 def app():
     footer()
     st.title("Asset 360 - Accelerator")
     # st.image(gdm_image, caption='', width=1000)
-    list_asset_ids,list_facility,list_site, list_region = get_asset_data()
+    list_asset_ids,list_facility,list_site, list_region, list_batch = get_asset_data()
     col1, col2, col3, col4 = st.columns(4)
     option = st.sidebar.radio('Select Options', options_list)
     display_legend(st)
@@ -106,31 +108,6 @@ def app():
                         except Exception as e:
                             st.error(f"Error executing query: {e}")
                         st.write("Query execution complete")
-    # elif option == options_list[1]:
-    #     st.subheader(options_list[1])
-    #     with col1:
-    #         st.success(f"Total Assets: {len(list_asset_ids)}")
-    #     with col2:
-    #         st.info(f"Total Facilities : {len(list_facility)}")
-    #     with col3:
-    #         st.info(f"Total Sites : {len(list_site)}")
-    #         site_identifier = st.selectbox("Select Sites", list_site)
-    #     with col4:
-    #         st.info(f"Total Region : {len(list_region)}")
-    #     if st.button("Search"):
-    #         with st.spinner("Executing query..."):
-    #             try:
-    #                 with st.spinner("Data Loading ...."):
-    #                     graphData = graph.runInstalledQuery("assets_filters", 
-    #                                                         params= {"sitename": site_identifier})
-    #                     with st.spinner("Converting into Graph ..."):
-    #                         query_number = 1
-    #                         network = generated_nodes_edges(graphData,graph,query_number)
-    #                         save_graph_file(components,network,html_file_path)
-    #             except Exception as e:
-    #                 st.error(f"Error executing query: {e}")
-    #             st.write("Query execution complete")
-
     elif option == options_list[1]:
         with col1:
             st.success(f"Total Assets: {len(list_asset_ids)}")
@@ -165,6 +142,30 @@ def app():
                     with st.spinner("Data Loading ...."):
                         graphData = graph.runInstalledQuery("assets_filters", 
                                                             params= {"sitename": site_identifier})
+                        with st.spinner("Converting into Graph ..."):
+                            query_number = 1
+                            network = generated_nodes_edges(graphData,graph,query_number)
+                            save_graph_file(components,network,html_file_path)
+                except Exception as e:
+                    st.error(f"Error executing query: {e}")
+                st.write("Query execution complete")
+    elif option == options_list[2]:
+        st.subheader(options_list[2])
+        with col1:
+            st.success(f"Total Assets: {len(list_asset_ids)}")
+        with col2:
+            st.info(f"Total Facilities : {len(list_facility)}")
+        with col3:
+            st.info(f"Total Sites : {len(list_site)}")
+        with col4:
+            st.info(f"Total Region : {len(list_region)}")
+        batch_identifier = st.selectbox("Select Batch", list_batch)
+        if st.button("Search"):
+            with st.spinner("Executing query..."):
+                try:
+                    with st.spinner("Data Loading ...."):
+                        graphData = graph.runInstalledQuery("batch_rel_asset", 
+                                                            params= {"batch_id": batch_identifier})
                         with st.spinner("Converting into Graph ..."):
                             query_number = 1
                             network = generated_nodes_edges(graphData,graph,query_number)
