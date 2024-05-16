@@ -138,7 +138,7 @@ def app():
                 except Exception as e:
                     st.error(f"Error executing query: {e}")
                 st.write("Query execution complete")
-    elif option == options_list[3]:
+    elif option == options_list[3]: 
         st.subheader(options_list[3])
         with col1:
             st.success(f"Total Assets: {len(list_asset_ids)}")
@@ -153,19 +153,26 @@ def app():
                 try:
                     with st.spinner("Data Loading ...."):
                         graphData = graph.runInstalledQuery("Asset_maintenance")
+                        graphData2 = graph.runInstalledQuery("Spare_list")
                         with st.spinner("Converting into RESULT ..."):
                             features = []
-                            for item in data:
+                            spare = []
+                            for item in graphData:
                                 for vs_item in item["VS_XXX"]:
                                     features.append({
                                         "Asset": vs_item["attributes"]["a"],
-                                        "QMS Count": vs_item["attributes"]["qmsCount"],
-                                        "Spare Replacement Count": vs_item["attributes"]["spareReplacementCount"],
-                                        "Total Calibration": len(vs_item["attributes"]["totalCalibration"]),
                                         "Total Workorder": len(vs_item["attributes"]["totalWorkorder"]),
-                                        "Total Maintenance": len(vs_item["attributes"]["totalmaintenance"])
+                                        "Total Maintenance": len(vs_item["attributes"]["totalmaintenance"]),
+                                        "Total Calibration": len(vs_item["attributes"]["totalCalibration"])
+                                    })
+                            for item in graphData2:
+                                for vs_item in item["T_1"]:
+                                    spare.append({
+                                        "Asset": vs_item["id"],
+                                        "Spare Replacement Count": vs_item["spareReplacementCount"],
                                     })
                         st.table(features)
+                        st.table(spare)
                 except Exception as e:
                     st.error(f"Error executing query: {e}")
                 st.write("Query execution complete")
