@@ -74,7 +74,7 @@ def display_legend(st):
             if count != 0:
                 legend_html += "</div>"
             legend_html += "<div>"
-        legend_html += f'<span style="color:{value}; font-size:12px;"><b>&#9632;</b></span> <span style="font-size:12px;">{key}</span>'
+        legend_html += f'<span style="color:{value}; font-size:12px;"><b>&#9632;</b></span> <span style="font-size:12px;">{key}</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
         count += 1
     if count % 3 != 0:
         legend_html += "</div>"
