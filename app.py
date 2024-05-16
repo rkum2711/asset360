@@ -79,8 +79,9 @@ def app():
                                 elif q == question_list[2]:
                                     graphData = graph.runInstalledQuery(question_dict[q])
                                 elif q == question_list[3]:
-                                    graphData = graph.runInstalledQuery(question_dict[q],
-                                                                        params= {"oee_value": 70})
+                                    graphData = graph.runInstalledQuery(question_dict[q])
+                                elif q == question_list[4]:
+                                    graphData = graph.runInstalledQuery(question_dict[q])
                                 with st.spinner("Converting into Graph ..."):
                                     query_number = 1
                                     network = generated_nodes_edges(graphData,graph,query_number)
@@ -142,7 +143,6 @@ def app():
         ai_search = st.text_input("AI CHATBOT", "")
         with col1:
             st.success(f"Total Assets: {len(list_asset_ids)}")
-            asset_identifier = st.selectbox("Select assets", list_asset_ids)
         with col2:
             st.info(f"Total Facilities : {len(list_facility)}")
         with col3:
