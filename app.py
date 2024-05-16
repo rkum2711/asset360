@@ -139,6 +139,28 @@ def app():
                     st.error(f"Error executing query: {e}")
                 st.write("Query execution complete")
     elif option == options_list[3]:
+        st.subheader(options_list[3])
+        with col1:
+            st.success(f"Total Assets: {len(list_asset_ids)}")
+        with col2:
+            st.info(f"Total Facilities : {len(list_facility)}")
+        with col3:
+            st.info(f"Total Sites : {len(list_site)}")
+        with col4:
+            st.info(f"Total Region : {len(list_region)}")
+        if st.button("Search"):
+            with st.spinner("Executing query..."):
+                try:
+                    with st.spinner("Data Loading ...."):
+                        graphData = graph.runInstalledQuery("Asset_maintenance"})
+                        with st.spinner("Converting into Graph ..."):
+                            query_number = 1
+                            network = generated_nodes_edges(graphData,graph,query_number)
+                            save_graph_file(components,network,html_file_path)
+                except Exception as e:
+                    st.error(f"Error executing query: {e}")
+                st.write("Query execution complete")
+    elif option == options_list[4]:
         st.image(chatgpt_icon, width=50)
         ai_search = st.text_input("AI CHATBOT", "")
         with col1:
@@ -154,16 +176,23 @@ def app():
             with st.spinner("Executing query..."):
                 try:
                     with st.spinner("Data Loading ...."):
-                        downtime = re.findall(r'downtime?', ai_search, flags=re.IGNORECASE)
+                        downtime = re.findall(r'Throughput?', ai_search, flags=re.IGNORECASE)
+                        high = re.findall(r'high?', ai_search, flags=re.IGNORECASE)
+                        low = re.findall(r'low?', ai_search, flags=re.IGNORECASE)
                         asset = re.findall(r'asset(?:es|s)?', ai_search, flags=re.IGNORECASE)
                         if downtime:
-                            graphData = graph.runInstalledQuery("top_n_high_downtime")
+                            if high:
+                                graphData = graph.runInstalledQuery("high_throughput")
+                            elif low:
+                                graphData = graph.runInstalledQuery("low_throughput")
+                            else:
+                                graphData = graph.runInstalledQuery("high_throughput")
                             with st.spinner("Converting into RESULT ..."):
                                 data = []
                                 for item in graphData[0]["T"]:
                                     asset_value = item["a"]
-                                    downtime_value = item["Downtime"]
-                                    data.append({"asset": asset_value, "downtime": downtime_value})
+                                    throughput_value = item["Throughput"]
+                                    data.append({"asset": asset_value, "Throughput": throughput_value})
                             st.table(data)
                         elif asset:
                             asset_id = re.findall(r'A\d+', ai_search)[0]

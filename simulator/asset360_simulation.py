@@ -194,10 +194,10 @@ def generate_asset_operation(asset):
         'AssetID': assetIDs,
         'TotalProductionQuantity': total_production_qty,
         'GoodQuantity': good_qty,
-        'Downtime': downtime,
-        'Performance': performance,
-        'Availability': availability,
-        'Quality': quality * 100
+        'Downtime': np.round(downtime,2),
+        'Performance': np.round(performance,2),
+        'Availability': np.round(availability,2),
+        'Quality': np.round((quality * 100),2)
     })
     return asset_operations
 
@@ -205,7 +205,7 @@ def generate_oee(asset_operations):
     asset_oee = pd.DataFrame()
     asset_oee['AssetID'] = asset_operations['AssetID']
     asset_oee['OEE'] = (asset_operations['Availability']/100) * (asset_operations['Performance']/100) * (asset_operations['Quality']/100)
-    asset_oee['OEE'] =  asset_oee['OEE'] *100
+    asset_oee['OEE'] =  round(asset_oee['OEE'] *100,2)
     asset_oee['id'] = ['OEE' + str(i+1).zfill(3) for i in range(len(asset_oee))]
     return asset_oee
 
@@ -249,11 +249,11 @@ def generate_machine_attributes(asset, oee_df):
     asset_machine_df = pd.DataFrame({
         'id': asset_machine_ids,
         'AssetID': assetIDs,
-        'Temperature': temperature,
-        'Vibration': vibration,
-        'Noise': noise,
-        'Pressure': pressure,
-        'Throughput': throughput
+        'Temperature': np.round(temperature,2),
+        'Vibration': np.round(vibration,2),
+        'Noise': np.round(noise,2),
+        'Pressure': np.round(pressure,2),
+        'Throughput': np.rounnd(throughput,2)
     })
     return asset_machine_df
 
@@ -467,8 +467,10 @@ def generate_maintenance(asset,oee_df):
     asset_ids = asset['id'].tolist()
     today = datetime.today()
     one_year_ago = today - timedelta(days=365)
-    
+    count = 0
     for asset_id in asset_ids:
+        count = count +1
+        data['id'].append(f"MR{count}")
         if asset_id in oee_df['AssetID'].values:
             oee_value = oee_df.loc[oee_df['AssetID'] == asset_id, 'OEE'].values[0]
             if oee_value < 70:
@@ -485,7 +487,6 @@ def generate_maintenance(asset,oee_df):
             maintenance_performed_by = np.random.choice(['John', 'Jane Smith', 'Tony'])
             maintenance_records = 'Replaced filter and checked lubrication'
             # Append data to the dictionary
-            data['id'].append(f"MaintenanceRecord{_ + 1}")
             data['AssetID'].append(asset_id)
             data['MaintenanceSchedule'].append(maintenance_schedule)
             data['LastMaintenanceDate'].append(last_maintenance_date)
@@ -516,7 +517,7 @@ def generate_calibration(asset):
         next_calibration_date = last_calibration_date + pd.DateOffset(months=2)
         calibration_performed_by = np.random.choice(['Smith', 'Jackie', 'Snow'])
         calibration_records = 'Calibration records details...'
-        data['id'].append(f"CalibrationRecord{_ + 1}")
+        data['id'].append(f"CR{_ + 1}")
         data['AssetID'].append(asset_id)
         data['CalibrationSchedule'].append(calibration_schedule)
         data['LastCalibrationDate'].append(last_calibration_date)
