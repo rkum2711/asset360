@@ -8,13 +8,13 @@
     "View all assets that has AMC and insurance < 2 year": "AMC",
     "List down top 10 assets that has high downtime Percentage (MTBF)": "top_n_high_downtime_graph",
     "View High Performing(High OEE) Assets": "high_performing_assets",
-    "View Low Performing(Low OEE) Assets": "low_performing_assets"
+    "View Low Performing(Low OEE) Assets": "low_performing_assets", 
+    "View Asset MAINTENANCE Summary": "Asset_maintenance",
+    "View Asset Spare part replacement": "Spare_list"
   },
   "options_list" : [
-    "Deep Dive into All Assets",
-    "Deep Dive into All Assets with Filters",
-    "Deep Dive into Selective Assets",
-    "Deep Dive into ASSET MAINTENANCE",
+    "Show All Assets",
+    "Show Selective Assets",
     "AI CHATBOT"
   ],
   "legend_mapping" : {
