@@ -152,7 +152,7 @@ def app():
             with st.spinner("Executing query..."):
                 try:
                     with st.spinner("Data Loading ...."):
-                        graphData = graph.runInstalledQuery("Asset_maintenance"})
+                        graphData = graph.runInstalledQuery("Asset_maintenance")
                         with st.spinner("Converting into Graph ..."):
                             query_number = 1
                             network = generated_nodes_edges(graphData,graph,query_number)
