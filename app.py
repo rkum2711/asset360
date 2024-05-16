@@ -49,7 +49,7 @@ def get_asset_data():
     
 def app():
     footer()
-    st.title("Asset 360 - Accelerator")
+    st.title("Asset Traceability - Accelerator")
     # st.image(gdm_image, caption='', width=1000)
     list_asset_ids,list_facility,list_site, list_region, list_batch = get_asset_data()
     col1, col2, col3, col4 = st.columns(4)
@@ -210,7 +210,7 @@ def app():
                         elif asset:
                             asset_id = re.findall(r'A\d+', ai_search)[0]
                             try:
-                                graphData = graph.runInstalledQuery("Asset_viewer", params={"AssetID": asset_id})
+                                graphData = graph.runInstalledQuery("Asset_lineage", params={"Asset_id": asset_id})
                                 with st.spinner("Converting into Graph ..."):
                                     network = generated_nodes_edges(graphData,graph,query_number)
                                     save_graph_file(components,network,html_file_path)
