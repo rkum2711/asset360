@@ -193,7 +193,7 @@ def app():
     #             except Exception as e:
     #                 st.error(f"Error executing query: {e}")
     #             st.write("Query execution complete")
-    elif option == options_list[2]:
+    elif option == options_list[3]:
         st.image(chatgpt_icon, width=50)
         ai_search = st.text_input("AI CHATBOT", "")
         with col1:
