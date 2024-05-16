@@ -132,7 +132,6 @@ def app():
     #             st.write("Query execution complete")
 
     elif option == options_list[1]:
-        st.subheader(options_list[1])
         with col1:
             st.success(f"Total Assets: {len(list_asset_ids)}")
             asset_identifier = st.selectbox("Select assets", list_asset_ids)
@@ -146,6 +145,7 @@ def app():
         with col4:
             st.info(f"Total Region : {len(list_region)}")
         if asset_bt:
+            st.subheader(f"Lineage of Asset: {asset_identifier}")
             with st.spinner("Executing query..."):
                 try:
                     with st.spinner("Data Loading ...."):
@@ -159,6 +159,7 @@ def app():
                     st.error(f"Error executing query: {e}")
                 st.write("Query execution complete")
         if site_bt:
+            st.subheader(f"Lineage of Assets of site: {site_identifier}")
             with st.spinner("Executing query..."):
                 try:
                     with st.spinner("Data Loading ...."):
@@ -171,44 +172,6 @@ def app():
                 except Exception as e:
                     st.error(f"Error executing query: {e}")
                 st.write("Query execution complete")
-    # elif option == options_list[2]: 
-    #     st.subheader(options_list[3])
-    #     with col1:
-    #         st.success(f"Total Assets: {len(list_asset_ids)}")
-    #     with col2:
-    #         st.info(f"Total Facilities : {len(list_facility)}")
-    #     with col3:
-    #         st.info(f"Total Sites : {len(list_site)}")
-    #     with col4:
-    #         st.info(f"Total Region : {len(list_region)}")
-    #     if st.button("Search"):
-    #         with st.spinner("Executing query..."):
-    #             try:
-    #                 with st.spinner("Data Loading ...."):
-    #                     graphData = graph.runInstalledQuery("Asset_maintenance")
-    #                     graphData2 = graph.runInstalledQuery("Spare_list")
-    #                     with st.spinner("Converting into RESULT ..."):
-    #                         features = []
-    #                         spare = []
-    #                         for item in graphData:
-    #                             for vs_item in item["VS_XXX"]:
-    #                                 features.append({
-    #                                     "Asset": vs_item["attributes"]["a"],
-    #                                     "Total Workorder": len(vs_item["attributes"]["totalWorkorder"]),
-    #                                     "Total Maintenance": len(vs_item["attributes"]["totalmaintenance"]),
-    #                                     "Total Calibration": len(vs_item["attributes"]["totalCalibration"])
-    #                                 })
-    #                         for item in graphData2:
-    #                             for vs_item in item["T_1"]:
-    #                                 spare.append({
-    #                                     "Asset": vs_item["id"],
-    #                                     "Spare Replacement Count": vs_item["spareReplacementCount"],
-    #                                 })
-    #                     st.table(features)
-    #                     st.table(spare)
-    #             except Exception as e:
-    #                 st.error(f"Error executing query: {e}")
-    #             st.write("Query execution complete")
     elif option == options_list[3]:
         st.image(chatgpt_icon, width=50)
         ai_search = st.text_input("AI CHATBOT", "")
